@@ -7,9 +7,7 @@
 *.rar
 *.7z
 
-# Large 3D anatomical models (>50MB / GitHub 100MB hard limit)
-anatomy/z anatomy I.glb
-anatomy/eyes anatomy/eye anatomy.glb
+# Large 3D anatomical models (formerly uncompressed >100MB, now Draco compressed and tracked)
 # Uncomment below if all large binary models are stored on cloud / Git LFS:
 # *.glb
 
