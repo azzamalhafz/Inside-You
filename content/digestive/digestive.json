@@ -1,0 +1,182 @@
+{
+  "id": "digestive_organs",
+  "name": {
+    "EN": "Digestive System",
+    "ID": "Sistem Pencernaan"
+  },
+  "systemId": "digestive",
+  "overview": {
+    "simple": {
+      "EN": "The digestive system breaks down food into microscopic nutrients and energy that your cells need to live, grow, and heal.",
+      "ID": "Sistem pencernaan memecah makanan menjadi nutrisi mikroskopis dan energi yang dibutuhkan sel-sel tubuh untuk hidup, bertumbuh, dan pulih."
+    },
+    "academic": {
+      "EN": "The gastrointestinal (GI) tract and accessory digestive organs (liver, gallbladder, pancreas, salivary glands) perform mechanical digestion, chemical hydrolysis via digestive enzymes and bile acids, selective enterocyte absorption, and elimination of unabsorbed residues regulated by the enteric nervous system and GI hormones.",
+      "ID": "Saluran pencernaan (GI tract) dan organ pencernaan tambahan (hati, kandung empedu, pankreas) menjalankan pencernaan mekanik, hidrolisis kimiawi enzimatik, penyerapan enterosit, dan eliminasi sisa makanan yang diatur sistem saraf enterik dan hormon GI."
+    }
+  },
+  "structures": {
+    "stomach": {
+      "id": "stomach",
+      "name": {
+        "EN": "Stomach",
+        "ID": "Lambung"
+      },
+      "illustration": "🍲⚡",
+      "systemId": "digestive",
+      "organId": "digestive_organs",
+      "simple": {
+        "EN": {
+          "overview": "The stomach is a muscular churning blender and chemical bath. It sterilizes food with potent hydrochloric acid and starts breaking down protein into liquid soup (chyme).",
+          "position": "Located in the upper left abdomen directly below the diaphragm.",
+          "mechanism": "Triple layers of smooth muscle churn food back and forth while gastric juices digest proteins. A protective thick mucous coating prevents the acid from burning the stomach wall.",
+          "health": "Eating balanced meals, managing stress, and avoiding excessive NSAID pain relievers protect against gastritis and peptic ulcers."
+        },
+        "ID": {
+          "overview": "Lambung adalah blender otot penghancur dan bak kimiawi tubuh. Lambung mensterilkan makanan dengan asam lambung kuat dan mencerna protein menjadi cairan kental (kimus).",
+          "position": "Terletak di rongga perut kiri atas tepat di bawah diafragma.",
+          "mechanism": "Tiga lapisan otot polos meremas dan mengaduk makanan bersama getah lambung. Lapisan lendir tebal melindungi dinding lambung dari asam pekat.",
+          "health": "Makan teratur, mengelola stres, dan membatasi obat pereda nyeri NSAID melindungi dinding lambung dari gastritis dan tukak lambung."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The stomach is a J-shaped muscular organ subdivided into Cardia, Fundus, Body, Antrum, and Pylorus, capable of expanding via gastric rugae up to ~1.5-2 liters.",
+          "position": "Intraperitoneal organ in the left epigastric/hypochondriac region between the lower esophageal sphincter (LES) and pyloric sphincter.",
+          "mechanism": "Parietal cells secrete HCl (pH 1.5-2.0) via H+/K+-ATPase pumps and Intrinsic Factor (for B12 absorption); chief cells secrete pepsinogen (activated to pepsin by acid); G cells release gastrin.",
+          "health": "Helicobacter pylori colonization and NSAIDs disrupt mucosal bicarbonate/prostaglandin defenses, leading to peptic ulcer disease and potential perforation."
+        },
+        "ID": {
+          "overview": "Lambung adalah organ berotot berbentuk huruf J yang terdiri dari Kardia, Fundus, Korpus, Antrum, dan Pilorus, dengan rugae lambung yang mampu menampung 1,5-2 liter.",
+          "position": "Organ intraperitoneal di regio epigastrium kiri antara sfingter esofagus bawah (LES) dan sfingter pilorus.",
+          "mechanism": "Sel parietal mensekresi HCl (pH 1,5-2,0) via pompa H+/K+-ATPase dan Faktor Intrinsik (penyerapan B12); sel utama (chief cells) mensekresi pepsinogen; sel G menghasilkan gastrin.",
+          "health": "Infeksi Helicobacter pylori dan obat NSAID merusak sawar mukus bikarbonat lambung, memicu tukak peptik hingga risiko perforasi."
+        }
+      },
+      "relatedStructures": ["liver", "pancreas", "esophagus"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which specialized gastric cells secrete hydrochloric acid (HCl) and Intrinsic Factor?",
+            "options": ["Parietal cells", "Chief cells", "Goblet cells", "Acinar cells"],
+            "answerIndex": 0,
+            "explanation": "Parietal (oxyntic) cells in the gastric glands secrete HCl to denature proteins and intrinsic factor for vitamin B12 absorption."
+          },
+          {
+            "question": "What is the primary protein-digesting enzyme activated in the acidic environment of the stomach?",
+            "options": ["Pepsin", "Amylase", "Lipase", "Trypsin"],
+            "answerIndex": 0,
+            "explanation": "Pepsinogen secreted by chief cells is cleaved by hydrochloric acid into the active protease pepsin."
+          },
+          {
+            "question": "Which muscular sphincter controls the metered passage of chyme from the stomach into the duodenum?",
+            "options": ["Pyloric sphincter", "Lower esophageal sphincter", "Ileocecal valve", "Internal anal sphincter"],
+            "answerIndex": 0,
+            "explanation": "The pyloric sphincter contracts and relaxes rhythmically to meter small volumes of acidic chyme into the duodenum."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Sel lambung khusus manakah yang mensekresikan asam klorida (HCl) dan Faktor Intrinsik?",
+            "options": ["Sel Parietal", "Chief Cells (Sel Utama)", "Sel Goblet", "Sel Asinar"],
+            "answerIndex": 0,
+            "explanation": "Sel parietal pada kelenjar lambung memproduksi asam lambung (HCl) dan faktor intrinsik penyerapan vitamin B12."
+          },
+          {
+            "question": "Enzim pencerna protein utama apa yang aktif dalam suasana asam lambung?",
+            "options": ["Pepsin", "Amilase", "Lipase", "Tripsin"],
+            "answerIndex": 0,
+            "explanation": "Pepsinogen yang disekresi sel utama diaktifkan oleh asam klorida menjadi enzim protease aktif pepsin."
+          },
+          {
+            "question": "Sfingter berotot manakah yang mengatur pengeluaran kimus dari lambung ke usus dua belas jari (duodenum)?",
+            "options": ["Sfingter Pilorus", "Sfingter Esofagus Bawah", "Katup Ileosekal", "Sfingter Ani Internus"],
+            "answerIndex": 0,
+            "explanation": "Sfingter pilorus membuka dan menutup secara bertahap untuk mengalirkan kimus sedikit demi sedikit ke duodenum."
+          }
+        ]
+      }
+    },
+    "liver": {
+      "id": "liver",
+      "name": {
+        "EN": "Liver",
+        "ID": "Hati (Hepar)"
+      },
+      "illustration": "🫁🧪",
+      "systemId": "digestive",
+      "organId": "digestive_organs",
+      "simple": {
+        "EN": {
+          "overview": "The liver is your body's largest internal chemical processing plant. It filters toxins, stores energy (glycogen), produces bile to digest fats, and makes vital blood clotting proteins.",
+          "position": "Occupies the upper right quadrant of your abdomen beneath the diaphragm.",
+          "mechanism": "Blood from the digestive tract passes directly through the liver via the hepatic portal vein so hepatocytes can detoxify chemicals and process nutrients.",
+          "health": "Limiting alcohol intake, maintaining a healthy weight, and staying hydrated protect against fatty liver disease and cirrhosis."
+        },
+        "ID": {
+          "overview": "Hati adalah pabrik pengolahan kimiawi internal terbesar dalam tubuh. Hati menyaring racun, menyimpan cadangan energi (glikogen), memproduksi empedu pencerna lemak, dan membuat protein pembekuan darah.",
+          "position": "Terletak di kuadran kanan atas rongga perut tepat di bawah diafragma.",
+          "mechanism": "Darah dari usus langsung dialirkan ke hati melalui vena porta hepatika agar hepatosit dapat mendetoksifikasi zat dan mengolah nutrisi.",
+          "health": "Membatasi alkohol, menjaga berat badan ideal, dan minum cukup air mencegah perlemakan hati dan sirosis."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The liver is the largest metabolic organ, organized into microscopic hexagonal hepatic lobules centered around a central vein, bounded by portal triads (hepatic artery, portal vein branch, bile duct).",
+          "position": "Right hypochondriac and epigastric regions, enclosed in Glisson's capsule, divided into Right, Left, Caudate, and Quadrate lobes.",
+          "mechanism": "Hepatocytes perform gluconeogenesis, glycogenolysis, ureagenesis, synthesis of plasma proteins (albumin, clotting factors), bile acid production, and Phase I/II cytochrome P450 xenobiotic biotransformation.",
+          "health": "Chronic hepatitis and alcohol abuse induce stellate cell activation, leading to progressive hepatic fibrosis, portal hypertension, and liver cirrhosis."
+        },
+        "ID": {
+          "overview": "Hati adalah organ metabolik terbesar yang tersusun atas lobulus hepar heksagonal mikroskopis dengan vena sentralis dan trias porta (cabang arteri hepatika, vena porta, dan duktus biliaris).",
+          "position": "Regio hipokondrium kanan dan epigastrium, dibungkus kapsul Glisson, terbagi menjadi lobus kanan, kiri, kaudatus, dan kuadratus.",
+          "mechanism": "Hepatosit menjalankan glukoneogenesis, glikogenolisis, sintesis protein plasma (albumin, faktor koagulasi), produksi asam empedu, dan detoksifikasi sitokrom P450.",
+          "health": "Hepatitis kronis dan konsumsi alkohol memicu aktivasi sel stelata yang menyebabkan fibrosis hepar progresif, hipertensi porta, dan sirosis hati."
+        }
+      },
+      "relatedStructures": ["stomach", "gallbladder", "pancreas"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which major blood vessel delivers nutrient-rich blood directly from the gastrointestinal tract to the liver?",
+            "options": ["Hepatic portal vein", "Hepatic artery", "Renal vein", "Pulmonary artery"],
+            "answerIndex": 0,
+            "explanation": "The hepatic portal vein carries all absorbed dietary nutrients and toxins from the intestines straight to the liver for metabolic processing."
+          },
+          {
+            "question": "What digestive fluid is synthesized by hepatocytes to emulsify dietary fats in the small intestine?",
+            "options": ["Bile", "Pepsin", "Hydrochloric acid", "Insulin"],
+            "answerIndex": 0,
+            "explanation": "Bile salts synthesized from cholesterol in the liver emulsify lipid droplets, creating micelles for pancreatic lipase digestion."
+          },
+          {
+            "question": "What vital plasma protein responsible for maintaining blood oncotic pressure is synthesized exclusively by the liver?",
+            "options": ["Albumin", "Hemoglobin", "Keratin", "Myosin"],
+            "answerIndex": 0,
+            "explanation": "Albumin constitutes over half of total plasma protein and is produced entirely by liver hepatocytes."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Pembuluh darah besar apa yang membawa darah kaya nutrisi dari saluran usus langsung ke hati?",
+            "options": ["Vena porta hepatika", "Arteri hepatika", "Vena renalis", "Arteri pulmonalis"],
+            "answerIndex": 0,
+            "explanation": "Vena porta hepatika membawa darah berisi nutrisi dan zat yang diserap dari usus ke sel hepatosit untuk diproses."
+          },
+          {
+            "question": "Cairan pencernaan apa yang disintesis hepatosit hati untuk mengemulsikan lemak di usus halus?",
+            "options": ["Cairan Empedu", "Pepsin", "Asam klorida", "Insulin"],
+            "answerIndex": 0,
+            "explanation": "Garam empedu memecah gumpalan lemak menjadi butiran halus agar dapat dicerna oleh enzim lipase."
+          },
+          {
+            "question": "Protein plasma penting penentu tekanan onkotik koloid darah yang diproduksi oleh hati adalah?",
+            "options": ["Albumin", "Hemoglobin", "Keratin", "Miosin"],
+            "answerIndex": 0,
+            "explanation": "Albumin merupakan protein plasma terbanyak yang seluruhnya disintesis oleh sel hepatosit hati."
+          }
+        ]
+      }
+    }
+  }
+}

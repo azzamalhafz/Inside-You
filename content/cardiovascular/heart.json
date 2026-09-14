@@ -1,0 +1,273 @@
+{
+  "id": "heart",
+  "name": {
+    "EN": "Cardiovascular & Heart",
+    "ID": "Jantung & Sistem Kardiovaskular"
+  },
+  "systemId": "cardio",
+  "overview": {
+    "simple": {
+      "EN": "The heart is the central muscular pump that beats nonstop to circulate life-giving oxygen, nutrients, and immune cells through thousands of miles of blood vessels.",
+      "ID": "Jantung adalah pompa otot utama yang berdetak tanpa henti mengalirkan oksigen, nutrisi, dan sel kekebalan ke seluruh tubuh melalui pembuluh darah."
+    },
+    "academic": {
+      "EN": "The cardiovascular system comprises the muscular four-chambered heart (myocardium enclosed by the pericardium) and an extensive vascular circuit (arteries, arterioles, capillaries, venules, and veins) operating under coordinated electrical conduction (SA node, AV node, bundle of His, Purkinje fibers).",
+      "ID": "Sistem kardiovaskular terdiri dari jantung berotot 4 ruang (miokardium yang dibungkus perikardium) dan sirkuit vaskular yang beroperasi di bawah konduksi listrik terkoordinasi (nodus SA, nodus AV, berkas His, dan serat Purkinje)."
+    }
+  },
+  "structures": {
+    "left_ventricle": {
+      "id": "left_ventricle",
+      "name": {
+        "EN": "Left Ventricle",
+        "ID": "Ventrikel Kiri"
+      },
+      "illustration": "🫀💪",
+      "systemId": "cardio",
+      "organId": "heart",
+      "simple": {
+        "EN": {
+          "overview": "The left ventricle is the powerhouse pump of the entire circulatory system. Its muscular walls are thick and powerful to squeeze oxygen-rich blood into the aorta and all the way to your toes.",
+          "position": "Forms the left lower chamber and apex of the heart.",
+          "mechanism": "During each heartbeat (systole), it contracts forcefully, ejecting ~70 mL of freshly oxygenated blood into systemic arterial circulation.",
+          "health": "Aerobic exercise strengthens cardiac muscle, while managing blood pressure prevents pathological wall thickening (hypertrophy)."
+        },
+        "ID": {
+          "overview": "Ventrikel kiri adalah ruang pemompa utama sistem peredaran darah. Dinding ototnya tebal dan kuat untuk memompa darah kaya oksigen ke aorta hingga ujung kaki.",
+          "position": "Membentuk ruang bawah kiri dan apeks (puncak) jantung.",
+          "mechanism": "Pada setiap detakan (sistole), ruang ini berkontraksi kuat menyemprotkan ~70 mL darah beroksigen ke sirkulasi sistemik tubuh.",
+          "health": "Olahraga aerobik memperkuat otot jantung, dan mengendalikan tekanan darah mencegah penebalan patologis (hipertrofi)."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The left ventricle is the thickest-walled myocardial chamber, generating systolic pressures of ~120 mmHg to overcome high Systemic Vascular Resistance (SVR).",
+          "position": "Located inferolaterally, separated from the right ventricle by the thick muscular interventricular septum.",
+          "mechanism": "Isovolumetric contraction elevates pressure above left atrial pressure (closing the mitral valve); once pressure exceeds aortic diastolic pressure (~80 mmHg), the aortic semilunar valve opens for ejection.",
+          "health": "Chronic pressure overload (hypertension, aortic stenosis) induces concentric Left Ventricular Hypertrophy (LVH), escalating myocardial oxygen demand and heart failure risks."
+        },
+        "ID": {
+          "overview": "Ventrikel kiri adalah ruang miokardium berdinding paling tebal, menghasilkan tekanan sistolik ~120 mmHg untuk mengatasi Resistensi Vaskular Sistemik (SVR).",
+          "position": "Terletak di inferolateral, dipisahkan dari ventrikel kanan oleh septum interventrikular yang berotot tebal.",
+          "mechanism": "Kontraksi isovolumetrik meningkatkan tekanan menutup katup mitral; ketika tekanan melampaui tekanan aorta (~80 mmHg), katup aorta membuka untuk fase ejeksi.",
+          "health": "Beban tekanan kronis (hipertensi) memicu Hipertrofi Ventrikel Kiri (LVH), meningkatkan kebutuhan oksigen miokardium dan risiko gagal jantung."
+        }
+      },
+      "relatedStructures": ["aorta", "left_atrium", "mitral_valve", "coronary_arteries"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Why is the left ventricular myocardial wall significantly thicker than that of the right ventricle?",
+            "options": [
+              "It must pump against the high resistance of the entire systemic circulation rather than the low-pressure pulmonary circuit",
+              "It stores twice the blood volume",
+              "It lacks blood vessel supplies",
+              "It is composed of rigid bone tissue"
+            ],
+            "answerIndex": 0,
+            "explanation": "The left ventricle generates ~120 mmHg systolic pressure to supply systemic circulation, compared to ~25 mmHg for the right ventricle."
+          },
+          {
+            "question": "What is the typical resting stroke volume ejected by the adult left ventricle per cardiac cycle?",
+            "options": ["Approximately 70 mL", "5 mL", "500 mL", "2000 mL"],
+            "answerIndex": 0,
+            "explanation": "Normal resting stroke volume (EDV minus ESV) is approximately 70 mL per beat."
+          },
+          {
+            "question": "Which valve prevents backward flow of oxygenated blood from the aorta into the left ventricle during diastole?",
+            "options": ["Aortic Valve", "Tricuspid Valve", "Mitral Valve", "Pulmonary Valve"],
+            "answerIndex": 0,
+            "explanation": "The aortic semilunar valve snaps shut at ventricular diastole when aortic pressure exceeds ventricular pressure."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Mengapa dinding miokardium ventrikel kiri jauh lebih tebal daripada ventrikel kanan?",
+            "options": [
+              "Harus memompa melawan resistensi tinggi seluruh sirkulasi sistemik tubuh dibanding sirkulasi paru bertekanan rendah",
+              "Menampung volume darah dua kali lebih banyak",
+              "Tidak memiliki suplai pembuluh darah",
+              "Tersusun dari jaringan tulang keras"
+            ],
+            "answerIndex": 0,
+            "explanation": "Ventrikel kiri menghasilkan tekanan sistolik ~120 mmHg untuk menyuplai seluruh tubuh, sedangkan ventrikel kanan hanya ~25 mmHg."
+          },
+          {
+            "question": "Berapa volume sekuncup (stroke volume) istirahat rata-rata yang dikeluarkan ventrikel kiri per denyut?",
+            "options": ["Sekitar 70 mL", "5 mL", "500 mL", "2000 mL"],
+            "answerIndex": 0,
+            "explanation": "Volume darah yang dipompa bilik kiri sehat saat istirahat adalah sekitar 70 mL per denyut."
+          },
+          {
+            "question": "Katup jantung mana yang mencegah aliran balik darah dari aorta ke ventrikel kiri saat diastole?",
+            "options": ["Katup Aorta", "Katup Trikuspid", "Katup Mitral", "Katup Pulmonal"],
+            "answerIndex": 0,
+            "explanation": "Katup semilunaris aorta menutup rapat saat diastole ketika tekanan aorta lebih tinggi daripada tekanan bilik kiri."
+          }
+        ]
+      }
+    },
+    "right_ventricle": {
+      "id": "right_ventricle",
+      "name": {
+        "EN": "Right Ventricle",
+        "ID": "Ventrikel Kanan"
+      },
+      "illustration": "🫁🩸",
+      "systemId": "cardio",
+      "organId": "heart",
+      "simple": {
+        "EN": {
+          "overview": "The right ventricle is the lung-delivery pump. It receives oxygen-depleted venous blood from the right atrium and propels it to the lungs for fresh oxygen reload.",
+          "position": "Forms the anterior surface of the heart, anterior and medial to the left ventricle.",
+          "mechanism": "Contracts to pump deoxygenated blood through the pulmonary semilunar valve into the pulmonary trunk towards both lungs.",
+          "health": "Chronic pulmonary conditions or blood clots (pulmonary embolism) can overstrain the right ventricle (cor pulmonale)."
+        },
+        "ID": {
+          "overview": "Ventrikel kanan adalah pompa pengirim darah ke paru-paru. Menerima darah miskin oksigen dari atrium kanan dan mendorongnya ke paru-paru untuk diisi ulang oksigen.",
+          "position": "Membentuk permukaan anterior jantung, berada di depan dan medial ventrikel kiri.",
+          "mechanism": "Berkontraksi memompa darah terdeoksigenasi melalui katup pulmonal ke trunkus pulmonalis menuju kedua paru.",
+          "health": "Penyakit paru kronis atau emboli paru dapat membebani kerja ventrikel kanan secara berlebih (kor pulmonale)."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The right ventricle is a crescent-shaped, thin-walled chamber operating at low systolic pressures (~25 mmHg) designed for low vascular resistance pulmonary circulation.",
+          "position": "Anterior cardiac chamber separated from right atrium by tricuspid valve and bounded by trabeculae carneae and moderator band.",
+          "mechanism": "Ejects stroke volume through the pulmonary trunk into pulmonary arterial circulation for alveolar gas exchange.",
+          "health": "Pulmonary arterial hypertension leads to right ventricular dilation and hypertrophy, manifesting as right-sided heart failure (peripheral edema, jugular venous distension)."
+        },
+        "ID": {
+          "overview": "Ventrikel kanan adalah ruang berbentuk bulan sabit dengan dinding lebih tipis yang bekerja pada tekanan sistolik rendah (~25 mmHg) untuk sirkulasi paru beresistensi rendah.",
+          "position": "Ruang anterior jantung yang dibatasi katup trikuspidalis dari atrium kanan serta memiliki trabekula karnea dan pita moderator.",
+          "mechanism": "Menyemprotkan volume sekuncup ke trunkus pulmonalis menuju sirkulasi arteri pulmonal untuk pertukaran gas di alveolus.",
+          "health": "Hipertensi pulmonal memicu dilatasi dan hipertrofi ventrikel kanan yang bermanifestasi sebagai gagal jantung kanan (edema perifer, distensi vena jugularis)."
+        }
+      },
+      "relatedStructures": ["right_atrium", "tricuspid_valve", "left_lung", "right_lung"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Where does the right ventricle pump deoxygenated blood?",
+            "options": ["Into the pulmonary trunk towards the lungs", "Directly into the systemic aorta", "Into the left atrium", "Into the carotid artery"],
+            "answerIndex": 0,
+            "explanation": "The right ventricle propels venous blood into the pulmonary circulation for oxygen replenishment."
+          },
+          {
+            "question": "Which anatomical structure prevents inversion of the tricuspid valve leaflets during right ventricular systole?",
+            "options": ["Chordae tendineae anchored to papillary muscles", "Aortic arch", "Corpus callosum", "Trabecular meshwork"],
+            "answerIndex": 0,
+            "explanation": "Tendon-like chordae tendineae tether the valve cusps to papillary muscles in the ventricular wall."
+          },
+          {
+            "question": "What is the typical systolic pressure generated by the normal right ventricle?",
+            "options": ["Approximately 20-25 mmHg", "120 mmHg", "200 mmHg", "2 mmHg"],
+            "answerIndex": 0,
+            "explanation": "The low-resistance pulmonary circuit requires only ~20-25 mmHg systolic pressure from the right ventricle."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Ke manakah ventrikel kanan memompa darah yang miskin oksigen?",
+            "options": ["Ke trunkus pulmonalis menuju paru-paru", "Langsung ke aorta sistemik", "Ke atrium kiri", "Ke arteri karotis"],
+            "answerIndex": 0,
+            "explanation": "Ventrikel kanan memompa darah vena ke sirkulasi paru untuk pengisian ulang oksigen."
+          },
+          {
+            "question": "Struktur anatomi apa yang mencegah pembalikan daun katup trikuspidalis saat sistole ventrikel kanan?",
+            "options": ["Korda tendinea yang tertambat pada otot papilaris", "Arkus aorta", "Korpus kalosum", "Trabecular meshwork"],
+            "answerIndex": 0,
+            "explanation": "Serat korda tendinea menambatkan tepi katup ke otot papilaris di dinding ventrikel."
+          },
+          {
+            "question": "Berapa tekanan sistolik normal yang dihasilkan oleh ventrikel kanan?",
+            "options": ["Sekitar 20-25 mmHg", "120 mmHg", "200 mmHg", "2 mmHg"],
+            "answerIndex": 0,
+            "explanation": "Sirkuit paru beresistensi rendah hanya membutuhkan tekanan sistolik ~20-25 mmHg dari bilik kanan."
+          }
+        ]
+      }
+    },
+    "aorta": {
+      "id": "aorta",
+      "name": {
+        "EN": "Aorta",
+        "ID": "Aorta"
+      },
+      "illustration": "🚀🩸",
+      "systemId": "cardio",
+      "organId": "heart",
+      "simple": {
+        "EN": {
+          "overview": "The aorta is the body's main superhighway artery. It is the widest blood vessel, branching out to deliver oxygen-rich blood to the brain, heart, arms, organs, and legs.",
+          "position": "Arises directly from the top of the left ventricle, arches upward over the heart, and travels down through the chest and abdomen.",
+          "mechanism": "Its elastic walls expand with every heartbeat to absorb high pressure, then recoil to keep blood flowing smoothly between beats.",
+          "health": "Healthy blood pressure and avoiding smoking protect the aortic walls from weakening, aneurysms, or dissections."
+        },
+        "ID": {
+          "overview": "Aorta adalah jalan tol arteri utama tubuh. Aorta merupakan pembuluh darah terbesar yang bercabang menyalurkan darah kaya oksigen ke otak, jantung, lengan, organ dalam, dan kaki.",
+          "position": "Berasal langsung dari bagian atas ventrikel kiri, melengkung di atas jantung, dan turun melintasi rongga dada dan perut.",
+          "mechanism": "Dinding elastisnya meregang pada setiap detakan untuk menyerap tekanan tinggi, lalu membal kembali menjaga aliran darah tetap stabil.",
+          "health": "Menjaga tekanan darah normal dan tidak merokok mencegah pelemahan dinding aorta, aneurisma, atau diseksi aorta."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The aorta is the primary systemic elastic artery, featuring abundant concentric fenestrated elastin lamellae in its tunica media providing the Windkessel effect.",
+          "position": "Originates at the aortic root, traverses the ascending aorta, aortic arch (giving off brachiocephalic trunk, left common carotid, left subclavian), and descending thoracic/abdominal aorta.",
+          "mechanism": "Dampens high systolic pulsatile pressure into continuous peripheral capillary flow via elastic recoil during diastole.",
+          "health": "Aortic dissection occurs when a tear in the tunica intima creates a false lumen, requiring emergent surgical or endovascular repair."
+        },
+        "ID": {
+          "overview": "Aorta adalah arteri elastis sistemik utama dengan banyak lamela elastin konsentris pada tunika media yang menghasilkan efek Windkessel.",
+          "position": "Berasal dari pangkal aorta, melalui aorta asenden, arkus aorta (mencabangkan trunkus brakiosefalika, karotis komunis kiri, subklavia kiri), dan aorta desenden torakalis/abdominalis.",
+          "mechanism": "Meredam tekanan pulsasi sistolik tinggi menjadi aliran kapiler kontinu melalui recoil elastis saat diastole.",
+          "health": "Diseksi aorta terjadi saat robekan tunika intima menciptakan lumen palsu, memerlukan intervensi bedah vaskular darurat."
+        }
+      },
+      "relatedStructures": ["left_ventricle", "coronary_arteries"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What functional physiological phenomenon allows the aorta to maintain continuous blood flow during diastole?",
+            "options": ["Windkessel effect (elastic recoil)", "Peristalsis", "Osmotic diuresis", "Active skeletal muscle pumping"],
+            "answerIndex": 0,
+            "explanation": "The Windkessel effect describes how the elastic aortic wall expands in systole and recoils in diastole to sustain continuous forward flow."
+          },
+          {
+            "question": "Which of the following is the first branch arising from the arch of the aorta?",
+            "options": ["Brachiocephalic trunk (artery)", "Left subclavian artery", "Left common carotid artery", "Femoral artery"],
+            "answerIndex": 0,
+            "explanation": "The brachiocephalic trunk is the first and largest branch arising from the superior convexity of the aortic arch."
+          },
+          {
+            "question": "What life-threatening vascular emergency involves a tear in the inner layer (intima) of the aortic wall?",
+            "options": ["Aortic Dissection", "Varicose veins", "Raynaud's disease", "Phlebitis"],
+            "answerIndex": 0,
+            "explanation": "Aortic dissection separates the layers of the aortic wall and requires immediate medical emergency treatment."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Fenomena fisiologis apa yang memungkinkan aorta mempertahankan aliran darah berkelanjutan saat diastole?",
+            "options": ["Efek Windkessel (recoil elastis dinding arteri)", "Peristaltik", "Diuresis osmotik", "Pompa otot rangka aktif"],
+            "answerIndex": 0,
+            "explanation": "Efek Windkessel adalah kemampuan dinding elastis aorta meregang saat sistole dan membal saat diastole menjaga kelancaran aliran."
+          },
+          {
+            "question": "Manakah cabang arteri pertama yang keluar dari lengkung (arkus) aorta?",
+            "options": ["Trunkus brakiosefalika", "Arteri subklavia kiri", "Arteri karotis komunis kiri", "Arteri femoralis"],
+            "answerIndex": 0,
+            "explanation": "Trunkus brakiosefalika adalah cabang pertama dan terbesar yang mencabangkan arteri karotis kanan dan subklavia kanan."
+          },
+          {
+            "question": "Kondisi darurat vaskular fatal apa yang terjadi akibat robeknya lapisan intima dinding aorta?",
+            "options": ["Diseksi Aorta", "Varises", "Penyakit Raynaud", "Flebitis"],
+            "answerIndex": 0,
+            "explanation": "Diseksi aorta memisahkan lapisan dinding aorta dan merupakan kondisi gawat darurat bedah vaskular."
+          }
+        ]
+      }
+    }
+  }
+}

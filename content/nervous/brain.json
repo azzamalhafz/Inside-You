@@ -1,0 +1,506 @@
+{
+  "id": "brain",
+  "name": {
+    "EN": "Brain & Nervous System",
+    "ID": "Otak & Sistem Saraf"
+  },
+  "systemId": "nervous",
+  "overview": {
+    "simple": {
+      "EN": "The nervous system is your body's electrical master computer. It processes thoughts, sensations, emotions, movements, and automatic life functions like breathing and heartbeat.",
+      "ID": "Sistem saraf adalah komputer listrik induk tubuh Anda. Sistem ini memproses pikiran, sensasi, emosi, gerakan, serta fungsi otomatis kehidupan seperti napas dan detak jantung."
+    },
+    "academic": {
+      "EN": "The nervous system is categorized into the Central Nervous System (brain and spinal cord) and Peripheral Nervous System (cranial and spinal nerves), executing rapid sensory transduction, neural integration across layered cortical columns, and somatic/autonomic motor coordination via action potentials and neurotransmitters.",
+      "ID": "Sistem saraf terbagi atas Sistem Saraf Pusat (otak dan medula spinalis) dan Sistem Saraf Tepi (saraf kranial dan spinal), menjalankan transduksi sensorik cepat, integrasi saraf pada kolom korteks, dan koordinasi motorik melalui potensial aksi dan neurotransmiter."
+    }
+  },
+  "structures": {
+    "cerebrum": {
+      "id": "cerebrum",
+      "name": {
+        "EN": "Cerebrum",
+        "ID": "Serebrum (Otak Besar)"
+      },
+      "illustration": "🧠⚡",
+      "systemId": "nervous",
+      "organId": "brain",
+      "simple": {
+        "EN": {
+          "overview": "The cerebrum is the command center of human consciousness. It processes everything you see, hear, remember, think, feel, and choose to do.",
+          "position": "Fills the entire upper dome of your cranium, divided into left and right hemispheres.",
+          "mechanism": "Billions of interconnected neurons exchange electrical and chemical neurotransmitter signals to run your body and mind.",
+          "health": "Continuous lifelong learning, restful sleep, balanced nutrition, and protective headgear keep cerebral networks agile and resilient."
+        },
+        "ID": {
+          "overview": "Serebrum adalah pusat komando kesadaran manusia. Serebrum memproses semua yang Anda lihat, dengar, ingat, pikirkan, rasakan, dan lakukan.",
+          "position": "Mengisi seluruh kubah atas rongga tengkorak, terbagi menjadi belahan kiri dan kanan.",
+          "mechanism": "Miliaran neuron yang saling terhubung bertukar sinyal listrik dan neurotransmiter kimiawi.",
+          "health": "Belajar hal baru, tidur cukup, nutrisi seimbang, dan helm pelindung menjaga kesehatan jaringan saraf otak."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The cerebrum comprises the outer cerebral cortex (6-layered neocortical gray matter), underlying subcortical white matter tracts, and basal ganglia.",
+          "position": "Occupies the anterior and middle cranial fossae, superior to the tentorium cerebelli, joined by the corpus callosum.",
+          "mechanism": "Organized into four functional lobes (Frontal: executive/motor, Parietal: somatosensory, Temporal: auditory/memory, Occipital: vision). Synaptic plasticity via Long-Term Potentiation (LTP) underpins cognitive consolidation.",
+          "health": "Middle cerebral artery (MCA) ischemic stroke precipitates contralateral hemiplegia and expressive or receptive aphasia depending on hemisphere dominance."
+        },
+        "ID": {
+          "overview": "Serebrum terdiri dari korteks serebral (substansia grises 6 lapis neokorteks), traktus substansia alba subkortikal, dan ganglia basalis.",
+          "position": "Mengisi fosa kranialis anterior dan media di atas tentorium serebeli, dihubungkan oleh korpus kalosum.",
+          "mechanism": "Terbagi dalam 4 lobus utama (Frontal: motorik/eksekutif, Parietal: somatosensorik, Temporal: memori/auditori, Oksipital: visual). Plastisitas sinaps via Long-Term Potentiation (LTP) menjadi dasar memori.",
+          "health": "Stroke iskemia arteri serebri media (MCA) mengakibatkan hemiplegia kontralateral dan afasia motorik/sensorik."
+        }
+      },
+      "relatedStructures": ["cerebellum", "brainstem", "optic_chiasm", "thalamus"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which massive bundle of commissural white matter fibers connects the left and right cerebral hemispheres?",
+            "options": ["Corpus Callosum", "Optic Chiasm", "Internal Capsule", "Fornix"],
+            "answerIndex": 0,
+            "explanation": "The corpus callosum contains over 200 million axonal fibers facilitating interhemispheric communication."
+          },
+          {
+            "question": "Which cerebral lobe is home to the primary visual cortex (Brodmann area 17 / V1)?",
+            "options": ["Occipital Lobe", "Frontal Lobe", "Temporal Lobe", "Parietal Lobe"],
+            "answerIndex": 0,
+            "explanation": "The occipital lobe at the posterior pole of the cerebrum processes raw retinotopic visual telemetry."
+          },
+          {
+            "question": "What neurobiological process strengthens synaptic connections in the cerebral cortex following repetitive stimulation?",
+            "options": ["Long-Term Potentiation (LTP)", "Apoptosis", "Phagocytosis", "Demyelination"],
+            "answerIndex": 0,
+            "explanation": "Long-Term Potentiation (LTP) is the primary cellular mechanism underlying learning and memory formation."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Berkas serat substansia alba tebal apa yang menghubungkan belahan otak besar (serebrum) kiri dan kanan?",
+            "options": ["Korpus Kalosum", "Kiasma Optik", "Kapsula Interna", "Forniks"],
+            "answerIndex": 0,
+            "explanation": "Korpus kalosum menghubungkan kedua hemisfer serebrum dengan lebih dari 200 juta serabut saraf aksonal."
+          },
+          {
+            "question": "Lobus serebrum manakah yang memuat korteks visual primer (Area Brodmann 17 / V1)?",
+            "options": ["Lobus Oksipital", "Lobus Frontal", "Lobus Temporal", "Lobus Parietal"],
+            "answerIndex": 0,
+            "explanation": "Lobus oksipital di bagian belakang kepala memproses sinyal visual dari retina."
+          },
+          {
+            "question": "Proses neurobiologis apa yang memperkuat koneksi sinapsis neuron serebrum sebagai dasar memori?",
+            "options": ["Long-Term Potentiation (LTP)", "Apoptosis", "Fagositosis", "Demielinisasi"],
+            "answerIndex": 0,
+            "explanation": "LTP adalah mekanisme dasar penguatan sinapsis saat otak belajar dan membentuk memori jangka panjang."
+          }
+        ]
+      }
+    },
+    "cerebellum": {
+      "id": "cerebellum",
+      "name": {
+        "EN": "Cerebellum",
+        "ID": "Serebelum (Otak Kecil)"
+      },
+      "illustration": "🤸🎯",
+      "systemId": "nervous",
+      "organId": "brain",
+      "simple": {
+        "EN": {
+          "overview": "The cerebellum is your internal precision balance and coordination gyro. It fine-tunes smooth muscle movements, balance, posture, and motor skills like riding a bike.",
+          "position": "Located at the back of your head, tucked neatly beneath the occipital lobes of the cerebrum.",
+          "mechanism": "Compares what motor commands your brain intended to do with actual muscle feedback, correcting tiny timing errors in milliseconds.",
+          "health": "Damage or alcohol toxicity causes ataxia (clumsiness, slurred speech, unsteadiness, and loss of fine motor coordination)."
+        },
+        "ID": {
+          "overview": "Serebelum adalah giroskop presisi keseimbangan dan koordinasi internal tubuh. Otak kecil ini menghaluskan gerakan otot, keseimbangan, postur, dan keterampilan motorik seperti bersepeda.",
+          "position": "Terletak di bagian belakang kepala, berada di bawah lobus oksipital otak besar.",
+          "mechanism": "Membandingkan perintah motorik yang diinginkan otak dengan umpan balik otot nyata, lalu mengoreksi ketepatan waktu dalam hitungan milidetik.",
+          "health": "Kerusakan atau intoksikasi alkohol menyebabkan ataksia (jalan sempoyongan, bicara cadel, dan hilangnya koordinasi motorik halus)."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The cerebellum contains over 50% of the brain's total neurons packed into a highly foliate trilaminar cortex (molecular layer, Purkinje cell layer, granular layer) and four deep cerebellar nuclei.",
+          "position": "Located in the posterior cranial fossa, dorsal to the pons and medulla oblongata, separated from cerebrum by tentorium cerebelli.",
+          "mechanism": "Computes motor error signals via climbing fibers from the inferior olive and mossy fibers from spinocerebellar/corticopontine pathways, modulating inhibitory Purkinje outputs to deep nuclei.",
+          "health": "Cerebellar strokes or spinocerebellar ataxia present with dysmetria, intention tremor, dysdiadochokinesia, and nystagmus."
+        },
+        "ID": {
+          "overview": "Serebelum memuat lebih dari 50% neuron otak yang tersusun dalam korteks 3 lapis (lapisan molekular, lapisan sel Purkinje, dan lapisan granular) serta empat nukleus serebelar dalam.",
+          "position": "Terletak di fosa kranialis posterior, di dorsal pons dan medula oblongata, dipisahkan dari serebrum oleh tentorium serebeli.",
+          "mechanism": "Menghitung sinyal kesalahan motorik melalui serat panjat (climbing fibers) dan serat lumut (mossy fibers), memodulasi keluaran inhibisi sel Purkinje ke nukleus dalam.",
+          "health": "Stroke serebelar atau ataksia spinoserebelar bermanifestasi sebagai dismetria, tremor intensional, disdiadokokinesis, dan nistagmus."
+        }
+      },
+      "relatedStructures": ["brainstem", "cerebrum", "spinal_cord"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which large specialized neurons form the sole inhibitory output pathway from the cerebellar cortex?",
+            "options": ["Purkinje cells", "Granule cells", "Pyramidal neurons", "Schwann cells"],
+            "answerIndex": 0,
+            "explanation": "Purkinje cells project GABAergic inhibitory axons to the deep cerebellar nuclei to sculpt motor commands."
+          },
+          {
+            "question": "What is the primary function executed by the cerebellum?",
+            "options": ["Coordination, error correction, and timing of voluntary movements", "Direct hormone secretion", "Vision phototransduction", "Kidney filtration"],
+            "answerIndex": 0,
+            "explanation": "The cerebellum fine-tunes movement velocity, timing, balance, and procedural motor memory."
+          },
+          {
+            "question": "What clinical condition characterized by uncoordinated, jerky movements and gait unsteadiness results from cerebellar damage?",
+            "options": ["Cerebellar Ataxia", "Aphasia", "Glaucoma", "Anemia"],
+            "answerIndex": 0,
+            "explanation": "Ataxia is the signature clinical sign of cerebellar dysfunction causing loss of coordination and balance."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Neuron khusus besar apa yang membentuk satu-satunya jalur keluaran inhibisi dari korteks serebelum?",
+            "options": ["Sel Purkinje", "Sel Granular", "Neuron Piramidal", "Sel Schwann"],
+            "answerIndex": 0,
+            "explanation": "Sel Purkinje menghasilkan sinyal inhibisi GABAergik ke nukleus serebelar dalam untuk menghaluskan gerak."
+          },
+          {
+            "question": "Apakah fungsi utama yang dijalankan oleh serebelum (otak kecil)?",
+            "options": ["Koordinasi, koreksi kesalahan, dan pengaturan waktu gerakan sadar", "Sekresi hormon langsung", "Fototransduksi penglihatan", "Penyaringan ginjal"],
+            "answerIndex": 0,
+            "explanation": "Serebelum menyempurnakan kecepatan gerak, keseimbangan postur, dan memori keterampilan motorik."
+          },
+          {
+            "question": "Kondisi klinis hilangnya koordinasi gerak halus dan gaya berjalan sempoyongan akibat kerusakan serebelum disebut?",
+            "options": ["Ataksia Serebelar", "Afasia", "Glaukoma", "Anemia"],
+            "answerIndex": 0,
+            "explanation": "Ataksia adalah tanda khas disfungsi serebelar yang ditandai hilangnya koordinasi dan keseimbangan tubuh."
+          }
+        ]
+      }
+    },
+    "brainstem": {
+      "id": "brainstem",
+      "name": {
+        "EN": "Brainstem",
+        "ID": "Batang Otak"
+      },
+      "illustration": "🫁💓",
+      "systemId": "nervous",
+      "organId": "brain",
+      "simple": {
+        "EN": {
+          "overview": "The brainstem is your vital autopilot lifeline. It controls essential survival functions like breathing, heart rate, blood pressure, swallowing, and sleep-wake cycles.",
+          "position": "Stands at the base of the brain, seamlessly connecting the cerebrum above to the spinal cord below.",
+          "mechanism": "Houses core autonomic centers that automatically monitor oxygen, carbon dioxide, and blood pressure 24/7 without needing conscious thought.",
+          "health": "Brainstem reflexes (pupillary response, corneal reflex, gag reflex) are essential clinical markers of neurological vitality."
+        },
+        "ID": {
+          "overview": "Batang otak adalah pusat kendali kelangsungan hidup otomatis tubuh. Batang otak mengatur fungsi vital seperti napas, detak jantung, tekanan darah, menelan, dan siklus bangun-tidur.",
+          "position": "Berdiri di dasar otak, menghubungkan serebrum di bagian atas dengan sumsum tulang belakang di bagian bawah.",
+          "mechanism": "Memuat pusat otonom vital yang secara otomatis memantau kadar oksigen, CO2, dan tekanan darah 24 jam sehari tanpa perlu dipikirkan.",
+          "health": "Refleks batang otak (refleks cahaya pupil, refleks kornea, refleks muntah) adalah penanda klinis penting fungsi neurologis."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The brainstem comprises three rostral-to-caudal subdivisions: Midbrain (mesencephalon), Pons (metencephalon), and Medulla Oblongata (myelencephalon), housing cranial nerve nuclei III through XII and the Reticular Activating System (RAS).",
+          "position": "Spans the posterior cranial fossa anterior to the cerebellum, passing through the foramen magnum to merge into the spinal cord.",
+          "mechanism": "Medullary dorsal/ventral respiratory groups regulate ventilatory rhythm based on central chemoreceptor pH/pCO2 detection. Cardiac accelerator/inhibitory centers modulate vagal and sympathetic cardiac tone.",
+          "health": "Brainstem herniation (e.g., tonsillar herniation through foramen magnum) compresses the medulla, causing fatal respiratory and cardiovascular arrest (Cushing's triad)."
+        },
+        "ID": {
+          "overview": "Batang otak terdiri atas tiga subdivisi: Otak Tengah (mesensefalon), Pons (metensefalon), dan Medula Oblongata (mielensefalon), memuat inti saraf kranial III hingga XII dan Sistem Aktivasi Retikular (RAS).",
+          "position": "Berada di fosa kranialis posterior di anterior serebelum, melewati foramen magnum untuk bersambung menjadi medula spinalis.",
+          "mechanism": "Pusat respirasi medula mengatur ritme pernapasan berdasarkan deteksi pH/pCO2 kemoreseptor. Pusat kardiovaskular mengatur tonus simpatis dan vagus.",
+          "health": "Herniasi batang otak (misal herniasi tonsilar via foramen magnum) menekan medula, memicu henti napas dan henti jantung fatal (trias Cushing)."
+        }
+      },
+      "relatedStructures": ["cerebrum", "cerebellum", "spinal_cord"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which subdivision of the brainstem directly houses the vital cardiac and respiratory rhythm generator centers?",
+            "options": ["Medulla Oblongata", "Corpus Callosum", "Occipital Lobe", "Cornea"],
+            "answerIndex": 0,
+            "explanation": "The medulla oblongata controls autonomous respiratory rhythm, vasodilation, and heart rate."
+          },
+          {
+            "question": "What diffuse neural network in the brainstem maintains cortical arousal, alertness, and consciousness?",
+            "options": ["Reticular Activating System (RAS)", "Brachial Plexus", "Optic Chiasm", "Cauda Equina"],
+            "answerIndex": 0,
+            "explanation": "The Reticular Activating System (RAS) filters sensory telemetry and drives wakefulness."
+          },
+          {
+            "question": "Which of the following is considered part of the classical Cushing's triad indicating brainstem compression?",
+            "options": ["Hypertension with widening pulse pressure and bradycardia", "Hypotension and tachycardia", "Hyperactivity and fever", "Hypothermia alone"],
+            "answerIndex": 0,
+            "explanation": "Cushing's triad (hypertension, bradycardia, irregular respirations) signals life-threatening intracranial pressure and brainstem herniation risk."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Subdivisi batang otak manakah yang secara langsung memuat pusat kendali ritme jantung dan pernapasan vital?",
+            "options": ["Medula Oblongata", "Korpus Kalosum", "Lobus Oksipital", "Kornea"],
+            "answerIndex": 0,
+            "explanation": "Medula oblongata mengatur ritme pernapasan otomatis, vasodilatasi, dan laju denyut jantung."
+          },
+          {
+            "question": "Jaringan saraf difus pada batang otak yang mempertahankan kesadaran dan kondisi terjaga disebut?",
+            "options": ["Reticular Activating System (RAS)", "Pleksus Brakialis", "Kiasma Optik", "Kauda Ekuina"],
+            "answerIndex": 0,
+            "explanation": "RAS memfilter sinyal sensorik dan merangsang korteks serebri untuk mempertahankan kondisi bangun/waspada."
+          },
+          {
+            "question": "Manakah tanda klinis Trias Cushing yang mengindikasikan ancaman kompresi herniasi batang otak?",
+            "options": ["Hipertensi dengan tekanan nadi melebar disertai bradikardia", "Hipotensi dan takikardia", "Hiperaktivitas dan demam", "Hipotermia tunggal"],
+            "answerIndex": 0,
+            "explanation": "Trias Cushing (hipertensi, bradikardia, napas ireguler) adalah tanda darurat peningkatan tekanan intrakranial berat."
+          }
+        ]
+      }
+    },
+    "thalamus": {
+      "id": "thalamus",
+      "name": {
+        "EN": "Thalamus",
+        "ID": "Talamus"
+      },
+      "illustration": "🧠🔀",
+      "systemId": "nervous",
+      "organId": "brain",
+      "simple": {
+        "EN": {
+          "overview": "The thalamus is the brain's central communications hub and gateway within the diencephalon. It connects the cerebrum with the rest of the nervous system, processing and relaying virtually all incoming sensory information—with the sole exception of the sense of smell (olfaction)—before signals reach the conscious cerebral cortex.",
+          "position": "Situated deep beneath the cerebrum in the diencephalon at the top of the brainstem, forming the lateral walls of the fluid-filled third ventricle between the two cerebral hemispheres.",
+          "mechanism": "Acts as an active processor and gatekeeper rather than a simple cable. It sorts sensory signals through specific relay nuclei (such as the lateral geniculate for vision and medial geniculate for hearing) and determines which stimuli receive attention, while also relaying motor feedback from the basal nuclei and cerebellum back to the cerebral cortex.",
+          "health": "Ischemic strokes damaging thalamic blood supply cause Dejerine-Roussy syndrome (Thalamic Pain Syndrome), resulting in severe chronic neuropathic burning pain, sensory loss (hemianesthesia), and hypersensitivity on the opposite side of the body."
+        },
+        "ID": {
+          "overview": "Talamus adalah gerbang utama dan pusat relai komunikasi otak di dalam diensefalon. Organ ini menghubungkan serebrum dengan seluruh sistem saraf, memproses dan menyortir hampir semua informasi sensorik yang masuk—dengan satu-satunya pengecualian indra penciuman (olfaktori)—sebelum sinyal mencapai korteks serebral kesadaran.",
+          "position": "Terletak jauh di bawah serebrum pada kawasan diensefalon di puncak batang otak, membentuk dinding lateral ventrikel ketiga yang berisi cairan di antara kedua belahan otak besar.",
+          "mechanism": "Berfungsi sebagai penyaring aktif dan pengatur lalu lintas sinyal, bukan sekadar kabel pasif. Talamus menyortir rangsangan melalui nukleus relai spesifik (seperti nukleus genikulat lateral untuk penglihatan dan nukleus genikulat medial untuk pendengaran), serta meneruskan umpan balik perintah motorik dari ganglia basalis dan serebelum kembali ke korteks motorik.",
+          "health": "Stroke iskemik yang merusak cabang arteri talamus dapat memicu Sindrom Nyeri Talamik (Dejerine-Roussy), yang bermanifestasi sebagai nyeri neuropatik kronis berupa sensasi terbakar parah, hilangnya sensasi raba (hemianestesia), dan hipersensitivitas pada sisi tubuh kontralateral."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The thalamus is a bilateral collection of distinct diencephalic nuclei that constitutes the primary relay and integrative center between the cerebral cortex, brainstem, spinal cord, and peripheral nervous system. It processes all ascending sensory pathways except olfaction (which connects directly to the limbic cerebrum) and mediates extensive reciprocal thalamocortical oscillations.",
+          "position": "Located in the dorsal diencephalon, forming the superior and lateral boundaries of the third ventricle; bordered laterally by the posterior limb of the internal capsule, superiorly by the fornix and lateral ventricles, and inferiorly by the hypothalamic sulcus and midbrain tegmentum.",
+          "mechanism": "Composed of organized nuclear groups: specific relay nuclei (Lateral Geniculate Nucleus [LGN] for retinogeniculate visual relay to V1; Medial Geniculate Nucleus [MGN] for auditory pathways to A1; Ventral Posterolateral [VPL] and Ventral Posteromedial [VPM] for medial lemniscal, spinothalamic, and trigeminothalamic somatosensation), motor relay nuclei (Ventral Anterior [VA] and Ventral Lateral [VL] mediating basal ganglia disinhibition and cerebellar dentatothalamic loops to motor cortices), association nuclei (Pulvinar, Mediodorsal), and the GABAergic Thalamic Reticular Nucleus (TRN) providing inhibitory sensory gating and sleep spindle generation.",
+          "health": "Infarction in the thalamoperforating or thalamogeniculate branches of the posterior cerebral artery (PCA) produces Dejerine-Roussy syndrome, characterized by contralateral hemianesthesia, sensory ataxia, dysesthesias, severe intractable central neuropathic pain, and alterations in vigilance or consciousness when intralaminar/reticular projections are disrupted."
+        },
+        "ID": {
+          "overview": "Talamus adalah kompleks nukleus diensefalon berpasangan yang menjadi stasiun relai dan integrasi primer antara korteks serebri, batang otak, medula spinalis, dan sistem saraf perifer. Talamus merupakan sinaps wajib bagi seluruh jaras sensorik asenden kecuali penciuman (yang terhubung langsung ke paleokorteks olfaktori serebrum) serta mengatur osilasi timbal balik talamokortikal.",
+          "position": "Terletak di diensefalon dorsal, membentuk batas superior dan lateral dari ventrikel ketiga; berbatasan di lateral dengan krus posterior kapsula interna, di superior dengan forniks dan ventrikel lateral, serta di inferior dengan sulkus hipotalamikus dan tegmentum mesensefalon.",
+          "mechanism": "Terdiri atas kelompok nukleus terspesialisasi: nukleus relai spesifik (LGN untuk relai visual retinogenikulat ke V1; MGN untuk jaras auditori ke A1; VPL dan VPM untuk somatosensorik lemniskus medialis, traktus spinotalamikus, dan trigeminotalamikus), nukleus motorik (VA dan VL yang menyalurkan umpan balik disinhibisi ganglia basalis dan luaran serebelar ke korteks motorik primer), nukleus asosiasi (Pulvinar, Mediodorsal), dan Thalamic Reticular Nucleus (TRN) berbasis GABAergik yang mengatur gerbang penapisan sensorik serta osilasi gelombang 'spindle' tidur.",
+          "health": "Infark cabang arteri talamoperforata atau talamogenikulata dari arteri serebri posterior (PCA) menyebabkan sindrom Dejerine-Roussy, ditandai dengan hemianestesia kontralateral, ataksia sensorik, disestesia, nyeri sentral neuropatik pascastroke yang resistan terhadap analgesik biasa, serta penurunan kesadaran apabila proyeksi nukleus intralaminar terganggu."
+        }
+      },
+      "relatedStructures": ["cerebrum", "hypothalamus", "brainstem", "optic_chiasm"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which sensory modality bypasses primary synaptic relay in the thalamus before reaching the cerebrum?",
+            "options": ["Olfaction (Smell)", "Vision", "Audition (Hearing)", "Somatosensation (Touch and Pain)"],
+            "answerIndex": 0,
+            "explanation": "According to OpenStax Anatomy & Physiology, all sensory pathways must synapse in the thalamus before processing by the cerebral cortex, with the single exception of olfaction (the sense of smell)."
+          },
+          {
+            "question": "Which thalamic nucleus serves as the dedicated relay station for visual pathways connecting the optic tract to the primary visual cortex (V1)?",
+            "options": ["Lateral Geniculate Nucleus (LGN)", "Medial Geniculate Nucleus (MGN)", "Ventral Posterolateral Nucleus (VPL)", "Subthalamic Nucleus"],
+            "answerIndex": 0,
+            "explanation": "The Lateral Geniculate Nucleus (LGN) of the thalamus receives visual signals from the optic tract and projects optic radiations directly to the visual cortex in the occipital lobe."
+          },
+          {
+            "question": "Beyond relaying sensory information, how does the thalamus participate in somatic motor control?",
+            "options": ["It relays motor feedback loops from the basal nuclei and cerebellum back to the cerebral cortex", "It directly stimulates skeletal muscle fibers via peripheral motor nerves", "It secretes acetylcholine into the bloodstream to trigger muscle contraction", "It synthesizes cerebrospinal fluid to lubricate spinal joints"],
+            "answerIndex": 0,
+            "explanation": "The cerebrum sends motor information to the thalamus, which mediates feedback loops involving basal nuclei output (disinhibition) and cerebellar coordination before returning commands to the motor cortex."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Modalitas sensorik manakah yang tidak melalui sinaps relai primer di talamus sebelum mencapai cerebrum?",
+            "options": ["Penciuman (Olfaktori)", "Penglihatan (Visual)", "Pendengaran (Auditori)", "Perabaan & Nyeri (Somatosensorik)"],
+            "answerIndex": 0,
+            "explanation": "Berdasarkan referensi OpenStax Anatomi & Fisiologi, seluruh jaras sensorik wajib bersinaps di talamus sebelum diproses korteks, dengan satu-satunya pengecualian yaitu indra penciuman (olfaktori)."
+          },
+          {
+            "question": "Nukleus talamus manakah yang menjadi stasiun relai khusus untuk jaras penglihatan dari traktus optik menuju korteks visual primer (V1)?",
+            "options": ["Lateral Geniculate Nucleus (LGN)", "Medial Geniculate Nucleus (MGN)", "Ventral Posterolateral Nucleus (VPL)", "Subthalamic Nucleus"],
+            "answerIndex": 0,
+            "explanation": "Lateral Geniculate Nucleus (LGN) pada talamus menerima sinyal visual dari traktus optik dan memancarkan radiasi optika langsung ke korteks visual di lobus oksipital."
+          },
+          {
+            "question": "Selain merelai informasi sensorik, bagaimana peran talamus dalam sistem kendali motorik tubuh?",
+            "options": ["Merelai sirkuit umpan balik motorik dari ganglia basalis dan serebelum kembali ke korteks serebri", "Menginervasi serat otot rangka secara langsung melalui saraf perifer", "Mensekresikan asetilkolin ke peredaran darah untuk memicu kontraksi otot", "Memproduksi cairan serebrospinal untuk melumasi persendian tulang belakang"],
+            "answerIndex": 0,
+            "explanation": "Serebrum berinteraksi dengan ganglia basalis dan serebelum melalui talamus, di mana talamus bertindak sebagai stasiun relai keluaran motorik sebelum diteruskan ke korteks motorik primer."
+          }
+        ]
+      }
+    },
+    "hypothalamus": {
+      "id": "hypothalamus",
+      "name": {
+        "EN": "Hypothalamus",
+        "ID": "Hipotalamus"
+      },
+      "illustration": "🌡️⚖️",
+      "systemId": "nervous",
+      "organId": "brain",
+      "simple": {
+        "EN": {
+          "overview": "The hypothalamus is your body's master homeostatic thermostat and hormonal director. It regulates body temperature, hunger, thirst, circadian sleep rhythms, and emotional drives.",
+          "position": "Located directly underneath the thalamus, just above the pituitary gland and behind the optic chiasm.",
+          "mechanism": "Continuously reads blood temperature, osmolarity, and hormone levels, releasing neurohormones to command the pituitary gland and autonomic nervous system.",
+          "health": "Hypothalamic dysregulation can lead to diabetes insipidus, severe sleep-wake disturbances, and body temperature instability."
+        },
+        "ID": {
+          "overview": "Hipotalamus adalah termostat homeostatis dan konduktor hormonal utama tubuh. Organ ini mengatur suhu tubuh, rasa lapar, haus, ritme sirkadian tidur, dan dorongan emosional.",
+          "position": "Terletak tepat di bawah talamus, di atas kelenjar hipofisis (pituitari) dan di belakang kiasma optik.",
+          "mechanism": "Terus-menerus memantau suhu darah, osmolaritas, dan hormon, lalu melepaskan neurohormon untuk mengendalikan hipofisis dan sistem saraf otonom.",
+          "health": "Disfungsi hipotalamus dapat memicu diabetes insipidus, gangguan siklus tidur berat, dan disregulasi termoregulasi tubuh."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The hypothalamus is a ventral diencephalic structure comprising distinct nuclei (Supraoptic, Paraventricular, Suprachiasmatic, Arcuate, Ventromedial, Lateral) bridging the nervous and endocrine systems via the hypothalamic-hypophyseal portal system and neurohypophysis.",
+          "position": "Forms the floor and inferior lateral walls of the third ventricle, connected to the anterior and posterior pituitary via the infundibular stalk.",
+          "mechanism": "Synthesizes ADH/vasopressin and oxytocin (secreted via posterior pituitary) and releasing/inhibiting hormones (CRH, TRH, GnRH, GHRH, Somatostatin, Dopamine) targeting the anterior pituitary. Suprachiasmatic nucleus (SCN) acts as master circadian pacemaker.",
+          "health": "Damage to the supraoptic and paraventricular nuclei disrupts ADH synthesis, causing central diabetes insipidus marked by polyuria and polydipsia."
+        },
+        "ID": {
+          "overview": "Hipotalamus adalah struktur ventral diensefalon yang terdiri atas kumpulan nukleus spesifik (Supraoptik, Paraventrikular, Suprakiasmatik, Arkuata, Ventromedial, Lateral) yang menghubungkan sistem saraf dan endokrin.",
+          "position": "Membentuk dasar dan dinding ventrikel ketiga, terhubung ke hipofisis melalui tangkai infundibulum.",
+          "mechanism": "Menyintesis ADH (vasopresin) dan oksitosin, serta melepaskan hormon pengatur (CRH, TRH, GnRH, GHRH). Nukleus suprakiasmatik (SCN) mengatur jam sirkadian tubuh 24 jam.",
+          "health": "Kerusakan nukleus supraoptik menghentikan sekresi ADH, memicu diabetes insipidus sentral dengan gejala poliuria dan polidipsia berat."
+        }
+      },
+      "relatedStructures": ["thalamus", "cerebrum", "optic_chiasm", "brainstem"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which hypothalamic nucleus serves as the body's master circadian pacemaker regulating the 24-hour sleep-wake cycle?",
+            "options": ["Suprachiasmatic Nucleus (SCN)", "Lateral Hypothalamic Area", "Arcuate Nucleus", "Red Nucleus"],
+            "answerIndex": 0,
+            "explanation": "The suprachiasmatic nucleus (SCN) synchronizes circadian rhythms via direct retinal light input from the retinohypothalamic tract."
+          },
+          {
+            "question": "Which two peptide neurohormones are synthesized in the hypothalamus and transported to the posterior pituitary for release?",
+            "options": ["Antidiuretic Hormone (ADH) and Oxytocin", "Insulin and Glucagon", "Thyroxine and Calcitonin", "Cortisol and Aldosterone"],
+            "answerIndex": 0,
+            "explanation": "Magnocellular neurons in the supraoptic and paraventricular nuclei synthesize ADH and oxytocin."
+          },
+          {
+            "question": "What condition results from deficient antidiuretic hormone (ADH) secretion due to hypothalamic trauma or lesions?",
+            "options": ["Central Diabetes Insipidus", "Type 1 Diabetes Mellitus", "Addison's Disease", "Graves' Disease"],
+            "answerIndex": 0,
+            "explanation": "Central diabetes insipidus leads to the inability to concentrate urine, causing profound water loss."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Nukleus hipotalamus manakah yang bertindak sebagai pemacu ritme sirkadian utama 24 jam tubuh?",
+            "options": ["Nukleus Suprakiasmatik (SCN)", "Area Hipotalamus Lateral", "Nukleus Arkuata", "Nukleus Ruber"],
+            "answerIndex": 0,
+            "explanation": "Nukleus suprakiasmatik (SCN) menyelaraskan ritme biologis tubuh berdasarkan sinyal cahaya dari retina."
+          },
+          {
+            "question": "Dua neurohormon peptida apa yang disintesis di hipotalamus dan dialirkan ke hipofisis posterior untuk dilepaskan?",
+            "options": ["Hormon Antidiuretik (ADH) dan Oksitosin", "Insulin dan Glukagon", "Tiroksin dan Kalsitonin", "Kortisol dan Aldosteron"],
+            "answerIndex": 0,
+            "explanation": "Neuron di nukleus supraoptik dan paraventrikular menghasilkan ADH dan oksitosin."
+          },
+          {
+            "question": "Kondisi apakah yang timbul akibat kekurangan sekresi hormon antidiuretik (ADH) dari hipotalamus?",
+            "options": ["Diabetes Insipidus Sentral", "Diabetes Melitus Tipe 1", "Penyakit Addison", "Penyakit Graves"],
+            "answerIndex": 0,
+            "explanation": "Diabetes insipidus sentral membuat ginjal kehilangan kemampuan memekatkan urin, memicu ekskresi urin berlebih."
+          }
+        ]
+      }
+    },
+    "hippocampus": {
+      "id": "hippocampus",
+      "name": {
+        "EN": "Hippocampus",
+        "ID": "Hipokampus"
+      },
+      "illustration": "🧬📚",
+      "systemId": "nervous",
+      "organId": "brain",
+      "simple": {
+        "EN": {
+          "overview": "The hippocampus is your memory saver and mental GPS. It converts short-term experiences into long-term memories and creates spatial maps to help you navigate.",
+          "position": "Curved seahorse-shaped structure tucked deep within the medial temporal lobe of each cerebral hemisphere.",
+          "mechanism": "Encodes daily events, spatial landmarks, and contextual facts, then replays and consolidates them across the cerebral cortex during deep sleep.",
+          "health": "One of the earliest brain regions affected by Alzheimer's disease, explaining why short-term memory loss is an early symptom."
+        },
+        "ID": {
+          "overview": "Hipokampus adalah penyimpan memori dan GPS mental otak Anda. Organ ini mengubah pengalaman jangka pendek menjadi memori jangka panjang serta memetakan navigasi ruang.",
+          "position": "Struktur melengkung menyerupai kuda laut yang terletak di kedalaman lobus temporal medial pada kedua belahan otak.",
+          "mechanism": "Merekam kejadian harian dan peta spasial, kemudian mengonsolidasikannya ke korteks serebral saat Anda tidur nyenyak.",
+          "health": "Merupakan salah satu area otak pertama yang terdampak penyakit Alzheimer, menyebabkan hilangnya memori jangka pendek baru."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The hippocampal formation consists of the Dentate Gyrus, Cornu Ammonis subfields (CA1, CA2, CA3, CA4), and Subiculum, forming the classic trisynaptic circuit (perforant path -> mossy fibers -> Schaffer collaterals).",
+          "position": "Situated on the floor of the inferior (temporal) horn of the lateral ventricle, medial to the parahippocampal gyrus.",
+          "mechanism": "Executes declarative/episodic memory encoding and spatial navigation using place cells. Employs NMDA-receptor dependent Long-Term Potentiation (LTP) and adult neurogenesis within the subgranular zone.",
+          "health": "Bilateral hippocampal damage (as in patient H.M. or severe hypoxic-ischemic encephalopathy) results in dense anterograde amnesia without wiping remote consolidated memories."
+        },
+        "ID": {
+          "overview": "Formasio hipokampal terdiri dari Girus Dentatus, subbidang Cornu Ammonis (CA1-CA4), dan Subikulum yang membentuk sirkuit trisinaptik klasik (jalur perforan -> serat lumut -> kolateral Schaffer).",
+          "position": "Terletak di dasar kornu inferior ventrikel lateral, di sebelah medial girus parahipokampal.",
+          "mechanism": "Menjalankan penyandian memori deklaratif dan navigasi spasial via sel tempat (place cells), mengandalkan Long-Term Potentiation (LTP) reseptor NMDA dan neurogenesis dewasa.",
+          "health": "Kerusakan hipokampus bilateral (seperti pada ensefalopati hipoksik berat) memicu amnesia anterograd berat di mana pasien tidak dapat membentuk memori baru."
+        }
+      },
+      "relatedStructures": ["cerebrum", "thalamus", "hypothalamus"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What type of memory is primarily dependent on the hippocampus for encoding and consolidation?",
+            "options": ["Declarative (Episodic and Semantic) Memory", "Procedural Motor Memory", "Cardiac Reflex Memory", "Sensory Refraction"],
+            "answerIndex": 0,
+            "explanation": "The hippocampus is essential for consolidating conscious declarative facts and personal autobiographical episodes."
+          },
+          {
+            "question": "What classic synaptic pathway links the Dentate Gyrus to the CA3 pyramidal neurons of the hippocampus?",
+            "options": ["Mossy fibers", "Schaffer collaterals", "Corpus callosum", "Anterior commissure"],
+            "answerIndex": 0,
+            "explanation": "Mossy fibers project from granule cells in the dentate gyrus to CA3 pyramidal cells."
+          },
+          {
+            "question": "What clinical syndrome results from bilateral destruction of the hippocampi?",
+            "options": ["Anterograde Amnesia (inability to form new long-term memories)", "Complete blindness", "Total motor paralysis", "Renal failure"],
+            "answerIndex": 0,
+            "explanation": "Bilateral hippocampal damage preserves old memories but prevents the formation of new declarative memories."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Jenis memori manakah yang paling bergantung pada hipokampus untuk proses penyandian dan konsolidasi?",
+            "options": ["Memori Deklaratif (Episodik & Semantik)", "Memori Keterampilan Motorik Prosedural", "Memori Refleks Jantung", "Refraksi Sensorik"],
+            "answerIndex": 0,
+            "explanation": "Hipokampus sangat penting untuk mengubah fakta dan peristiwa baru menjadi memori jangka panjang."
+          },
+          {
+            "question": "Jalur sinaptik apa yang menghubungkan Girus Dentatus dengan neuron piramidal CA3 pada hipokampus?",
+            "options": ["Serat lumut (Mossy fibers)", "Kolateral Schaffer", "Korpus kalosum", "Komisura anterior"],
+            "answerIndex": 0,
+            "explanation": "Serat lumut adalah akson dari sel granular girus dentatus yang bersinapsis pada sel piramidal CA3."
+          },
+          {
+            "question": "Sindrom klinis apakah yang terjadi akibat kerusakan bilateral kedua hipokampus?",
+            "options": ["Amnesia Anterograd (ketidakmampuan membentuk memori baru)", "Kebutaan total", "Kelumpuhan motorik total", "Gagal ginjal"],
+            "answerIndex": 0,
+            "explanation": "Kerusakan hipokampus bilateral mengunci pembentukan memori baru, sementara memori lama yang terkonsolidasi di korteks tetap utuh."
+          }
+        ]
+      }
+    }
+  }
+}

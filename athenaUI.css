@@ -1,0 +1,285 @@
+/* ==========================================================================
+   ATHENA FLOATING WIDGET - COMPACT FAB & UNIFIED CHAT INPUT
+   ========================================================================== */
+
+.athena-widget-root {
+  position: fixed !important;
+  bottom: 24px !important;
+  right: 24px !important;
+  top: auto !important;
+  left: auto !important;
+  z-index: 999990 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  gap: 12px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  pointer-events: none !important;
+}
+
+.athena-widget-root * {
+  box-sizing: border-box !important;
+  pointer-events: auto !important;
+}
+
+/* 1. Compact Circular Floating Action Button */
+.athena-fab {
+  width: 58px !important;
+  height: 58px !important;
+  border-radius: 50% !important;
+  background: #0b1329 !important;
+  border: 2px solid rgba(0, 242, 254, 0.6) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7), 0 0 16px rgba(0, 242, 254, 0.35) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: pointer !important;
+  position: relative !important;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease !important;
+  order: 2 !important;
+}
+
+.athena-fab:hover {
+  transform: scale(1.08) !important;
+  border-color: #00f2fe !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8), 0 0 24px rgba(0, 242, 254, 0.6) !important;
+}
+
+.athena-fab-video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  pointer-events: none !important;
+}
+
+/* Subtle Sci-Fi Pulse Ring */
+.athena-fab-pulse {
+  position: absolute !important;
+  inset: -4px !important;
+  border-radius: 50% !important;
+  border: 2px solid rgba(0, 242, 254, 0.4) !important;
+  animation: athenaRingPulse 2.8s infinite ease-out !important;
+  pointer-events: none !important;
+}
+
+@keyframes athenaRingPulse {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 0; }
+  100% { transform: scale(1.15); opacity: 0; }
+}
+
+/* 2. Athena Chat Panel */
+.athena-chat-panel {
+  order: 1 !important;
+  width: 375px !important;
+  max-width: calc(100vw - 40px) !important;
+  height: 500px !important;
+  max-height: calc(100vh - 120px) !important; /* Never overlaps navbar/XP */
+  background: rgba(10, 15, 29, 0.96) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border: 1px solid rgba(0, 242, 254, 0.25) !important;
+  border-radius: 18px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75), 0 0 20px rgba(0, 242, 254, 0.15) !important;
+  overflow: hidden !important;
+  transform-origin: bottom right !important;
+  transition: opacity 0.25s ease, transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), visibility 0.25s !important;
+}
+
+.athena-chat-panel.hidden {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transform: scale(0.92) translateY(16px) !important;
+  pointer-events: none !important;
+}
+
+/* Chat Header */
+.athena-chat-header {
+  padding: 12px 18px !important;
+  background: rgba(15, 23, 42, 0.7) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.athena-header-left {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.athena-status-indicator {
+  width: 8px !important;
+  height: 8px !important;
+  background: #00f2fe !important;
+  border-radius: 50% !important;
+  box-shadow: 0 0 8px #00f2fe !important;
+}
+
+.athena-header-left h4 {
+  margin: 0 !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+}
+
+.athena-tag {
+  font-size: 10px !important;
+  color: #00f2fe !important;
+  background: rgba(0, 242, 254, 0.12) !important;
+  border: 1px solid rgba(0, 242, 254, 0.25) !important;
+  padding: 2px 6px !important;
+  border-radius: 8px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+}
+
+.athena-icon-btn {
+  background: transparent !important;
+  border: none !important;
+  color: #94a3b8 !important;
+  font-size: 20px !important;
+  line-height: 1 !important;
+  cursor: pointer !important;
+  padding: 4px 8px !important;
+  border-radius: 6px !important;
+  transition: color 0.2s, background 0.2s !important;
+}
+
+.athena-icon-btn:hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Messages Body */
+.athena-chat-messages {
+  flex: 1 !important;
+  padding: 16px !important;
+  overflow-y: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+
+.chat-bubble {
+  max-width: 85% !important;
+  padding: 10px 14px !important;
+  border-radius: 12px !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  word-break: break-word !important;
+}
+
+.athena-bubble {
+  align-self: flex-start !important;
+  background: rgba(30, 41, 59, 0.8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #f1f5f9 !important;
+  border-bottom-left-radius: 3px !important;
+}
+
+.user-bubble {
+  align-self: flex-end !important;
+  background: linear-gradient(135deg, #0072ff, #00c6ff) !important;
+  color: #ffffff !important;
+  border-bottom-right-radius: 3px !important;
+}
+
+/* Chat Input Bar with Integrated Mic & Send Buttons */
+.athena-chat-form {
+  padding: 10px 12px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  background: rgba(15, 23, 42, 0.6) !important;
+}
+
+.athena-chat-form input {
+  flex: 1 !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 10px !important;
+  padding: 9px 12px !important;
+  color: #ffffff !important;
+  font-size: 13px !important;
+  outline: none !important;
+  transition: border-color 0.2s ease !important;
+}
+
+.athena-chat-form input:focus {
+  border-color: #00f2fe !important;
+}
+
+.athena-action-btn {
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 10px !important;
+  border: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease !important;
+  padding: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+/* Send Action */
+.athena-send-btn {
+  background: linear-gradient(135deg, #00f2fe, #4facfe) !important;
+  color: #0b1329 !important;
+}
+
+.athena-send-btn:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 12px rgba(0, 242, 254, 0.4) !important;
+}
+
+/* Voice Mic Action */
+.athena-mic-btn {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #00f2fe !important;
+  border: 1px solid rgba(0, 242, 254, 0.25) !important;
+}
+
+.athena-mic-btn:hover {
+  background: rgba(0, 242, 254, 0.18) !important;
+  transform: scale(1.05) !important;
+}
+
+/* Active Voice States */
+.athena-mic-btn.listening {
+  background: #ef4444 !important;
+  color: #ffffff !important;
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 14px rgba(239, 68, 68, 0.6) !important;
+  animation: micPulse 1.2s infinite ease-in-out !important;
+}
+
+.athena-mic-btn.thinking {
+  background: #a855f7 !important;
+  color: #ffffff !important;
+  border-color: #a855f7 !important;
+  animation: micPulse 1s infinite ease-in-out !important;
+}
+
+.athena-mic-btn.speaking {
+  background: #00f2fe !important;
+  color: #0b1329 !important;
+  box-shadow: 0 0 14px rgba(0, 242, 254, 0.7) !important;
+  animation: micPulse 1.4s infinite ease-in-out !important;
+}
+
+@keyframes micPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}

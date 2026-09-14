@@ -1,0 +1,293 @@
+{
+  "id": "skin_layers",
+  "name": {
+    "EN": "Integumentary System (Skin)",
+    "ID": "Sistem Integumen (Kulit)"
+  },
+  "systemId": "skin",
+  "overview": {
+    "simple": {
+      "EN": "Your skin is your body's waterproof, self-healing outer overcoat. It shields you from germs, harmful sun rays, and dehydration while regulating your temperature.",
+      "ID": "Kulit adalah mantel pelindung terluar tubuh yang tahan air dan mampu memulihkan diri. Kulit melindungi dari kuman, sinar UV berbahaya, dan dehidrasi sekaligus mengatur suhu tubuh."
+    },
+    "academic": {
+      "EN": "The integumentary system comprises the cutaneous membrane (keratinized stratified squamous epidermis and fibroelastic vascular dermis) and subcutaneous hypodermis, executing physical/immunological barrier defense, thermoregulation, sensory reception (Merkel, Meissner, Pacinian), and vitamin D synthesis.",
+      "ID": "Sistem integumen terdiri atas membran kutaneus (epidermis skuamosa berlapis berkeratin dan dermis fibroelastis vaskular) serta hipodermis subkutan, menjalankan fungsi sawar pertahanan imunologis, termoregulasi, persepsi sensorik, dan sintesis vitamin D."
+    }
+  },
+  "structures": {
+    "epidermis": {
+      "id": "epidermis",
+      "name": {
+        "EN": "Stratum Corneum & Epidermis",
+        "ID": "Stratum Korneum & Epidermis"
+      },
+      "illustration": "🧴🛡️",
+      "systemId": "skin",
+      "organId": "skin_layers",
+      "simple": {
+        "EN": {
+          "overview": "The epidermis is your tough, multi-layered protective outer surface. It constantly creates new skin cells at the bottom that rise to the top, replacing old cells that shed away.",
+          "position": "The outermost visible layer covering the entire surface of your body.",
+          "mechanism": "Packed with keratin proteins to make a waterproof seal, and melanin pigment granules that absorb harmful ultraviolet rays from sunlight.",
+          "health": "Applying broad-spectrum sunscreen and staying moisturized protects epidermal cells from UV DNA damage and premature aging."
+        },
+        "ID": {
+          "overview": "Epidermis adalah permukaan pelindung luar tubuh yang kuat dan berlapis-lapis. Lapisan ini terus membuat sel kulit baru di dasar yang naik ke permukaan menggantikan sel-sel lama yang terkelupas.",
+          "position": "Lapisan paling luar yang tampak menutupi seluruh permukaan tubuh Anda.",
+          "mechanism": "Dipenuhi protein keratin yang menciptakan lapisan kedap air, serta butiran pigmen melanin yang menyerap radiasi ultraviolet sinar matahari.",
+          "health": "Menggunakan tabir surya dan menjaga kelembapan kulit melindungi sel-sel epidermis dari kerusakan DNA akibat sinar UV dan penuaan dini."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The epidermis is an avascular keratinized stratified squamous epithelium composed of five discrete strata in thick skin (Basale, Spinosum, Granulosum, Lucidum, Corneum), renewing every 28-30 days.",
+          "position": "Superficial to the dermis, anchored via hemidesmosomes to the epidermal basement membrane at the dermal-epidermal junction.",
+          "mechanism": "Composed primarily of keratinocytes (~90%), melanocytes (eumelanin/pheomelanin photoprotection), Langerhans cells (antigen presentation), and Merkel cells (mechanoreception).",
+          "health": "Chronic solar UV irradiation causes DNA pyrimidine dimer mutations in basal keratinocytes or melanocytes, predisposing to basal cell carcinoma, squamous cell carcinoma, or melanoma."
+        },
+        "ID": {
+          "overview": "Epidermis adalah epitel skuamosa berlapis berkeratin avaskular yang terdiri dari lima stratum pada kulit tebal (Basale, Spinosum, Granulosum, Lusidum, Korneum) yang diperbarui setiap 28-30 hari.",
+          "position": "Di atas lapisan dermis, tertambat melalui hemidesmosom pada membran basal dermo-epidermal junction.",
+          "mechanism": "Terutama terdiri dari keratinosit (~90%), melanosit (fotoproteksi pigmen melanin), sel Langerhans (penyaji antigen imun), dan sel Merkel (mekanoreseptor raba).",
+          "health": "Radiasi UV matahari memicu mutasi dimer pirimidin DNA pada keratinosit basal atau melanosit, meningkatkan risiko karsinoma sel basal atau melanoma."
+        }
+      },
+      "relatedStructures": ["dermis", "hypodermis"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which epidermal stratum contains actively dividing stem cells that continuously regenerate the epidermis?",
+            "options": ["Stratum basale (germinativum)", "Stratum corneum", "Stratum lucidum", "Stratum granulosum"],
+            "answerIndex": 0,
+            "explanation": "The single-layered stratum basale contains mitotically active basal keratinocyte stem cells attached to the basement membrane."
+          },
+          {
+            "question": "What pigment produced by melanocytes protects epidermal nuclear DNA from ultraviolet (UV) radiation?",
+            "options": ["Melanin", "Hemoglobin", "Carotene", "Bilirubin"],
+            "answerIndex": 0,
+            "explanation": "Melanocytes transfer melanin granules into surrounding keratinocytes, forming supranuclear caps that shield DNA from UV photons."
+          },
+          {
+            "question": "Why is the epidermis completely avascular (lacking blood vessels)?",
+            "options": [
+              "It receives all oxygen and nutrients via diffusion from underlying dermal capillaries",
+              "It requires no nutrients to survive",
+              "It is made entirely of bone cells",
+              "Blood vessels only exist in the brain"
+            ],
+            "answerIndex": 0,
+            "explanation": "The epidermis contains no blood vessels; its cells depend on interstitial fluid diffusion from papillary dermal capillaries."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Lapisan epidermis manakah yang memuat sel punca yang aktif membelah untuk meregenerasi sel kulit baru?",
+            "options": ["Stratum basale (germinativum)", "Stratum korneum", "Stratum lusidum", "Stratum granulosum"],
+            "answerIndex": 0,
+            "explanation": "Stratum basale adalah lapisan paling dasar yang terus membelah secara mitosis menghasilkan keratinosit baru."
+          },
+          {
+            "question": "Pigmen apa yang disintesis oleh melanosit untuk melindungi DNA inti sel dari radiasi ultraviolet (UV)?",
+            "options": ["Melanin", "Hemoglobin", "Karoten", "Bilirubin"],
+            "answerIndex": 0,
+            "explanation": "Melanin disalurkan ke keratinosit untuk membentuk payung pelindung di atas inti sel dari kerusakan sinar UV."
+          },
+          {
+            "question": "Mengapa lapisan epidermis tidak memiliki pembuluh darah (avaskular)?",
+            "options": [
+              "Memperoleh seluruh nutrisi dan oksigen melalui difusi dari pembuluh kapiler di lapisan dermis bawahnya",
+              "Tidak memerlukan nutrisi untuk bertahan hidup",
+              "Tersusun atas sel-sel tulang keras",
+              "Pembuluh darah hanya ada di organ dalam"
+            ],
+            "answerIndex": 0,
+            "explanation": "Epidermis tidak memiliki pembuluh darah; sel-selnya bergantung pada difusi cairan dari kapiler papila dermis."
+          }
+        ]
+      }
+    },
+    "dermis": {
+      "id": "dermis",
+      "name": {
+        "EN": "Dermal Layer & Collagen",
+        "ID": "Lapisan Dermis & Kolagen"
+      },
+      "illustration": "🧶🧬",
+      "systemId": "skin",
+      "organId": "skin_layers",
+      "simple": {
+        "EN": {
+          "overview": "The dermis is the living, elastic structural core of your skin. It contains blood vessels, hair follicles, sweat glands, and sensory touch receptors.",
+          "position": "Situated directly beneath the epidermis and above the subcutaneous fatty layer.",
+          "mechanism": "A dense mesh of collagen and elastin fibers provides strength and elasticity, while capillaries dilate to release heat (flushing) or constrict to conserve warmth.",
+          "health": "UV light and natural aging degrade dermal collagen, causing wrinkling; proper hydration and sun protection preserve dermal resilience."
+        },
+        "ID": {
+          "overview": "Dermis adalah inti struktural kulit yang hidup dan elastis. Lapisan ini memuat pembuluh darah, folikel rambut, kelenjar keringat, dan reseptor peraba.",
+          "position": "Terletak persis di bawah lapisan epidermis dan di atas lapisan lemak subkutan.",
+          "mechanism": "Anyaman serat kolagen dan elastin memberikan kekuatan dan kelenturan, sementara kapiler darah melebar untuk membuang panas atau menyempit untuk menjaga kehangatan.",
+          "health": "Radiasi UV dan penuaan memecah kolagen dermis memicu kerutan; asupan cairan yang baik dan tabir surya mempertahankan elastisitas dermis."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The dermis is a tough, vascular connective tissue layer subdivided into a superficial papillary dermis (areolar connective tissue with dermal papillae and Meissner's corpuscles) and a deeper reticular dermis (dense irregular connective tissue with type I collagen and cleavage lines of Langer).",
+          "position": "Interlocks with epidermal rete ridges at the dermal-epidermal junction, bounded deep by the subcutaneous tissue.",
+          "mechanism": "Houses cutaneous appendages (eccrine/apocrine sweat glands, sebaceous glands, hair follicles, arrector pili muscles), extensive vascular plexuses (subpapillary and deep dermal), and sensory nerve endings (Ruffini endings, Krause end bulbs, free nerve endings).",
+          "health": "Second-degree (partial-thickness) burns destroy the epidermis and extend into the dermis, causing painful blistering; hypertrophic scars and keloids result from abnormal fibroblastic collagen overproduction during dermal wound healing."
+        },
+        "ID": {
+          "overview": "Dermis adalah lapisan jaringan ikat vaskular yang terbagi atas dermis papilaris superfisial (jaringan ikat longgar dengan papila dermis dan korpuskel Meissner) dan dermis retikularis profunda (jaringan ikat padat tak beraturan dengan kolagen tipe I dan garis Langer).",
+          "position": "Bertaut dengan rete ridges epidermis pada taut dermo-epidermal, berbatasan di bagian dalam dengan jaringan subkutan.",
+          "mechanism": "Memuat apendiks kulit (kelenjar keringat ekrin/apokrin, kelenjar sebasea, folikel rambut), pleksus vaskular kaya, dan ujung saraf sensorik (reseptor Meissner, Pacini, Ruffini).",
+          "health": "Luka bakar derajat dua (partial-thickness) merusak epidermis hingga lapisan dermis menimbulkan bula/lepuh berisi cairan yang nyeri."
+        }
+      },
+      "relatedStructures": ["epidermis", "hypodermis"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What primary fibrous structural protein comprises approximately 70-80% of the dry weight of the reticular dermis?",
+            "options": ["Type I Collagen", "Keratin", "Myosin", "Actin"],
+            "answerIndex": 0,
+            "explanation": "Type I and III collagen bundles in the dense irregular connective tissue of the reticular dermis provide tensile strength."
+          },
+          {
+            "question": "Which sensory receptors located within the dermal papillae detect light touch and low-frequency vibrations?",
+            "options": ["Meissner's corpuscles (Tactile corpuscles)", "Pacinian corpuscles", "Golgi tendon organs", "Muscle spindles"],
+            "answerIndex": 0,
+            "explanation": "Meissner's corpuscles in the papillary dermis detect delicate dynamic touch and flutter."
+          },
+          {
+            "question": "What happens to dermal blood vessels in response to elevated core body temperature?",
+            "options": [
+              "Vasodilation to increase cutaneous blood flow and radiate heat outward",
+              "Vasoconstriction to trap all heat inside",
+              "Complete occlusion of all capillaries",
+              "They produce melanin pigment"
+            ],
+            "answerIndex": 0,
+            "explanation": "Dermal arteriovenous anastomoses and capillary beds dilate under sympathetic cholinergic control to release excess metabolic heat."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Protein struktural serat utama apakah yang menyusun sekitar 70-80% berat kering dari lapisan dermis retikularis?",
+            "options": ["Kolagen Tipe I", "Keratin", "Miosin", "Aktin"],
+            "answerIndex": 0,
+            "explanation": "Berkas serat kolagen tipe I memberikan kekuatan tarikan yang kokoh pada lapisan dermis kulit."
+          },
+          {
+            "question": "Reseptor sensorik apakah di dalam papila dermis yang bertugas mendeteksi rangsangan rabaan halus dan getaran frekuensi rendah?",
+            "options": ["Korpuskel Meissner", "Korpuskel Pacini", "Organ Tendon Golgi", "Gelendong Otot"],
+            "answerIndex": 0,
+            "explanation": "Korpuskel Meissner yang terletak di puncak papila dermis merespons sentuhan ringan dan rabaan halus."
+          },
+          {
+            "question": "Apa yang terjadi pada pembuluh darah di lapisan dermis saat suhu inti tubuh meningkat panas?",
+            "options": [
+              "Vasodilatasi (melebar) untuk meningkatkan aliran darah ke permukaan dan membuang panas",
+              "Vasokonstriksi (menyempit) untuk menahan seluruh panas di dalam",
+              "Penyumbatan total pada seluruh kapiler",
+              "Memproduksi pigmen melanin"
+            ],
+            "answerIndex": 0,
+            "explanation": "Pembuluh darah kapiler dermis melebar (vasodilatasi) agar panas tubuh dapat diradiasikan keluar melalui kulit."
+          }
+        ]
+      }
+    },
+    "hypodermis": {
+      "id": "hypodermis",
+      "name": {
+        "EN": "Subcutaneous Hypodermis & Adipose Tissue",
+        "ID": "Hipodermis & Jaringan Adiposa Subkutan"
+      },
+      "illustration": "🧈🛡️",
+      "systemId": "skin",
+      "organId": "skin_layers",
+      "simple": {
+        "EN": {
+          "overview": "The hypodermis (subcutaneous layer) is the soft, fatty shock-absorbing cushion beneath your skin. It insulates against cold, stores long-term energy, and anchors your skin to muscles.",
+          "position": "Deepest layer of the integumentary structure, located directly beneath the dermis.",
+          "mechanism": "Packed with specialized fat cells (adipocytes) that provide thermal insulation like a winter blanket and act as an emergency calorie reserve.",
+          "health": "Common site for subcutaneous injections (like insulin) because its rich adipose tissue allows slow, steady medication absorption."
+        },
+        "ID": {
+          "overview": "Hipodermis (lapisan subkutan) adalah bantalan lemak peredam benturan di bawah kulit Anda. Lapisan ini menahan suhu dingin (isolasi termal), menyimpan energi cadangan, dan merekatkan kulit ke otot.",
+          "position": "Lapisan paling dalam dari struktur penutup tubuh, terletak persis di bawah lapisan dermis.",
+          "mechanism": "Dipenuhi sel-sel lemak (adiposit) yang bertindak seperti selimut termal penahan dingin serta cadangan kalori darurat tubuh.",
+          "health": "Merupakan lokasi umum untuk suntikan subkutan (seperti insulin) karena jaringan lemak memungkinkan penyerapan obat secara perlahan dan stabil."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The hypodermis (subcutis / superficial fascia) is a fibrofatty layer composed of unilocular white adipose tissue lobules separated by fibrous connective tissue septa (retinacula cutis) tethering the dermis to underlying deep investing fascia.",
+          "position": "Underlies the reticular dermis throughout the body except in the eyelids, clitoris, and penis.",
+          "mechanism": "Serves as major lipid reservoir (triglyceride storage and endocrine secretion of leptin, adiponectin), mechanical shock absorber, and thermal insulator. Transmits major cutaneous nerves, superficial veins, and lymphatic trunks; houses deep lamellar Pacinian (Vater-Pacini) corpuscles.",
+          "health": "Cellulitis is a bacterial infection (commonly Streptococcus pyogenes or Staphylococcus aureus) of the deep dermis and subcutaneous adipose tissue requiring systemic antibiotic therapy."
+        },
+        "ID": {
+          "overview": "Hipodermis (subkutis / fasia superfisialis) adalah lapisan fibro-adiposa yang tersusun dari lobulus jaringan adiposa putih unilokular yang dipisahkan oleh septa jaringan ikat fibrosa (retinakula kutis).",
+          "position": "Terletak di bawah dermis retikularis di seluruh tubuh (kecuali kelopak mata dan penis).",
+          "mechanism": "Berfungsi sebagai reservoir lipid (penyimpan trigliserida dan sekresi hormon leptin/adiponektin), peredam benturan mekanis, dan penyekat termal. Memuat korpuskel Pacini untuk vibrasi dalam.",
+          "health": "Selulitis adalah infeksi bakteri akut pada dermis dalam dan jaringan lemak subkutan hipodermis yang memerlukan terapi antibiotik sistemik."
+        }
+      },
+      "relatedStructures": ["dermis", "epidermis"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What is the primary cell type populating the subcutaneous hypodermis layer?",
+            "options": ["Adipocytes (Fat cells)", "Keratinocytes", "Melanocytes", "Chondrocytes"],
+            "answerIndex": 0,
+            "explanation": "Adipocytes filled with large single lipid droplets constitute the vast majority of the hypodermal tissue."
+          },
+          {
+            "question": "Which large encapsulated mechanoreceptors located deep in the hypodermis and lower dermis detect high-frequency vibration and transient pressure changes?",
+            "options": ["Pacinian corpuscles (Lamellar corpuscles)", "Merkel discs", "Ruffini endings", "Meissner corpuscles"],
+            "answerIndex": 0,
+            "explanation": "Pacinian corpuscles consist of concentric lamellae detecting deep vibration and rapid mechanical deformation."
+          },
+          {
+            "question": "Why is the subcutaneous hypodermis frequently selected as the target site for insulin injections?",
+            "options": [
+              "Its vascularized adipose matrix allows slow, consistent, and predictable absorption without intramuscular spikes",
+              "It contains no nerves at all",
+              "It breaks down insulin immediately",
+              "It is the only place skin can be punctured"
+            ],
+            "answerIndex": 0,
+            "explanation": "Subcutaneous adipose allows steady, predictable systemic absorption of basal and bolus insulin."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Jenis sel dominan apakah yang menyusun sebagian besar jaringan lapisan hipodermis subkutan?",
+            "options": ["Adiposit (Sel Lemak)", "Keratinosit", "Melanosit", "Kondrosit"],
+            "answerIndex": 0,
+            "explanation": "Adiposit yang menyimpan vakuola trigliserida besar merupakan sel utama penyusun jaringan lemak subkutan."
+          },
+          {
+            "question": "Reseptor mekanik berselubung besar apakah di kedalaman hipodermis yang mendeteksi getaran frekuensi tinggi dan tekanan dalam?",
+            "options": ["Korpuskel Pacini (Lamellar Corpuscle)", "Diskus Merkel", "Ujung Ruffini", "Korpuskel Meissner"],
+            "answerIndex": 0,
+            "explanation": "Korpuskel Pacini berbentuk menyerupai irisan bawang yang peka terhadap getaran dalam dan perubahan tekanan mekanis cepat."
+          },
+          {
+            "question": "Mengapa lapisan hipodermis subkutan sering dipilih sebagai lokasi penyuntikan hormon insulin?",
+            "options": [
+              "Jaringan lemak subkutan memungkinkan penyerapan obat secara perlahan, stabil, dan terprediksi",
+              "Tidak memiliki serabut saraf sama sekali",
+              "Langsung menghancurkan insulin seketika",
+              "Merupakan satu-satunya area tubuh yang bisa ditembus jarum"
+            ],
+            "answerIndex": 0,
+            "explanation": "Penyuntikan subkutan pada jaringan lemak hipodermis memberikan laju penyerapan insulin yang stabil tanpa lonjakan drastis."
+          }
+        ]
+      }
+    }
+  }
+}

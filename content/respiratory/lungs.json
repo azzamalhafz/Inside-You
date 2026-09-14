@@ -1,0 +1,202 @@
+{
+  "id": "lungs",
+  "name": {
+    "EN": "Lungs & Respiratory System",
+    "ID": "Paru-Paru & Sistem Pernapasan"
+  },
+  "systemId": "resp",
+  "overview": {
+    "simple": {
+      "EN": "The respiratory system takes in life-essential oxygen from the air and expels metabolic waste carbon dioxide with every breath you take.",
+      "ID": "Sistem pernapasan menghirup oksigen penting dari udara dan membuang limbah karbon dioksida metabolik setiap kali Anda bernapas."
+    },
+    "academic": {
+      "EN": "The respiratory system encompasses the conducting zone (nasal cavity, pharynx, larynx, trachea, bronchi, bronchioles) and the respiratory zone (respiratory bronchioles, alveolar ducts, alveolar sacs), executing external gas exchange across the ultra-thin alveolar-capillary blood-air barrier driven by Boyle's Law pressure gradients.",
+      "ID": "Sistem pernapasan mencakup zona konduksi (rongga hidung, faring, laring, trakea, bronkus, bronkiolus) dan zona respirasi (alveolus), menjalankan pertukaran gas eksternal melintasi sawar darah-udara berdasarkan gradien tekanan Hukum Boyle."
+    }
+  },
+  "structures": {
+    "left_lung": {
+      "id": "left_lung",
+      "name": {
+        "EN": "Left Lung (2 Lobes)",
+        "ID": "Paru-Paru Kiri (2 Lobus)"
+      },
+      "illustration": "🫁🌬️",
+      "systemId": "resp",
+      "organId": "lungs",
+      "simple": {
+        "EN": {
+          "overview": "The left lung is slightly smaller than the right lung because it shares space in your chest with your heart. It has two main lobes (superior and inferior).",
+          "position": "Occupies the left pleural cavity in your thoracic chest, featuring a specialized curved notch for the heart (cardiac notch).",
+          "mechanism": "Inflates as your diaphragm drops, pulling in fresh air through branching airways into millions of tiny elastic air sacs (alveoli).",
+          "health": "Avoiding smoking, indoor pollutants, and airborne irritants preserves alveolar elasticity and lung capacity."
+        },
+        "ID": {
+          "overview": "Paru-paru kiri sedikit lebih kecil daripada paru-paru kanan karena berbagi ruang di dada bersama jantung. Paru kiri memiliki dua lobus utama (atas dan bawah).",
+          "position": "Mengisi rongga pleura kiri di rongga dada toraks, memiliki lekukan khusus untuk jantung (cardiac notch).",
+          "mechanism": "Mengembang saat diafragma bergerak ke bawah, menarik udara segar melalui saluran bronkus ke jutaan kantung udara elastis (alveolus).",
+          "health": "Menghindari asap rokok dan polusi udara menjaga kelenturan alveolus dan kapasitas vital paru-paru."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The left lung has two lobes (Superior and Inferior) divided by an oblique fissure, possessing a cardiac notch and lingula to accommodate the cardiac apex within the mediastinum.",
+          "position": "Enclosed within the parietal and visceral pleurae in the left hemithorax, separated from the right lung by the mediastinum.",
+          "mechanism": "Receives deoxygenated blood from the left pulmonary artery; pulmonary capillaries across alveolar walls perform passive diffusion of O2 and CO2 along partial pressure gradients (Fick's law).",
+          "health": "Pneumonia causes alveolar exudative consolidation, severely impairing ventilation-perfusion (V/Q) matching and precipitating hypoxemia."
+        },
+        "ID": {
+          "overview": "Paru-paru kiri memiliki dua lobus (Superior dan Inferior) yang dipisahkan oleh fisura oblik, memiliki insisura kardiaka dan lingula untuk mengakomodasi apeks jantung di mediastinum.",
+          "position": "Dibungkus oleh lapisan pleura viseral dan parietal di hemitoraks kiri, dipisahkan dari paru kanan oleh mediastinum.",
+          "mechanism": "Menerima darah miskin oksigen dari arteri pulmonalis kiri; kapiler alveolus menjalankan difusi pasif O2 dan CO2 mengikuti hukum Fick.",
+          "health": "Pneumonia menyebabkan konsolidasi eksudat di rongga alveolus, mengganggu kesesuaian ventilasi-perfusi (V/Q) dan memicu hipoksemia."
+        }
+      },
+      "relatedStructures": ["right_lung", "trachea", "left_ventricle"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Why does the left lung possess only two lobes compared to the three lobes of the right lung?",
+            "options": [
+              "To accommodate the asymmetrical placement and apex of the heart (cardiac notch)",
+              "Because it does not receive blood supply",
+              "It only functions during sleep",
+              "It contains no alveoli"
+            ],
+            "answerIndex": 0,
+            "explanation": "The anatomical space occupied by the heart within the left chest cavity limits the left lung to two lobes with a cardiac notch."
+          },
+          {
+            "question": "What specialized fissure separates the superior and inferior lobes of the left lung?",
+            "options": ["Oblique fissure", "Horizontal fissure", "Longitudinal fissure", "Coronal fissure"],
+            "answerIndex": 0,
+            "explanation": "The oblique fissure extends diagonally across the left lung separating the superior and inferior lobes."
+          },
+          {
+            "question": "What is the primary gas exchange unit at the terminal ends of the respiratory bronchioles?",
+            "options": ["Alveoli", "Trachea", "Larynx", "Pleural fluid"],
+            "answerIndex": 0,
+            "explanation": "Alveolar sacs and individual alveoli provide over 70 square meters of surface area for O2 and CO2 diffusion."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Mengapa paru-paru kiri hanya memiliki dua lobus dibandingkan tiga lobus pada paru-paru kanan?",
+            "options": [
+              "Untuk memberi ruang bagi posisi dan apeks jantung (insisura kardiaka)",
+              "Karena tidak menerima suplai pembuluh darah",
+              "Hanya berfungsi saat tidur",
+              "Tidak memiliki alveolus"
+            ],
+            "answerIndex": 0,
+            "explanation": "Ruang yang ditempati jantung pada rongga dada kiri membuat paru-paru kiri memiliki dua lobus dan lekukan kardiak."
+          },
+          {
+            "question": "Fisura anatomis apa yang memisahkan lobus superior dan inferior pada paru-paru kiri?",
+            "options": ["Fisura Oblik", "Fisura Horizontal", "Fisura Longitudinal", "Fisura Koronal"],
+            "answerIndex": 0,
+            "explanation": "Fisura oblik memotong miring permukaan paru-paru kiri membagi lobus atas dan lobus bawah."
+          },
+          {
+            "question": "Apakah unit fungsional pertukaran gas utama di ujung percabangan saluran napas terminal?",
+            "options": ["Alveolus", "Trakea", "Laring", "Cairan pleura"],
+            "answerIndex": 0,
+            "explanation": "Kantung alveolus menyediakan luas permukaan lebih dari 70 meter persegi untuk difusi O2 dan CO2 ke dalam darah."
+          }
+        ]
+      }
+    },
+    "trachea": {
+      "id": "trachea",
+      "name": {
+        "EN": "Trachea",
+        "ID": "Trakea (Batang Tenggorok)"
+      },
+      "illustration": "🫁🌬️",
+      "systemId": "resp",
+      "organId": "lungs",
+      "simple": {
+        "EN": {
+          "overview": "The trachea (windpipe) is the sturdy breathing tube that channels air from your throat down into your lungs. It is reinforced by C-shaped cartilage rings so it never collapses.",
+          "position": "Extends down the middle of the neck and chest in front of the esophagus.",
+          "mechanism": "Lined with microscopic vibrating hairs (cilia) and mucus that trap dust and sweep dirt upward away from your lungs like a moving escalator.",
+          "health": "Choking occurs when food accidentally slips into the trachea instead of the esophagus; the Heimlich maneuver helps dislodge blockages."
+        },
+        "ID": {
+          "overview": "Trakea (batang tenggorok) adalah pipa pernapasan kokoh yang menyalurkan udara dari tenggorokan ke paru-paru. Trakea diperkuat cincin tulang rawan berbentuk huruf C agar tidak kempis.",
+          "position": "Membentang di garis tengah leher dan dada di depan saluran esofagus.",
+          "mechanism": "Dilapisi rambut getar mikroskopis (silia) dan lendir yang menangkap debu lalu menyapunya ke atas menjauhi paru-paru seperti eskalator pembersih.",
+          "health": "Tersedak terjadi saat makanan masuk ke trakea dan bukan ke esofagus; manuver Heimlich dapat membantu membebaskan sumbatan."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The trachea is a 10-12 cm fibrocartilaginous tube composed of 16-20 hyaline cartilage C-rings bridged posteriorly by the trachealis smooth muscle.",
+          "position": "Originates at the inferior border of the cricoid cartilage (C6) and bifurcates at the carina (T4-T5) into right and left primary bronchi.",
+          "mechanism": "Pseudostratified ciliated columnar epithelium with goblet cells drives the mucociliary escalator, propelling trapped particulates cephalad toward the pharynx.",
+          "health": "Tracheomalacia involves structural weakness of the cartilaginous rings, causing dynamic tracheal collapse during expiration and stridor."
+        },
+        "ID": {
+          "overview": "Trakea adalah tabung fibrokartilago sepanjang 10-12 cm yang tersusun atas 16-20 cincin tulang rawan hialin berbentuk C dengan otot trakealis di posterior.",
+          "position": "Berasal dari batas bawah kartilago krikoid (C6) dan bercabang di karina (T4-T5) menjadi bronkus utama kanan dan kiri.",
+          "mechanism": "Epitel kolumnar bertingkat bersilia dengan sel goblet menjalankan eskalator mukosiliar, menggerakkan lendir dan debu ke arah faring.",
+          "health": "Trakeomalasia adalah kelemahan struktural tulang rawan trakea yang menyebabkan kolaps saluran napas saat ekspirasi."
+        }
+      },
+      "relatedStructures": ["left_lung", "right_lung"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What is the physiological purpose of the C-shaped hyaline cartilage rings in the trachea?",
+            "options": [
+              "To keep the airway permanently patent (open) while allowing the posterior esophagus to expand during swallowing",
+              "To generate speech vocal tones",
+              "To produce oxygen directly",
+              "To filter urine waste"
+            ],
+            "answerIndex": 0,
+            "explanation": "The rigid C-rings prevent airway collapse during negative thoracic pressure while the flexible posterior side allows food bolus transit through the esophagus."
+          },
+          {
+            "question": "What anatomical bifurcation point marks the division of the trachea into the primary bronchi?",
+            "options": ["Carina", "Epiglottis", "Glottis", "Limbus"],
+            "answerIndex": 0,
+            "explanation": "The carina is the internal cartilaginous ridge located at the tracheal bifurcation (T4-T5 level), rich in cough sensory receptors."
+          },
+          {
+            "question": "Which cellular mechanism cleanses the tracheal airway of inhaled particulate debris?",
+            "options": ["Mucociliary escalator (ciliated epithelium + goblet mucus)", "Phagocytosis in liver", "Active peristalsis", "Osmotic filtration"],
+            "answerIndex": 0,
+            "explanation": "Synchronized ciliary beating moves mucus-trapped particles upward to the pharynx where they are swallowed or expectorated."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Apakah fungsi fisiologis cincin tulang rawan hialin berbentuk C pada dinding trakea?",
+            "options": [
+              "Menjaga saluran napas tetap terbuka paten sekaligus memungkinkan esofagus di belakangnya mengembang saat menelan",
+              "Menghasilkan nada suara bicara",
+              "Menghasilkan oksigen langsung",
+              "Menyaring limbah urin"
+            ],
+            "answerIndex": 0,
+            "explanation": "Cincin kaku mencegah trakea kempis saat tekanan dada negatif, sementara dinding belakang yang fleksibel memberi ruang bagi makanan di esofagus."
+          },
+          {
+            "question": "Titik percabangan trakea menjadi bronkus utama kanan dan kiri disebut?",
+            "options": ["Karina", "Epiglotis", "Glotis", "Limbus"],
+            "answerIndex": 0,
+            "explanation": "Karina adalah taji tulang rawan pada percabangan trakea setinggi T4-T5 yang sangat sensitif memicu refleks batuk."
+          },
+          {
+            "question": "Mekanisme seluler apa yang membersihkan saluran trakea dari debu dan kotoran terhirup?",
+            "options": ["Eskalator mukosiliar (epitel bersilia & lendir sel goblet)", "Fagositosis hati", "Peristaltik aktif", "Filtrasi osmosis"],
+            "answerIndex": 0,
+            "explanation": "Gerakan silia terkoordinasi mendorong lendir yang menjerat debu ke atas menuju faring untuk dibatukkan atau ditelan."
+          }
+        ]
+      }
+    }
+  }
+}

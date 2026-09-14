@@ -1,0 +1,506 @@
+{
+  "id": "limbs_pelvis",
+  "name": {
+    "EN": "Skeletal System",
+    "ID": "Sistem Rangka"
+  },
+  "systemId": "skeletal",
+  "overview": {
+    "simple": {
+      "EN": "The skeleton is your body's strong internal scaffolding. It protects delicate organs, gives your body shape, and works together with muscles so you can walk, jump, and run.",
+      "ID": "Rangka adalah perancah penopang internal tubuh yang kokoh. Rangka melindungi organ vital, membentuk postur tubuh, dan bekerja sama dengan otot agar Anda dapat bergerak aktif."
+    },
+    "academic": {
+      "EN": "The adult human skeleton comprises 206 bones divided into the Axial skeleton (80 bones: cranium, vertebral column, thoracic cage) and Appendicular skeleton (126 bones: pectoral girdle, upper limbs, pelvic girdle, lower limbs), providing mechanical support, mineral homeostasis (calcium/phosphate reservoir), and hematopoiesis within red bone marrow.",
+      "ID": "Rangka manusia dewasa terdiri atas 206 tulang yang terbagi atas Rangka Aksial (80 tulang: tengkorak, kolumna vertebralis, sangkar toraks) dan Rangka Apendikular (126 tulang: gelang bahu, lengan, panggul, tungkai), menyediakan penopang mekanik, homeostasis mineral kalsium, dan hematopoiesis di sumsum tulang."
+    }
+  },
+  "structures": {
+    "femur": {
+      "id": "femur",
+      "name": {
+        "EN": "Femur",
+        "ID": "Tulang Paha (Femur)"
+      },
+      "illustration": "🦴🦵",
+      "systemId": "skeletal",
+      "organId": "limbs_pelvis",
+      "simple": {
+        "EN": {
+          "overview": "The femur is the thigh bone—the longest, heaviest, and strongest bone in your entire body, supporting your weight with every step you take.",
+          "position": "Extends from your hip joint at the top down to your knee joint at the bottom.",
+          "mechanism": "Its rounded head fits snugly into the hip socket for wide leg motion, while its thick dense shaft absorbs the massive force of running and jumping.",
+          "health": "High-impact exercise, calcium, and vitamin D strengthen femoral density, reducing the risk of fractures in older age."
+        },
+        "ID": {
+          "overview": "Femur adalah tulang paha—tulang terpanjang, terberat, dan terkuat di seluruh tubuh Anda, menopang berat badan pada setiap langkah yang Anda ambil.",
+          "position": "Membentang dari sendi panggul di bagian atas hingga sendi lutut di bagian bawah.",
+          "mechanism": "Kepala bulatnya terpasang pas pada mangkuk sendi panggul untuk rentang gerak kaki yang luas, sementara batangnya yang tebal menyerap gaya benturan saat berlari dan melompat.",
+          "health": "Olahraga teratur, asupan kalsium, dan vitamin D memperkuat kepadatan tulang femur serta mencegah patah tulang di usia lanjut."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The femur is the primary weight-bearing long bone of the lower extremity, featuring a proximal head, neck, greater and lesser trochanters, cylindrical shaft, and distal medial/lateral condyles.",
+          "position": "Articulates proximally with the acetabulum of the os coxae (hip bone) and distally with the tibia and patella at the tibiofemoral and patellofemoral joints.",
+          "mechanism": "Dense cortical bone resists high compressive and bending loads; femoral neck creates an angle of inclination (~125 degrees) facilitating bipedal stride mechanics.",
+          "health": "Femoral neck fractures in osteoporotic bone risk avascular necrosis (AVN) of the femoral head due to disruption of medial circumflex femoral retinacular vessels."
+        },
+        "ID": {
+          "overview": "Femur adalah tulang panjang penopang beban utama pada ekstremitas bawah, memiliki kaput proksimal, kolum, trokanter mayor dan minor, korpus silindris, serta kondilus medial/lateral distal.",
+          "position": "Bersendi di proksimal dengan asetabulum tulang panggul dan di distal dengan tibia serta patela pada sendi lutut.",
+          "mechanism": "Tulang kortikal padat menahan beban kompresi dan tekukan tinggi; leher femur membentuk sudut inklinasi (~125 derajat) untuk mekanisme langkah bipedal.",
+          "health": "Fraktur leher femur pada osteoporosis berisiko nekrosis avaskular (AVN) kepala femur akibat terputusnya pembuluh darah arteri sirkumfleksa femoris."
+        }
+      },
+      "relatedStructures": ["pelvis", "tibia", "fibula"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which anatomical socket does the rounded head of the femur articulate with to form the hip joint?",
+            "options": ["Acetabulum", "Glenoid cavity", "Olecranon fossa", "Foramen magnum"],
+            "answerIndex": 0,
+            "explanation": "The femoral head articulates with the cup-shaped acetabulum of the pelvis to form a multi-axial ball-and-socket synovial joint."
+          },
+          {
+            "question": "What is the typical normal angle of inclination between the femoral neck and femoral shaft in an adult?",
+            "options": ["Approximately 125 degrees", "90 degrees", "180 degrees", "45 degrees"],
+            "answerIndex": 0,
+            "explanation": "The adult angle of inclination is approximately 125° (coxa norma), optimizing leverage for hip abductor muscles."
+          },
+          {
+            "question": "Which bone is recognized as the longest and strongest in the human skeleton?",
+            "options": ["Femur", "Humerus", "Tibia", "Fibula"],
+            "answerIndex": 0,
+            "explanation": "The femur is the longest, heaviest, and strongest bone, capable of supporting multiple times body weight during locomotion."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Mangkuk sendi panggul manakah yang menjadi tempat melekatnya kepala bulat tulang paha (femur)?",
+            "options": ["Asetabulum", "Kavitas Glenoid", "Fosa Olekranon", "Foramen Magnum"],
+            "answerIndex": 0,
+            "explanation": "Kepala femur bersendi dengan asetabulum pada tulang panggul membentuk sendi peluru (ball-and-socket)."
+          },
+          {
+            "question": "Berapakah sudut inklinasi normal antara leher femur dan batang femur pada orang dewasa?",
+            "options": ["Sekitar 125 derajat", "90 derajat", "180 derajat", "45 derajat"],
+            "answerIndex": 0,
+            "explanation": "Sudut inklinasi normal dewasa adalah ~125°, memberi daya ungkit optimal bagi otot abduktor panggul."
+          },
+          {
+            "question": "Tulang manakah yang dikenal sebagai tulang terpanjang dan terkuat dalam tubuh manusia?",
+            "options": ["Femur (Tulang Paha)", "Humerus (Lengan Atas)", "Tibia (Tulang Kering)", "Fibula (Tulang Betis)"],
+            "answerIndex": 0,
+            "explanation": "Femur adalah tulang terpanjang dan terkuat yang mampu menahan beban berkali-kali lipat berat badan saat bergerak."
+          }
+        ]
+      }
+    },
+    "c1_atlas": {
+      "id": "c1_atlas",
+      "name": {
+        "EN": "Atlas (C1)",
+        "ID": "Atlas (C1)"
+      },
+      "illustration": "🌐🔄",
+      "systemId": "skeletal",
+      "organId": "skull_spine",
+      "simple": {
+        "EN": {
+          "overview": "The Atlas (C1) is the first cervical vertebra named after the mythological titan who holds up the celestial sphere. It directly supports your skull and allows you to nod 'yes'.",
+          "position": "The very top vertebra of your neck, situated directly below the base of the skull.",
+          "mechanism": "Lacks a traditional vertebral body and spinous process, forming a sturdy ring with deep concave facets where the skull's occipital condyles rock back and forth.",
+          "health": "Severe hyperflexion or axial compression trauma can cause a Jefferson burst fracture of the C1 ring."
+        },
+        "ID": {
+          "overview": "Tulang Atlas (C1) adalah ruas tulang belakang leher pertama yang dinamai dari mitologi penopang bola langit. Tulang ini menopang langsung tengkorak kepala dan memungkinkan gerakan mengangguk 'ya'.",
+          "position": "Ruas tulang leher paling atas, terletak persis di bawah dasar tengkorak.",
+          "mechanism": "Tidak memiliki korpus vertebra tradisional maupun taju duri, melainkan berbentuk cincin kokoh dengan faset sendi cekung tempat kondilus oksipital tengkorak berayun.",
+          "health": "Trauma kompresi aksial berat pada puncak kepala dapat memicu fraktur ledakan Jefferson pada cincin C1."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The atlas (C1) is an atypical ring-shaped cervical vertebra comprising anterior and posterior arches, lateral masses with superior concave kidney-shaped articular facets, and large transverse processes with transverse foramina.",
+          "position": "Articulates superiorly with the occipital condyles of the skull at the atlanto-occipital joint, and inferiorly with the axis (C2) at the atlanto-axial joint.",
+          "mechanism": "The atlanto-occipital synovial joints provide ~15 degrees of sagittal flexion/extension (nodding). Transverse ligament of the atlas retains the dens (odontoid process) against the anterior arch.",
+          "health": "Rupture of the transverse ligament of the atlas creates atlantoaxial instability, risking spinal cord compression during neck flexion (common in rheumatoid arthritis and Down syndrome)."
+        },
+        "ID": {
+          "overview": "Atlas (C1) adalah vertebra servikal atipikal berbentuk cincin yang terdiri dari arkus anterior/posterior, massa lateral dengan faset artikular superior cekung, dan foramen transversarium.",
+          "position": "Bersendi di superior dengan kondilus oksipitalis pada sendi atlanto-oksipitalis, dan di inferior dengan vertebra aksis (C2) pada sendi atlanto-aksialis.",
+          "mechanism": "Sendi atlanto-oksipitalis memfasilitasi fleksi-ekstensi sagital (mengangguk). Ligamen transversum atlas menahan prosesus odontoideus dens C2 pada arkus anterior.",
+          "health": "Ruptur ligamen transversum atlas memicu instabilitas atlantoaksial yang berisiko fatal menekan medula spinalis saat leher fleksi."
+        }
+      },
+      "relatedStructures": ["c2_axis", "c3_vertebra", "cranium"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which specific anatomical motion is primarily mediated by the atlanto-occipital joint between the skull and C1 Atlas?",
+            "options": ["Sagittal flexion and extension (Nodding 'yes')", "Axial rotation (Shaking head 'no')", "Lateral hip abduction", "Shoulder circumduction"],
+            "answerIndex": 0,
+            "explanation": "The paired convex occipital condyles rock on the concave superior facets of C1 to produce sagittal head nodding."
+          },
+          {
+            "question": "What unique anatomical feature distinguishes the C1 Atlas from typical vertebrae?",
+            "options": ["It lacks a vertebral body and spinous process, forming a ring", "It has the largest spinous process in the spine", "It has fused ribs", "It possesses no transverse foramina"],
+            "answerIndex": 0,
+            "explanation": "The atlas lacks both a centrum (body) and a spinous process, having instead anterior and posterior arches."
+          },
+          {
+            "question": "What crucial ligament prevents the dens of C2 from displacing posterior into the cervical spinal cord?",
+            "options": ["Transverse ligament of the atlas", "Ligamentum flavum", "Supraspinous ligament", "Anterior longitudinal ligament"],
+            "answerIndex": 0,
+            "explanation": "The strong transverse ligament spans between the lateral masses of C1 to securely brace the dens."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Gerakan spesifik apakah yang utamanya difasilitasi oleh sendi atlanto-oksipitalis antara dasar tengkorak dan atlas (C1)?",
+            "options": ["Fleksi dan ekstensi sagital (Mengangguk 'ya')", "Rotasi aksial leher (Menggeleng 'tidak')", "Abduksi sendi panggul", "Sirkumduksi bahu"],
+            "answerIndex": 0,
+            "explanation": "Sendi atlanto-oksipitalis memungkinkan tengkorak berayun ke depan dan ke belakang untuk mengangguk."
+          },
+          {
+            "question": "Ciri khas anatomis apakah yang membedakan vertebra C1 Atlas dari ruas tulang belakang lainnya?",
+            "options": ["Tidak memiliki korpus vertebra dan taju duri, melainkan berbentuk cincin", "Memiliki taju duri terbesar di seluruh tulang belakang", "Memiliki tulang rusuk yang menyatu", "Tidak memiliki lubang foramen transversarium"],
+            "answerIndex": 0,
+            "explanation": "Atlas tidak memiliki badan (korpus) tulang vertebra maupun prosesus spinosus, melainkan tersusun atas dua arkus cincin."
+          },
+          {
+            "question": "Ligamen penting apakah yang menahan tonjolan dens C2 agar tidak bergeser ke belakang menekan sumsum tulang leher?",
+            "options": ["Ligamen transversum atlas", "Ligamentum flavum", "Ligamen supraspinosum", "Ligamen longitudinal anterior"],
+            "answerIndex": 0,
+            "explanation": "Ligamen transversum atlas membentang kokoh di belakang dens untuk mengunci posisinya."
+          }
+        ]
+      }
+    },
+    "c2_axis": {
+      "id": "c2_axis",
+      "name": {
+        "EN": "Axis (C2)",
+        "ID": "Axis (C2)"
+      },
+      "illustration": "🔄⚙️",
+      "systemId": "skeletal",
+      "organId": "skull_spine",
+      "simple": {
+        "EN": {
+          "overview": "The Axis (C2) is the second cervical vertebra featuring a prominent vertical tooth-like peg (the dens) that acts as a pivot axle for rotating your head side-to-side to say 'no'.",
+          "position": "Located in your upper neck immediately beneath the C1 atlas.",
+          "mechanism": "The C1 atlas rotates around the central vertical dens peg of C2, producing roughly 50% of your total neck rotation range of motion.",
+          "health": "Severe hyperextension trauma (like high-speed motor crashes or hangman's injuries) can fracture the bilateral pars interarticularis of C2."
+        },
+        "ID": {
+          "overview": "Tulang Aksis (C2) adalah ruas tulang belakang leher kedua yang memiliki tonjolan vertikal mirip gigi (dens / prosesus odontoideus) sebagai poros putar kepala untuk menggeleng 'tidak'.",
+          "position": "Terletak di leher bagian atas persis di bawah tulang C1 atlas.",
+          "mechanism": "Tulang cincin C1 berputar mengelilingi pasak dens C2, menyumbang sekitar 50% dari total rentang putaran rotasi kepala.",
+          "health": "Trauma hiperekstensi leher mendadak (seperti tabrakan kendaraan atau Hangman fracture) dapat mematahkan pars interartikularis bilateral C2."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The axis (C2) is characterized by the prominent embryological body of C1 fused onto C2 known as the odontoid process (dens), large superior articular facets, bifid spinous process, and robust pedicles/pars interarticularis.",
+          "position": "Articulates superiorly with the C1 atlas and inferiorly with the C3 vertebra in the cervical spinal column.",
+          "mechanism": "The pivot-type atlanto-axial synovial joint permits ~50 degrees of axial rotation in the transverse plane, moderated by alar check ligaments anchoring the apex of the dens to the occipital condyles.",
+          "health": "Odontoid fractures (Anderson-D'Alonzo Type I, II, III): Type II fractures through the base of the dens have a high nonunion rate due to precarious vascular supply from ascending pharyngeal and vertebral arcade branches."
+        },
+        "ID": {
+          "overview": "Aksis (C2) dicirikan oleh prosesus odontoideus (dens) yang bertindak sebagai poros pasak, faset artikular superior lebar, prosesus spinosus bifida (bercabang dua), dan pars interartikularis.",
+          "position": "Bersendi di superior dengan atlas (C1) dan di inferior dengan ruas vertebra leher C3.",
+          "mechanism": "Sendi putar atlanto-aksialis menghasilkan ~50 derajat rotasi kepala pada bidang transversal, dibatasi oleh ligamen alar yang menempel pada kondilus oksipital.",
+          "health": "Fraktur odontoid dens Tipe II pada basis dens memiliki risiko gagal sambung (nonunion) tinggi akibat vaskularisasi yang rentan terganggu."
+        }
+      },
+      "relatedStructures": ["c1_atlas", "c3_vertebra"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What prominent vertical projection of the C2 axis acts as the central pivot around which the C1 atlas rotates?",
+            "options": ["Dens (Odontoid Process)", "Spinous process", "Xiphoid process", "Greater trochanter"],
+            "answerIndex": 0,
+            "explanation": "The dens projects superiorly from the body of C2, serving as the pivot axis for head rotation."
+          },
+          {
+            "question": "What paired ligaments extend from the sides of the dens to the medial occipital condyles to limit excessive head rotation?",
+            "options": ["Alar ligaments", "Ligamentum nuchae", "Cruciate ligament", "Interspinous ligament"],
+            "answerIndex": 0,
+            "explanation": "The wing-like alar ligaments check and limit axial rotation of the cranium and atlas upon the axis."
+          },
+          {
+            "question": "Which fracture eponym describes bilateral traumatic spondylolisthesis of the axis pars interarticularis caused by extreme hyperextension?",
+            "options": ["Hangman's Fracture", "Jefferson Fracture", "Colles' Fracture", "Smith's Fracture"],
+            "answerIndex": 0,
+            "explanation": "Hangman's fracture is a bilateral fracture through the pedicles or pars interarticularis of C2."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Tonjolan vertikal menonjol apakah pada vertebra C2 Aksis yang bertindak sebagai poros putar bagi cincin C1 Atlas?",
+            "options": ["Dens (Prosesus Odontoideus)", "Taju duri (Prosesus Spinosus)", "Prosesus Xifoideus", "Trokanter Mayor"],
+            "answerIndex": 0,
+            "explanation": "Dens adalah pasak silinder vertikal C2 yang menjadi poros kepala saat menggeleng."
+          },
+          {
+            "question": "Sepasang ligamen apakah yang membentang dari puncak dens ke tepi kondilus oksipital untuk membatasi rotasi leher berlebih?",
+            "options": ["Ligamen Alar", "Ligamentum Nukhae", "Ligamen Krusiatum", "Ligamen Interspinosum"],
+            "answerIndex": 0,
+            "explanation": "Ligamen alar membatasi rentang putaran kepala agar tidak mencederai saraf leher."
+          },
+          {
+            "question": "Fraktur fraktur bilateral pada pars interartikularis C2 akibat trauma hiperekstensi leher parah dikenal secara medis sebagai?",
+            "options": ["Fraktur Hangman (Hangman's Fracture)", "Fraktur Jefferson", "Fraktur Colles", "Fraktur Smith"],
+            "answerIndex": 0,
+            "explanation": "Fraktur Hangman adalah fraktur spondilolistesis traumatik pada arkus neuralis vertebra C2 aksis."
+          }
+        ]
+      }
+    },
+    "tibia": {
+      "id": "tibia",
+      "name": {
+        "EN": "Tibia",
+        "ID": "Tibia (Tulang Kering)"
+      },
+      "illustration": "🦴🏃",
+      "systemId": "skeletal",
+      "organId": "limbs_pelvis",
+      "simple": {
+        "EN": {
+          "overview": "The tibia (shinbone) is the large, strong bone located on the front of your lower leg. It bears almost all of your body weight when standing and walking.",
+          "position": "Situated on the medial (inner) side of the lower leg, between the knee joint above and the ankle joint below.",
+          "mechanism": "Its wide flat top (tibial plateau) supports the femur, transmitting downward forces directly into the talus bone of the foot via the medial malleolus.",
+          "health": "Running on hard surfaces with inadequate footwear can cause tibial stress fractures or painful shin splints (medial tibial stress syndrome)."
+        },
+        "ID": {
+          "overview": "Tibia (tulang kering) adalah tulang besar dan kuat di bagian depan tungkai bawah Anda. Tulang ini menopang hampir seluruh beban tubuh saat Anda berdiri dan melangkah.",
+          "position": "Terletak di sisi medial (dalam) tungkai bawah, membentang dari lutut di bagian atas hingga pergelangan kaki di bagian bawah.",
+          "mechanism": "Permukaan atasnya yang datar (dataran tibia) menopang kondilus femur, menyalurkan seluruh beban tubuh ke tulang pergelangan kaki melalui maleolus medial.",
+          "health": "Lari berlebih di permukaan keras tanpa alas kaki yang empuk dapat memicu peradangan 'shin splints' atau fraktur stres tulang kering."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The tibia is the second largest long bone in the human body and the primary weight-bearing column of the crural skeleton, featuring medial/lateral condyles, intercondylar eminence, tibial tuberosity, anterior border (shin crest), and distal medial malleolus.",
+          "position": "Articulates proximally with the femoral condyles and fibular head, and distally with the fibula at the distal syndesmosis and talus at the talocrural ankle mortise.",
+          "mechanism": "Bears approximately 85-90% of total axial ground reaction forces transmitted through the lower extremity. The anterior border is subcutaneous along its entire length.",
+          "health": "Open tibial shaft fractures carry high risks of osteomyelitis and anterior compartment syndrome due to subcutaneous location and delicate periosteal vascular watershed zones."
+        },
+        "ID": {
+          "overview": "Tibia adalah tulang panjang terbesar kedua dalam tubuh manusia dan penopang beban utama tungkai bawah, terdiri dari kondilus medial/lateral, eminensia interkondilaris, tuberositas tibia, margo anterior, dan maleolus medialis.",
+          "position": "Bersendi di proksimal dengan kondilus femur dan kaput fibula, serta di distal dengan talus membentuk sendi pergelangan kaki (talokrural).",
+          "mechanism": "Menopang ~85-90% gaya tekan aksial tubuh pada tungkai bawah. Tepi anteriornya berada tepat di bawah lapisan kulit.",
+          "health": "Fraktur terbuka batang tibia memiliki risiko tinggi osteomielitis dan sindrom kompartemen anterior karena letaknya yang subkutan dengan vaskularisasi periosteal terbatas."
+        }
+      },
+      "relatedStructures": ["femur", "fibula", "pelvis"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What percentage of axial body weight is transmitted through the tibia compared to the fibula during standing?",
+            "options": ["Approximately 85-90% through the tibia", "50% tibia and 50% fibula equally", "Only 10% through the tibia", "0% (the fibula bears all weight)"],
+            "answerIndex": 0,
+            "explanation": "The tibia is the primary weight-bearing pillar, taking ~85-90% of the axial load, while the lateral fibula bears ~10-15%."
+          },
+          {
+            "question": "What prominent subcutaneous bony landmark of the distal medial tibia forms the inner ankle bump?",
+            "options": ["Medial Malleolus", "Lateral Malleolus", "Tibial Tuberosity", "Greater Trochanter"],
+            "answerIndex": 0,
+            "explanation": "The medial malleolus forms the medial structural wall of the talocrural ankle mortise."
+          },
+          {
+            "question": "Where does the patellar tendon (quadriceps tendon) insert on the proximal anterior tibia?",
+            "options": ["Tibial Tuberosity", "Intercondylar Eminence", "Medial Condyle", "Fibular Notch"],
+            "answerIndex": 0,
+            "explanation": "The patellar ligament anchors onto the tibial tuberosity to execute knee extension."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Berapa persentase beban tubuh aksial yang ditopang oleh tulang tibia dibanding fibula saat berdiri tegak?",
+            "options": ["Sekitar 85-90% ditopang oleh tibia", "50% tibia dan 50% fibula terbagi rata", "Hanya 10% beban pada tibia", "0% (fibula menopang seluruh beban)"],
+            "answerIndex": 0,
+            "explanation": "Tibia adalah pilar penopang beban utama tungkai bawah (~85-90%), sedangkan fibula hanya menerima beban residual ~10-15%."
+          },
+          {
+            "question": "Tonjolan tulang medial apakah di ujung bawah tibia yang membentuk tonjolan mata kaki bagian dalam?",
+            "options": ["Maleolus Medialis", "Maleolus Lateralis", "Tuberositas Tibia", "Trokanter Mayor"],
+            "answerIndex": 0,
+            "explanation": "Maleolus medialis adalah dinding kokoh pergelangan kaki bagian dalam tempat bersendi dengan tulang talus."
+          },
+          {
+            "question": "Di bagian proksimal anterior tibia manakah ligamen patela (tendon paha depan kuadriseps) melekat?",
+            "options": ["Tuberositas Tibia", "Eminensia Interkondilaris", "Kondilus Medial", "Faset Fibula"],
+            "answerIndex": 0,
+            "explanation": "Ligamen patela berinsersi pada tuberositas tibia untuk meluruskan sendi lutut."
+          }
+        ]
+      }
+    },
+    "radius": {
+      "id": "radius",
+      "name": {
+        "EN": "Radius",
+        "ID": "Radius (Tulang Pengumpil)"
+      },
+      "illustration": "🦾🖐️",
+      "systemId": "skeletal",
+      "organId": "limbs_pelvis",
+      "simple": {
+        "EN": {
+          "overview": "The radius is the lateral bone of your forearm on the thumb side. It enables you to twist your forearm to flip your palm up (supination) or down (pronation).",
+          "position": "Located on the outer (lateral) thumb-side of your forearm between the elbow and the wrist.",
+          "mechanism": "Its disc-like head spins smoothly against the capitulum of the humerus and radial notch of the ulna, pivoting the entire hand 180 degrees.",
+          "health": "Landing on an outstretched hand (FOOSH) frequently breaks the distal radius, known as a Colles' wrist fracture with a 'dinner-fork' deformity."
+        },
+        "ID": {
+          "overview": "Radius (tulang pengumpil) adalah tulang lengan bawah di sisi ibu jari (jempol). Tulang ini memungkinkan Anda memutar telapak tangan menghadap ke atas (supinasi) atau ke bawah (pronasi).",
+          "position": "Terletak di sisi luar (lateral) lengan bawah searah jempol tangan, membentang dari siku hingga pergelangan tangan.",
+          "mechanism": "Kepala bulat pipihnya berputar pada kapitulum humerus dan lekukan ulna, memutar telapak tangan hingga 180 derajat.",
+          "health": "Terjatuh dengan posisi tangan menumpu (FOOSH) sering menyebabkan patah tulang radius distal yang dikenal sebagai Fraktur Colles dengan deformitas 'garpu makan'."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The radius is the lateral long bone of the antebrachium, featuring a proximal cylindrical head, neck, radial tuberosity (biceps brachii insertion), bowed diaphysis, and expanded distal end with the radial styloid process and carpal articular surface for the scaphoid and lunate.",
+          "position": "Articulates proximally with the humeral capitulum and radial notch of ulna; distally with the scaphoid and lunate bones of the carpus at the radiocarpal wrist joint, and with the ulnar head at the distal radioulnar joint (DRUJ).",
+          "mechanism": "During pronation, the pronator teres and pronator quadratus pull the distal radius across the stationary ulna.",
+          "health": "Colles' fracture (extra-articular dorsally displaced distal radius fracture) and Galeazzi fracture-dislocation (radius shaft fracture with DRUJ disruption)."
+        },
+        "ID": {
+          "overview": "Radius adalah tulang panjang lateral antebrakium, terdiri dari kaput silindris proksimal, kolum, tuberositas radii (insersi biseps brakii), korpus melengkung, serta prosesus stiloideus radii distal.",
+          "position": "Bersendi di proksimal dengan kapitulum humerus dan incisura radialis ulna; di distal dengan skafoid dan lunatum membentuk sendi pergelangan tangan radiokarpal.",
+          "mechanism": "Saat pronasi, otot pronator teres dan pronator kuadratus menarik radius distal melintasi ulna yang tetap diam.",
+          "health": "Fraktur Colles (fraktur radius distal dengan pergeseran ke arah dorsal) dan Fraktur Galeazzi (fraktur batang radius disertai dislokasi sendi radioulnar distal DRUJ)."
+        }
+      },
+      "relatedStructures": ["humerus", "clavicle"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What primary forearm rotational movement occurs when the radius pivots around the ulna to turn the palm upward?",
+            "options": ["Supination", "Pronation", "Adduction", "Circumduction"],
+            "answerIndex": 0,
+            "explanation": "Supination rotates the radius parallel to the ulna, orienting the palm anteriorly or upward."
+          },
+          {
+            "question": "Which two carpal bones of the wrist directly articulate with the distal articular surface of the radius?",
+            "options": ["Scaphoid and Lunate", "Hamate and Capitate", "Pisiform and Triquetrum", "Trapezium and Trapezoid"],
+            "answerIndex": 0,
+            "explanation": "The distal radiocarpal joint forms primarily between the radial articular surface, scaphoid, and lunate."
+          },
+          {
+            "question": "What classic distal radius fracture with dorsal displacement typically results from a fall onto an outstretched hand (FOOSH)?",
+            "options": ["Colles' Fracture", "Jefferson Fracture", "Jones Fracture", "Pott's Fracture"],
+            "answerIndex": 0,
+            "explanation": "A Colles' fracture is a distal radius fracture with dorsal and radial displacement resulting in a 'dinner fork' deformity."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Gerakan rotasi lengan bawah apakah yang terjadi saat tulang radius berputar membuka telapak tangan menghadap ke atas?",
+            "options": ["Supinasi", "Pronasi", "Adduksi", "Sirkumduksi"],
+            "answerIndex": 0,
+            "explanation": "Supinasi adalah gerakan memutar radius sejajar dengan ulna hingga telapak tangan menghadap ke atas."
+          },
+          {
+            "question": "Dua tulang pergelangan tangan (karpal) manakah yang bersendi langsung dengan ujung distal tulang radius?",
+            "options": ["Skafoid dan Lunatum", "Hamatum dan Kapitatum", "Pisiforme dan Trikwetrum", "Trapesium dan Trapesoid"],
+            "answerIndex": 0,
+            "explanation": "Sendi pergelangan tangan radiokarpal dibentuk oleh faset distal radius yang bersendi dengan os skafoid dan lunatum."
+          },
+          {
+            "question": "Patah tulang radius distal dengan pergeseran patahan ke belakang (dorsal) akibat jatuh bertumpu tangan dikenal sebagai?",
+            "options": ["Fraktur Colles", "Fraktur Jefferson", "Fraktur Jones", "Fraktur Pott"],
+            "answerIndex": 0,
+            "explanation": "Fraktur Colles adalah fraktur radius distal klasik yang menghasilkan bentuk deformitas garpu makan (dinner fork deformity)."
+          }
+        ]
+      }
+    },
+    "clavicle": {
+      "id": "clavicle",
+      "name": {
+        "EN": "Clavicle",
+        "ID": "Klavikula (Tulang Selangka)"
+      },
+      "illustration": "🪃🦴",
+      "systemId": "skeletal",
+      "organId": "limbs_pelvis",
+      "simple": {
+        "EN": {
+          "overview": "The clavicle (collarbone) is an S-shaped horizontal strut that bridges your breastbone to your shoulder, keeping your arms held out away from your chest for wide mobility.",
+          "position": "Stretches horizontally across the top front of your chest just above the first rib.",
+          "mechanism": "Acts as a rigid horizontal crane that transmits physical shocks from your arm directly to the central axial skeleton.",
+          "health": "One of the most frequently fractured bones in the body, usually broken at the junction of its middle and lateral thirds during sports falls."
+        },
+        "ID": {
+          "overview": "Klavikula (tulang selangka) adalah tulang horizontal berbentuk huruf S yang menghubungkan tulang dada dengan tulang belikat, menjaga bahu tetap kokoh dan leluasa bergerak.",
+          "position": "Membentang horizontal di dada bagian atas di depan leher, tepat di atas tulang rusuk pertama.",
+          "mechanism": "Bertindak seperti penyangga mekanis yang menyalurkan beban dan benturan dari lengan ke kerangka dada tengah.",
+          "health": "Merupakan salah satu tulang yang paling sering patah dalam tubuh, terutama pada titik peralihan sepertiga tengah akibat jatuh dengan tumpuan bahu."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The clavicle is the only horizontal long bone in the human skeleton, connecting the appendicular upper limb to the axial sternum via the Sternoclavicular (SC) and Acromioclavicular (AC) synovial joints.",
+          "position": "Superior to the first rib, with its convex medial two-thirds articulating with the manubrium of the sternum and concave lateral third articulating with the acromion of the scapula.",
+          "mechanism": "Maintains the glenohumeral joint away from the thoracic cage, allowing 360-degree circumduction. Subclavian vessels and brachial plexus pass beneath its middle third.",
+          "health": "Middle-third clavicular fractures can endanger the underlying subclavian artery/vein and brachial plexus chords if severely displaced."
+        },
+        "ID": {
+          "overview": "Klavikula adalah satu-satunya tulang panjang yang terletak secara horizontal dalam tubuh manusia, menghubungkan kerangka lengan dengan tulang dada aksial via sendi Sternoklavikular (SC) dan Akromioklavikular (AC).",
+          "position": "Terletak di atas iga pertama, dua pertiga medialnya cembung bersendi dengan manubrium sterni dan sepertiga lateralnya cekung bersendi dengan akromion skapula.",
+          "mechanism": "Menahan sendi bahu agar terbebas dari dinding dada untuk memungkinkan rentang sirkumduksi gerak lengan yang luas.",
+          "health": "Fraktur sepertiga tengah klavikula yang bergeser jauh berisiko mencederai pembuluh darah subklavia dan serabut saraf pleksus brakialis di bawahnya."
+        }
+      },
+      "relatedStructures": ["scapula", "humerus", "radius"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What is the only bony articulation connecting the upper extremity (shoulder girdle) to the axial skeleton?",
+            "options": ["Sternoclavicular (SC) Joint", "Acromioclavicular (AC) Joint", "Glenohumeral Joint", "Scapulothoracic articulation"],
+            "answerIndex": 0,
+            "explanation": "The sternoclavicular joint is the solitary true synovial joint anchoring the pectoral girdle to the axial sternum."
+          },
+          {
+            "question": "At which anatomical location does the clavicle most frequently fracture during traumatic shoulder impacts?",
+            "options": ["Junction of the middle and lateral thirds", "Sternoclavicular facet", "Acromial tip", "Conoid tubercle"],
+            "answerIndex": 0,
+            "explanation": "The transition between the convex medial two-thirds and concave lateral one-third is the mechanical weak point of the bone."
+          },
+          {
+            "question": "Which major neurovascular bundle passes immediately inferior to the middle third of the clavicle?",
+            "options": ["Subclavian vessels and Brachial Plexus", "Femoral nerve and artery", "Carotid sheath", "Radial artery"],
+            "answerIndex": 0,
+            "explanation": "The subclavian artery, subclavian vein, and trunks of the brachial plexus pass through the thoracic outlet beneath the clavicle."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Sendi tulang satu-satunya apakah yang menghubungkan kerangka anggota gerak atas (bahu) dengan kerangka aksial tubuh?",
+            "options": ["Sendi Sternoklavikular (SC)", "Sendi Akromioklavikular (AC)", "Sendi Glenohumeral", "Artikulasi Skapulotorasik"],
+            "answerIndex": 0,
+            "explanation": "Sendi sternoklavikular adalah satu-satunya persendian sejati yang mengaitkan gelang bahu dengan tulang dada (sternum)."
+          },
+          {
+            "question": "Di bagian manakah tulang klavikula paling sering mengalami patah tulang (fraktur) akibat benturan bahu?",
+            "options": ["Taut sepertiga tengah dan sepertiga lateral", "Faset sternal", "Ujung akromion", "Tuberkulum konoid"],
+            "answerIndex": 0,
+            "explanation": "Titik peralihan antara kurvatura medial dan lateral merupakan titik paling rentan terhadap gaya puntir dan benturan."
+          },
+          {
+            "question": "Struktur neurovaskular penting apakah yang berjalan persis di bawah sepertiga tengah tulang selangka (klavikula)?",
+            "options": ["Pembuluh darah subklavia dan Pleksus Brakialis", "Saraf dan arteri femoralis", "Selubung karotis", "Arteri radialis"],
+            "answerIndex": 0,
+            "explanation": "Arteri subklavia, vena subklavia, dan berkas saraf pleksus brakialis melintas di bawah klavikula menuju lengan."
+          }
+        ]
+      }
+    }
+  }
+}

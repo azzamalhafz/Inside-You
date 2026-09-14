@@ -1,0 +1,617 @@
+{
+  "id": "eye",
+  "name": {
+    "EN": "Eye & Vision Apparatus",
+    "ID": "Mata & Aparatus Penglihatan"
+  },
+  "systemId": "vision",
+  "overview": {
+    "simple": {
+      "EN": "The eye is the sensory organ that allows us to see the world. It captures light rays, focuses them precisely onto the retina, and converts optical information into electrical signals that travel to the brain.",
+      "ID": "Mata adalah organ sensorik yang memungkinkan kita melihat dunia. Mata menangkap berkas cahaya, memfokuskannya secara presisi ke retina, dan mengubah informasi optik menjadi impuls listrik ke otak."
+    },
+    "academic": {
+      "EN": "The eye (bulbus oculi) is a complex specialized sensory organ consisting of three concentric tunics: an outer fibrous tunic (cornea and sclera), a middle vascular uveal tunic (choroid, ciliary body, and iris), and an inner neural sensory tunic (retina). It optically refracts light and executes phototransduction via rod and cone photoreceptors.",
+      "ID": "Mata (bulbus oculi) adalah organ sensorik khusus kompleks yang terdiri dari tiga tunika konsentris: tunika fibrosa luar (kornea dan sklera), tunika vaskular uvea tengah (koroid, badan siliar, dan iris), serta tunika sensorik neural dalam (retina). Mata merefraksi cahaya dan menjalankan fototransduksi melalui fotoreseptor sel batang dan kerucut."
+    }
+  },
+  "structures": {
+    "cornea": {
+      "id": "cornea",
+      "name": {
+        "EN": "Cornea",
+        "ID": "Kornea"
+      },
+      "illustration": "👁️✨",
+      "systemId": "vision",
+      "organId": "eye",
+      "simple": {
+        "EN": {
+          "overview": "The cornea can be thought of as the ultra-clear front window of a camera lens. It is completely transparent so light rays can pass cleanly into the eye without distortion.",
+          "position": "Situated at the very front of the eyeball, shielding the iris and pupil from dust and physical impact.",
+          "mechanism": "Because of its curved dome shape, it performs approximately two-thirds of the eye's refractive power, bending incoming light towards the retina.",
+          "health": "Scratches (corneal abrasions) or infections can obscure vision. Wearing protective eye gear and avoiding rough rubbing keeps it healthy."
+        },
+        "ID": {
+          "overview": "Kornea dapat dianalogikan sebagai kaca depan lensa kamera yang sangat jernih. Kornea sepenuhnya transparan agar sinar cahaya dapat masuk ke mata tanpa distorsi.",
+          "position": "Terletak di bagian paling depan bola mata, melindungi iris dan pupil dari debu dan benturan fisik.",
+          "mechanism": "Bentuk kubah melengkungnya melakukan dua pertiga daya pembiasan (refraksi) cahaya yang masuk ke retina.",
+          "health": "Goresan atau infeksi kornea dapat mengaburkan penglihatan. Menggunakan kacamata pelindung dan tidak mengucek mata kasar menjaga kornea tetap sehat."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The cornea is an avascular, highly innervated fibrous tunic structure boasting a refractive index of ~1.376, contributing 40-44 Diopters (~65-75%) of total ocular refractive power.",
+          "position": "Anterior segment of the fibrous tunic, continuous posteriorly with the opaque sclera at the corneoscleral limbus.",
+          "mechanism": "Consists of 5 histological layers: Epithelium, Bowman's layer, Stroma (90% thickness), Descemet's membrane, and Endothelium. Endothelial Na+/K+-ATPase pumps preserve deturgescence (78% hydration) to maintain collagen lattice transparency.",
+          "health": "Keratoconus causes progressive stromal thinning and ectasia, resulting in irregular astigmatism. Management includes corneal cross-linking, rigid gas-permeable lenses, or penetrating keratoplasty."
+        },
+        "ID": {
+          "overview": "Kornea adalah tunika fibrosa avaskular yang kaya persarafan dengan indeks bias ~1.376, menyumbang 40-44 Dioptri (~65-75%) dari total daya refraksi mata.",
+          "position": "Segmen anterior tunika fibrosa, berlanjut ke posterior dengan sklera opak pada limbus korneoskleral.",
+          "mechanism": "Tersusun atas 5 lapisan: Epitel, Lapisan Bowman, Stroma (90% ketebalan), Membran Descemet, dan Endotel. Pompa Na+/K+-ATPase endotel menjaga tingkat hidrasi 78% (deturgesensi) agar kisi kolagen tetap transparan.",
+          "health": "Keratokonus menyebabkan penipisan stroma dan ektasia kornea yang memicu astigmatisme ireguler. Terapi meliputi cross-linking kolagen, lensa RGP, hingga keratoplasti."
+        }
+      },
+      "relatedStructures": ["iris", "pupil", "sclera", "lens"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What proportion of the eye's total optical focusing power is provided by the cornea?",
+            "options": ["Approximately 10-20%", "Approximately 65-75%", "Exactly 100%", "Less than 5%"],
+            "answerIndex": 1,
+            "explanation": "The curvature and refractive index of the cornea provide about two-thirds (65-75% / ~43 Diopters) of total optical power."
+          },
+          {
+            "question": "Why is the corneal stroma completely transparent in a healthy eye?",
+            "options": [
+              "Because it is filled with dense blood vessels",
+              "Due to strict spatial alignment of uniform collagen fibrils and active deturgescence",
+              "Because light bypasses the stroma completely",
+              "It contains dark melanin pigments"
+            ],
+            "answerIndex": 1,
+            "explanation": "Uniform collagen fibril spacing with destructive interference of scattered light keeps the stroma crystal clear."
+          },
+          {
+            "question": "Which endothelial mechanism actively maintains corneal deturgescence (clarity)?",
+            "options": ["Na+/K+-ATPase metabolic pump", "Passive osmotic diffusion only", "Calcium channel precipitation", "Hemoglobin oxygen binding"],
+            "answerIndex": 0,
+            "explanation": "The corneal endothelial Na+/K+-ATPase pump pumps excess fluid out of the stroma back into the anterior chamber."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Berapa proporsi daya pembiasan cahaya total mata yang disumbangkan oleh kornea?",
+            "options": ["Sekitar 10-20%", "Sekitar 65-75%", "Tepat 100%", "Kurang dari 5%"],
+            "answerIndex": 1,
+            "explanation": "Kelengkungan kornea menyumbangkan sekitar dua pertiga (65-75% atau ~43 Dioptri) dari total daya refraksi mata."
+          },
+          {
+            "question": "Mengapa stroma kornea tampak transparan jernih pada mata yang sehat?",
+            "options": [
+              "Karena dipenuhi oleh pembuluh darah",
+              "Karena susunan matriks serat kolagen yang teratur dan regulasi cairan ketat (deturgesensi)",
+              "Karena cahaya tidak melewatinya",
+              "Karena mengandung pigmen melanin gelap"
+            ],
+            "answerIndex": 1,
+            "explanation": "Penyusunan serat kolagen berjarak seragam dengan pompa endotel menjaga transparansi kornea."
+          },
+          {
+            "question": "Mekanisme endotel mana yang mempertahankan kejernihan dan deturgesensi kornea?",
+            "options": ["Pompa metabolik Na+/K+-ATPase", "Difusi pasif osmosis saja", "Pengendapan saluran Kalsium", "Pengikatan hemoglobin"],
+            "answerIndex": 0,
+            "explanation": "Pompa Na+/K+-ATPase endotel secara aktif memompa kelebihan cairan keluar dari stroma kembali ke bilik mata depan."
+          }
+        ]
+      }
+    },
+    "iris": {
+      "id": "iris",
+      "name": {
+        "EN": "Iris",
+        "ID": "Iris"
+      },
+      "illustration": "🧿🌈",
+      "systemId": "vision",
+      "organId": "eye",
+      "simple": {
+        "EN": {
+          "overview": "The iris is the colored circular curtain of the eye. It functions just like an adjustable camera diaphragm or aperture, controlling how much light enters.",
+          "position": "Suspended between the cornea in front and the crystalline lens behind, surrounding the central pupil opening.",
+          "mechanism": "Tiny smooth muscles contract in bright light to narrow the pupil (protecting the eye) and dilate in dim light (letting in maximum light).",
+          "health": "Eye color is determined by melanin concentration. Conditions like uveitis or iritis cause redness, pain, and light sensitivity."
+        },
+        "ID": {
+          "overview": "Iris adalah tirai melingkar berwarna pada mata. Iris bekerja seperti diafragma kamera yang dapat disesuaikan, mengatur banyaknya cahaya yang masuk.",
+          "position": "Terletak di antara kornea di depan dan lensa kristalina di belakang, mengelilingi lubang pupil.",
+          "mechanism": "Otot polos kecil berkontraksi saat terang untuk mengecilkan pupil dan berelaksasi saat gelap untuk melebarkannya.",
+          "health": "Warna iris ditentukan konsentrasi melanin. Peradangan seperti iritis/uveitis menyebabkan mata merah, nyeri, dan silau."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The iris is the most anterior component of the uveal tract (vascular tunic), acting as an adjustable optical aperture regulating retinal illuminance.",
+          "position": "Divides the anterior chamber from the posterior chamber of the eye, attached peripherally to the ciliary body at the iris root.",
+          "mechanism": "Innervated by the autonomic nervous system: Parasympathetic fibers (CN III via short ciliary nerves) constrict the circular sphincter pupillae (miosis); sympathetic fibers stimulate the radial dilator pupillae (mydriasis).",
+          "health": "Anterior uveitis (iritis) presents with ciliary flush, keratic precipitates, and hypopyon. Anisocoria (unequal pupil size) can indicate Horner's syndrome or oculomotor nerve compression."
+        },
+        "ID": {
+          "overview": "Iris adalah komponen paling anterior dari traktus uvea (tunika vaskular), bertindak sebagai celah optik pengatur iluminasi retina.",
+          "position": "Memisahkan bilik mata depan (anterior) dan belakang (posterior), melekat di perifer pada badan siliar di akar iris.",
+          "mechanism": "Dipersarafi sistem saraf otonom: Serat parasimpatis (N. III via nervus siliaris brevis) mengontraksi sfingter pupila (miosis); serat simpatis merangsang dilator pupila radialis (midriasis).",
+          "health": "Uveitis anterior (iritis) ditandai dengan ciliary flush, presipitat keratik, dan hipopion. Anisokoria (ukuran pupil berbeda) dapat mengindikasikan sindrom Horner."
+        }
+      },
+      "relatedStructures": ["cornea", "pupil", "ciliary_body", "lens"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which muscle in the iris is responsible for pupil constriction (miosis) under bright light?",
+            "options": ["Dilator pupillae", "Sphincter pupillae", "Ciliary muscle", "Superior oblique"],
+            "answerIndex": 1,
+            "explanation": "The circular sphincter pupillae muscle, controlled by parasympathetic nerves, constricts the pupil in bright conditions."
+          },
+          {
+            "question": "Which pigment primarily determines individual variation in human eye color within the iris stroma?",
+            "options": ["Melanin", "Hemoglobin", "Carotene", "Rhodopsin"],
+            "answerIndex": 0,
+            "explanation": "The concentration and distribution of melanin in the anterior border layer and stroma dictate eye color."
+          },
+          {
+            "question": "What autonomic division triggers pupillary dilation (mydriasis) during low-light or 'fight-or-flight' states?",
+            "options": ["Sympathetic nervous system", "Parasympathetic nervous system", "Enteric nervous system", "Somatic motor system"],
+            "answerIndex": 0,
+            "explanation": "Sympathetic stimulation activates the radial dilator pupillae muscle fibers to dilate the pupil."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Otot iris mana yang bertanggung jawab mengecilkan pupil (miosis) di bawah cahaya terang?",
+            "options": ["Dilator pupila", "Sfingter pupila", "Otot siliaris", "Obliquus superior"],
+            "answerIndex": 1,
+            "explanation": "Otot sfingter pupila melingkar yang dipersarafi parasimpatis bertugas mengecilkan pupil saat terang."
+          },
+          {
+            "question": "Pigmen apa yang menentukan variasi warna mata manusia pada stroma iris?",
+            "options": ["Melanin", "Hemoglobin", "Karoten", "Rodopsin"],
+            "answerIndex": 0,
+            "explanation": "Konsentrasi dan kepadatan pigmen melanin di lapisan perbatasan anterior menentukan warna mata."
+          },
+          {
+            "question": "Divisi saraf otonom mana yang merangsang pelebaran pupil (midriasis) saat gelap atau kondisi waspada?",
+            "options": ["Sistem saraf simpatis", "Sistem saraf parasimpatis", "Sistem saraf enterik", "Sistem saraf somatik"],
+            "answerIndex": 0,
+            "explanation": "Rangsangan simpatis mengaktifkan serat otot dilator pupila untuk memperluas diameter pupil."
+          }
+        ]
+      }
+    },
+    "lens": {
+      "id": "lens",
+      "name": {
+        "EN": "Crystalline Lens",
+        "ID": "Lensa Kristalina"
+      },
+      "illustration": "🔍✨",
+      "systemId": "vision",
+      "organId": "eye",
+      "simple": {
+        "EN": {
+          "overview": "The crystalline lens is the eye's autofocus lens. It changes its thickness dynamically to bring near objects (like reading a book) and distant vistas into sharp focus.",
+          "position": "Suspended right behind the iris and pupil by tiny elastic zonule fibers.",
+          "mechanism": "When focusing up close, surrounding ciliary muscles squeeze, causing the flexible lens to bulge fatter; when looking far away, it flattens out.",
+          "health": "As we age, the lens loses flexibility (presbyopia reading strain) or becomes cloudy due to clumped proteins (cataracts), which can be replaced with an intraocular lens."
+        },
+        "ID": {
+          "overview": "Lensa kristalina adalah lensa autofokus mata. Lensa ini mengubah ketebalannya secara dinamis untuk memfokuskan objek dekat (membaca) maupun pemandangan jauh.",
+          "position": "Tergantung tepat di belakang iris dan pupil oleh serat-serat halus zonula Zinn.",
+          "mechanism": "Saat melihat dekat, otot siliaris berkontraksi sehingga lensa mencembung; saat melihat jauh, lensa memipih.",
+          "health": "Seiring usia, kelenturan lensa berkurang (presbiopia) atau menjadi keruh akibat penggumpalan protein (katarak)."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The crystalline lens is a biconvex, transparent, avascular structure with high protein concentration (crystallins ~35%), providing ~15-20 Diopters of variable refractive power.",
+          "position": "Situated in the hyaloid fossa behind the iris, anchored to the ciliary body by the suspensory zonules of Zinn.",
+          "mechanism": "Accommodation (Helmholtz theory): Ciliary muscle contraction releases zonular tension, allowing the elastic lens capsule to increase anterior-posterior curvature for near vision convergence.",
+          "health": "Cataractogenesis involves photo-oxidative stress and crystallin aggregation. Surgical phacoemulsification with artificial intraocular lens (IOL) implantation restores visual clarity."
+        },
+        "ID": {
+          "overview": "Lensa kristalina adalah struktur bikonveks, transparan, dan avaskular dengan konsentrasi protein kristalin tinggi (~35%), memberikan 15-20 Dioptri daya refraksi dinamis.",
+          "position": "Terletak di fosa hialoid di belakang iris, terhubung ke badan siliar melalui zonula Zinn.",
+          "mechanism": "Akomodasi (Teori Helmholtz): Kontraksi otot siliar mengendurkan tarikan zonula, memungkinkan kapsul lensa mencembung untuk penglihatan dekat.",
+          "health": "Kataraktogenesis dipicu stres foto-oksidatif dan agregasi protein kristalin. Fakoemulsifikasi bedah dengan implan lensa intraokular (IOL) memulihkan penglihatan."
+        }
+      },
+      "relatedStructures": ["iris", "pupil", "ciliary_body", "suspensory_ligaments"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "According to the Helmholtz mechanism of accommodation, what happens to the ciliary muscle when focusing on nearby text?",
+            "options": [
+              "The ciliary muscle contracts, relaxing zonular tension so the lens becomes more spherical",
+              "The ciliary muscle relaxes, pulling zonules tight to flatten the lens",
+              "The ciliary muscle detaches completely from the sclera",
+              "The lens crystallin proteins dissolve instantly"
+            ],
+            "answerIndex": 0,
+            "explanation": "Contraction of the ciliary muscle ring decreases diameter, releasing tension on zonules and allowing the elastic lens to round up."
+          },
+          {
+            "question": "What predominant structural proteins maintain lens transparency and refractive index?",
+            "options": ["Crystallins (alpha, beta, gamma)", "Collagen type II", "Myoglobin", "Keratin"],
+            "answerIndex": 0,
+            "explanation": "Crystallin proteins comprise over 90% of soluble lens proteins, ordered to minimize light scattering."
+          },
+          {
+            "question": "What common progressive age-related condition causes opacification and cloudiness of the crystalline lens?",
+            "options": ["Cataract", "Glaucoma", "Macular Degeneration", "Keratoconus"],
+            "answerIndex": 0,
+            "explanation": "Cataracts represent age-related denaturation and aggregation of lens crystallin proteins leading to opacification."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Menurut mekanisme akomodasi Helmholtz, apa yang terjadi pada otot siliaris saat mata fokus membaca teks dekat?",
+            "options": [
+              "Otot siliaris berkontraksi, mengendurkan tegangan zonula sehingga lensa mencembung (lebih bulat)",
+              "Otot siliaris relaksasi, menarik zonula kencang agar lensa memipih",
+              "Otot siliaris terlepas sepenuhnya dari sklera",
+              "Protein kristalin lensa larut seketika"
+            ],
+            "answerIndex": 0,
+            "explanation": "Kontraksi cincin otot siliaris mengurangi diameter dan mengendurkan tarikan zonula sehingga kapsul lensa mencembung."
+          },
+          {
+            "question": "Protein struktural utama apa yang menjaga kejernihan dan indeks bias lensa kristalina?",
+            "options": ["Kristalin (alfa, beta, gama)", "Kolagen tipe II", "Mioglobin", "Keratin"],
+            "answerIndex": 0,
+            "explanation": "Protein kristalin membentuk lebih dari 90% protein terlarut lensa yang tersusun padat tanpa menghamburkan cahaya."
+          },
+          {
+            "question": "Kondisi penurunan kejernihan akibat penggumpalan protein lensa seiring penuaan disebut?",
+            "options": ["Katarak", "Glaukoma", "Degenerasi Makula", "Keratokonus"],
+            "answerIndex": 0,
+            "explanation": "Katarak adalah kekeruhan pada lensa mata akibat denaturasi dan agregasi protein kristalin."
+          }
+        ]
+      }
+    },
+    "retina": {
+      "id": "retina",
+      "name": {
+        "EN": "Retina",
+        "ID": "Retina"
+      },
+      "illustration": "🖼️⚡",
+      "systemId": "vision",
+      "organId": "eye",
+      "simple": {
+        "EN": {
+          "overview": "The retina functions like the digital image sensor inside a smartphone camera. It catches focused light patterns and instantly converts them into electrical neural signals.",
+          "position": "Lines the entire back inner wall of the eyeball, receiving light through the clear vitreous chamber.",
+          "mechanism": "Contains millions of photoreceptor cells: Rods (night and peripheral vision) and Cones (daylight, high-detail color vision) pass signals to the optic nerve.",
+          "health": "High blood pressure and uncontrolled diabetes can damage retinal micro-vessels. Sudden flashes or dark curtains may warn of retinal tears."
+        },
+        "ID": {
+          "overview": "Retina berfungsi seperti sensor gambar digital pada kamera smartphone. Retina menangkap pola cahaya terfokus dan mengubahnya menjadi impuls listrik.",
+          "position": "Melapisi seluruh dinding dalam bagian belakang bola mata, menerima berkas cahaya.",
+          "mechanism": "Mengandung jutaan fotoreseptor: Sel Batang (cahaya redup & tepi) dan Sel Kerucut (warna & ketajaman siang hari) yang meneruskan sinyal ke saraf optik.",
+          "health": "Hipertensi dan diabetes dapat merusak mikrovaskular retina. Kilatan cahaya atau tirai gelap mendadak menandakan risiko robekan retina."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The neural retina is a 10-layer neurosensory tissue derived from the neuroectodermal optic cup, transducing photons into graded electrical potentials.",
+          "position": "Innermost sensory tunic, bordered externally by the Retinal Pigment Epithelium (RPE) and Bruch's membrane of the choroid.",
+          "mechanism": "Phototransduction: Photons isomerize 11-cis-retinal to all-trans-retinal within rhodopsin/photopsin, activating transducin and cGMP PDE, closing cyclic nucleotide-gated channels to hyperpolarize photoreceptors.",
+          "health": "Rhegmatogenous retinal detachment occurs when subretinal fluid separates the neurosensory layers from the RPE, requiring urgent vitrectomy or pneumatic retinopexy."
+        },
+        "ID": {
+          "overview": "Retina neural adalah jaringan neurosensorik 10 lapisan turunan cawan optik neuroektodermal yang mentransduksi foton menjadi potensial aksi bertingkat.",
+          "position": "Tunika sensorik paling dalam, berbatasan di bagian luar dengan Epitel Pigmen Retina (RPE) dan membran Bruch koroid.",
+          "mechanism": "Fototransduksi: Foton mengisomerisasi 11-cis-retinal menjadi all-trans-retinal pada rodopsin, mengaktifkan transdusin & PDE cGMP, menutup saluran Na+ sehingga sel mengalami hiperpolarisasi.",
+          "health": "Ablasio retina terjadi saat cairan subretinal memisahkan lapisan neurosensorik dari RPE, memerlukan tindakan vitrektomi darurat."
+        }
+      },
+      "relatedStructures": ["macula", "optic_nerve", "choroid", "vitreous_body"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which retinal photoreceptors provide sharp visual acuity and color vision in photopic (bright light) conditions?",
+            "options": ["Cone cells", "Rod cells", "Horizontal cells", "Mueller glia"],
+            "answerIndex": 0,
+            "explanation": "Cones are concentrated in the fovea centralis and express photopsin pigments for color discrimination."
+          },
+          {
+            "question": "During phototransduction, what electrical response occurs across the photoreceptor membrane upon photon capture?",
+            "options": ["Hyperpolarization", "Rapid depolarization", "Action potential burst", "Voltage collapse to 0 mV"],
+            "answerIndex": 0,
+            "explanation": "Photon absorption activates phosphodiesterase (PDE), lowering cGMP, closing sodium channels and hyperpolarizing the cell."
+          },
+          {
+            "question": "What emergency condition involves separation of the neurosensory retina from the underlying pigment epithelium (RPE)?",
+            "options": ["Retinal Detachment", "Presbyopia", "Astigmatism", "Blepharitis"],
+            "answerIndex": 0,
+            "explanation": "Retinal detachment strips the photoreceptors of choroidal metabolic support, risking rapid irreversible vision loss."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Fotoreseptor retina manakah yang memberikan ketajaman penglihatan tinggi dan persepsi warna pada kondisi terang?",
+            "options": ["Sel Kerucut (Cones)", "Sel Batang (Rods)", "Sel Horizontal", "Glia Mueller"],
+            "answerIndex": 0,
+            "explanation": "Sel kerucut terkonsentrasi di fovea centralis dan memiliki fotopsin untuk membedakan warna."
+          },
+          {
+            "question": "Saat penyerapan foton cahaya pada fototransduksi, respons listrik apa yang terjadi pada membran fotoreseptor?",
+            "options": ["Hiperpolarisasi", "Depolarisasi cepat", "Potensial aksi meletup", "Tegangan anjlok ke 0 mV"],
+            "answerIndex": 0,
+            "explanation": "Foton mengaktifkan PDE, menurunkan cGMP sehingga kanal ion Na+ menutup dan membran mengalami hiperpolarisasi."
+          },
+          {
+            "question": "Kondisi darurat medis apa yang terjadi saat lapisan neurosensorik retina terlepas dari lapisan epitel pigmen (RPE)?",
+            "options": ["Ablasio Retina", "Presbiopia", "Astigmatisme", "Blefaritis"],
+            "answerIndex": 0,
+            "explanation": "Ablasio retina memutus suplai nutrisi pembuluh koroid ke fotoreseptor, membutuhkan tindakan medis segera."
+          }
+        ]
+      }
+    },
+    "sclera": {
+      "id": "sclera",
+      "name": {
+        "EN": "Sclera",
+        "ID": "Sklera"
+      },
+      "illustration": "🛡️⚪",
+      "systemId": "vision",
+      "organId": "eye",
+      "simple": {
+        "EN": {
+          "overview": "The sclera is the tough, opaque 'white of the eye'. It acts as a protective shield and rigid shell that keeps the eyeball in its round spherical shape.",
+          "position": "Covers the posterior 5/6ths of the eyeball, merging smoothly into the transparent cornea at the front.",
+          "mechanism": "Provides anchoring attachment points for the 6 extraocular muscles that allow your eyes to swivel up, down, left, and right.",
+          "health": "Yellowing of the sclera (scleral icterus) is an early physical indicator of liver dysfunction or elevated bilirubin."
+        },
+        "ID": {
+          "overview": "Sklera adalah bagian 'putih mata' yang kuat dan tidak tembus cahaya. Sklera bertindak sebagai pelindung kokoh yang menjaga bentuk bulat bola mata.",
+          "position": "Menyelimuti 5/6 bagian belakang bola mata, bersambung dengan kornea transparan di bagian depan.",
+          "mechanism": "Menyediakan titik perlekatan bagi 6 otot ekstraokular penggerak bola mata ke berbagai arah.",
+          "health": "Warna sklera yang menguning (ikterus sklera) menjadi tanda klinis awal gangguan fungsi hati atau tingginya kadar bilirubin."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The sclera is the opaque, dense fibrous outer tunic of the globe composed primarily of interwoven Type I and Type III collagen fibrils and proteoglycans.",
+          "position": "Extends from the corneoscleral limbus anteriorly to the dural sheath of the optic nerve posteriorly (lamina cribrosa).",
+          "mechanism": "Maintains intraocular pressure (IOP) rigidity, protects intraocular contents from mechanical trauma, and receives insertions of all rectus and oblique extraocular tendons.",
+          "health": "Scleritis is a severe inflammatory disease frequently associated with systemic autoimmune disorders (e.g., Rheumatoid Arthritis)."
+        },
+        "ID": {
+          "overview": "Sklera adalah tunika fibrosa luar bola mata yang padat dan opak, tersusun atas jalinan serat kolagen Tipe I & III serta proteoglikan.",
+          "position": "Membentang dari limbus korneoskleral di anterior hingga selubung dura saraf optik di posterior (lamina kribrosa).",
+          "mechanism": "Mempertahankan integritas tekanan intraokular (TIO), menahan trauma mekanik, dan menjadi insersio tendon 6 otot ekstraokular.",
+          "health": "Skleritis adalah peradangan destruktif yang sering berkaitan dengan penyakit autoimun sistemik seperti Artritis Reumatoid."
+        }
+      },
+      "relatedStructures": ["cornea", "optic_nerve", "choroid"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What crucial anatomical structures insert directly onto the outer surface of the sclera to coordinate eye movement?",
+            "options": ["The 6 Extraocular Muscles", "The Ciliary Zonules", "The Retinal Photoreceptors", "The Bowman's Membrane"],
+            "answerIndex": 0,
+            "explanation": "The four rectus and two oblique extraocular muscles insert their tendons into the dense collagen matrix of the sclera."
+          },
+          {
+            "question": "What perforated sieve-like region of the posterior sclera allows unmyelinated optic nerve axons to exit the globe?",
+            "options": ["Lamina Cribrosa", "Corneoscleral Limbus", "Canal of Schlemm", "Trabecular Meshwork"],
+            "answerIndex": 0,
+            "explanation": "The lamina cribrosa is the fenestrated collagen network through which retinal ganglion cell axons pass to form the optic nerve."
+          },
+          {
+            "question": "A yellowish discoloration of the sclera (scleral icterus) is most commonly indicative of which systemic issue?",
+            "options": ["Elevated serum bilirubin (Hepatic dysfunction)", "Vitamin C deficiency", "Acute corneal abrasion", "Hypertension"],
+            "answerIndex": 0,
+            "explanation": "Bilirubin has high affinity for elastin in the sclera, causing yellow discoloration during jaundice."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Struktur anatomi penting apa yang melekat langsung pada permukaan luar sklera untuk menggerakkan bola mata?",
+            "options": ["6 Otot Ekstraokular", "Zonula Zinn Lensa", "Fotoreseptor Retina", "Membran Bowman"],
+            "answerIndex": 0,
+            "explanation": "Empat otot rektus dan dua otot obliquus menancapkan tendonnya pada matriks kolagen kuat sklera."
+          },
+          {
+            "question": "Struktur anyaman berlubang pada sklera posterior tempat keluarnya berkas akson saraf optik disebut?",
+            "options": ["Lamina Kribrosa", "Limbus Korneoskleral", "Kanal Schlemm", "Trabecular Meshwork"],
+            "answerIndex": 0,
+            "explanation": "Lamina kribrosa adalah lempeng berpori pada sklera posterior jalur keluarnya akson sel ganglion retina."
+          },
+          {
+            "question": "Perubahan warna sklera menjadi kekuningan (ikterus sklera) paling sering menandakan kondisi apa?",
+            "options": ["Peningkatan kadar bilirubin serum (gangguan fungsi hati)", "Kekurangan vitamin C", "Goresan kornea akut", "Hipertensi"],
+            "answerIndex": 0,
+            "explanation": "Bilirubin berikatan kuat dengan jaringan elastin sklera saat terjadi ikterus (gangguan empedu/hati)."
+          }
+        ]
+      }
+    },
+    "optic_nerve": {
+      "id": "optic_nerve",
+      "name": {
+        "EN": "Optic Nerve",
+        "ID": "Saraf Optik"
+      },
+      "illustration": "🔌🧠",
+      "systemId": "vision",
+      "organId": "eye",
+      "simple": {
+        "EN": {
+          "overview": "The optic nerve is the high-speed fiber-optic data cable connecting your eye to your brain. It transmits all live visual telemetry gathered by the retina.",
+          "position": "Exits through the rear pole of each eyeball and travels into the cranial cavity towards the optic chiasm.",
+          "mechanism": "Bundles over 1.2 million individual nerve fibers together. The spot where it exits the retina creates your natural optical 'blind spot'.",
+          "health": "Glaucoma is characterized by progressive pressure-induced optic nerve fiber damage, silently narrowing peripheral vision."
+        },
+        "ID": {
+          "overview": "Saraf optik adalah kabel data serat optik berkecepatan tinggi yang menghubungkan mata ke otak. Saraf ini mengirimkan seluruh sinyal visual dari retina.",
+          "position": "Keluar dari kutub belakang bola mata dan berjalan menuju rongga kranial ke kiasma optik.",
+          "mechanism": "Menggabungkan lebih dari 1,2 juta serat saraf individual. Titik keluarnya dari retina menciptakan 'bintik buta' alami.",
+          "health": "Glaukoma ditandai oleh kerusakan serabut saraf optik akibat tekanan bola mata tinggi yang menyempitkan lapang pandang."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The optic nerve (Cranial Nerve II) is an extension of the central nervous system (CNS) derived from the diencephalon, enveloped by all three meningeal sheaths (dura, arachnoid, pia).",
+          "position": "Divided into 4 segments: Intraocular (optic disc ~1 mm), Intraorbital (~25-30 mm), Intracanalicular (~6 mm), and Intracranial (~10-15 mm).",
+          "mechanism": "Composed of ~1.2 million myelinated axons of Retinal Ganglion Cells (RGCs) that decussate partially at the optic chiasm before synapsing at the Lateral Geniculate Nucleus (LGN).",
+          "health": "Papilledema (optic disc edema secondary to elevated intracranial pressure) and optic neuritis cause visual field loss."
+        },
+        "ID": {
+          "overview": "Saraf optik (Nervus Kranialis II) adalah perpanjangan sistem saraf pusat (SSP) turunan diensefalon yang dibungkus oleh ketiga lapisan meningen (dura, araknoid, pia).",
+          "position": "Terbagi dalam 4 segmen: Intraokular (~1 mm), Intraorbital (~25-30 mm), Intrakanalikular (~6 mm), dan Intrakranial (~10-15 mm).",
+          "mechanism": "Tersusun atas ~1,2 juta akson bermielin Sel Ganglion Retina (RGC) yang bersilangan parsial di kiasma optik sebelum bersinaps di Korpus Genikulatum Lateral (LGN).",
+          "health": "Papiledema (pembengkakan diskus optikus akibat tekanan intrakranial tinggi) dan neuritis optik memicu penurunan visus."
+        }
+      },
+      "relatedStructures": ["retina", "macula", "optic_chiasm"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Why is the optic nerve (CN II) developmentally considered a tract of the Central Nervous System (CNS)?",
+            "options": [
+              "It is an outpouching of the diencephalon and is sheathed in meninges and oligodendrocytes",
+              "It contains no axons",
+              "It only carries voluntary motor commands",
+              "It originates in the spinal cord"
+            ],
+            "answerIndex": 0,
+            "explanation": "The optic nerve arises from the embryonic forebrain, is myelinated by oligodendrocytes, and is surrounded by dura, arachnoid, and pia mater."
+          },
+          {
+            "question": "Where do nasal retinal fibers of both optic nerves cross over to the contralateral hemisphere?",
+            "options": ["Optic Chiasm", "Superior Colliculus", "Cornea", "Ciliary Ganglion"],
+            "answerIndex": 0,
+            "explanation": "At the optic chiasm, fibers from the nasal hemiretinas decussate, enabling binocular depth perception."
+          },
+          {
+            "question": "What primary vision-threatening disease is caused by progressive axonal loss of optic nerve fibers linked to high IOP?",
+            "options": ["Glaucoma", "Myopia", "Strabismus", "Chalazion"],
+            "answerIndex": 0,
+            "explanation": "Glaucoma is an optic neuropathy leading to characteristic visual field loss and optic disc cupping."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Mengapa saraf optik (N. II) secara embriologis diklasifikasikan sebagai bagian Sistem Saraf Pusat (SSP)?",
+            "options": [
+              "Merupakan tonjolan diensefalon dan dibungkus selubung meningen serta mielin oligodendrosit",
+              "Tidak memiliki akson saraf",
+              "Hanya menghantarkan sinyal motorik sadar",
+              "Berasal dari sumsum tulang belakang"
+            ],
+            "answerIndex": 0,
+            "explanation": "Saraf optik berkembang dari otak depan embrio, bermielin oligodendrosit, dan dibungkus meningen."
+          },
+          {
+            "question": "Di manakah serabut saraf retina nasal bersilangan ke belahan otak yang berlawanan?",
+            "options": ["Kiasma Optik", "Kolikulus Superior", "Kornea", "Ganglion Siliaris"],
+            "answerIndex": 0,
+            "explanation": "Pada kiasma optik, serabut dari hemiretina nasal bersilangan untuk memungkinkan penglihatan binokular 3D."
+          },
+          {
+            "question": "Penyakit neuropati optik progresif yang sering berhubungan dengan tekanan intraokular tinggi disebut?",
+            "options": ["Glaukoma", "Miopia", "Strabismus", "Kalazion"],
+            "answerIndex": 0,
+            "explanation": "Glaukoma merusak akson saraf optik secara bertahap dan menyempitkan lapang pandang penderitanya."
+          }
+        ]
+      }
+    },
+    "extraocular_muscles": {
+      "id": "extraocular_muscles",
+      "name": {
+        "EN": "Extraocular Muscles",
+        "ID": "Otot Ekstraokular"
+      },
+      "illustration": "👁️🎯",
+      "systemId": "vision",
+      "organId": "eye",
+      "simple": {
+        "EN": {
+          "overview": "The extraocular muscles are a team of six tiny, high-precision muscles in each eye socket that steer your eyeball up, down, left, right, and diagonally, allowing your eyes to track objects smoothly and work together in perfect 3D vision.",
+          "position": "Located inside the bony eye socket (orbit), attached around the outside of the eyeball (sclera).",
+          "mechanism": "Consists of 4 straight muscles (Superior, Inferior, Medial, and Lateral Rectus) and 2 angled muscles (Superior and Inferior Oblique). The superior oblique loops through a tiny cartilage pulley (the trochlea) like a string through a pulley.",
+          "health": "Muscle imbalances cause crossed eyes (strabismus) and double vision (diplopia). Damage to the cranial nerves controlling these muscles (Cranial Nerves III, IV, or VI) paralyzes specific eye movements."
+        },
+        "ID": {
+          "overview": "Otot ekstraokular adalah tim yang terdiri dari enam otot kecil berpresisi tinggi di setiap rongga mata yang menggerakkan bola mata ke atas, bawah, kiri, kanan, dan memutar, memungkinkan mata melacak objek dan bekerja sama dalam penglihatan 3D yang fokus.",
+          "position": "Terletak di dalam rongga tulang mata (orbita), melekat di sekeliling dinding luar bola mata (sklera).",
+          "mechanism": "Terdiri dari 4 otot lurus (Rektus Superior, Inferior, Medial, Lateral) dan 2 otot miring (Obliquus Superior dan Inferior). Otot obliquus superior melewati cincin katrol tulang rawan kecil (troklea) seperti tali pada katrol mekanik.",
+          "health": "Ketidakseimbangan otot memicu mata juling (strabismus) dan penglihatan ganda (diplopia). Kerusakan pada saraf kranial pengendali (Saraf III, IV, atau VI) melumpuhkan gerakan mata ke arah tertentu."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The extraocular muscles comprise six striated extrinsic ocular muscles (four recti: superior, inferior, medial, lateral; two obliques: superior, inferior) and the levator palpebrae superioris within each orbit, controlling precise three-dimensional rotational ocular kinematics.",
+          "position": "Situated within the orbital cavity. The four rectus muscles originate from the common tendinous ring (annulus of Zinn) at the orbital apex and insert onto the anterior sclera (spiral of Tillaux). The superior oblique passes through the fibrocartilaginous trochlea at the superomedial orbital rim; the inferior oblique arises from the anteromedial orbital floor.",
+          "mechanism": "Kinematics & Cranial Innervation (LR6 SO4 R3):\n• Lateral Rectus: Abduction (CN VI - Abducens)\n• Superior Oblique: Incyclotorsion (intorsion) and depression in adduction (CN IV - Trochlear)\n• Medial Rectus: Adduction (CN III - Oculomotor)\n• Superior Rectus: Elevation, intorsion, adduction (CN III)\n• Inferior Rectus: Depression, extorsion, adduction (CN III)\n• Inferior Oblique: Excyclotorsion (extorsion), elevation in adduction (CN III)",
+          "health": "Strabismus leads to amblyopia in children. Oculomotor nerve (CN III) palsy presents with a 'down and out' globe position, ptosis, and mydriasis. Trochlear nerve (CN IV) palsy causes vertical/torsional diplopia with compensatory head tilt. Abducens nerve (CN VI) palsy causes horizontal diplopia on ipsilateral lateral gaze. Thyroid eye disease (Graves' ophthalmopathy) causes autoimmune lymphocytic infiltration and enlargement of extraocular muscle bellies."
+        },
+        "ID": {
+          "overview": "Otot ekstraokular terdiri dari enam otot lurik ekstrinsik okular (empat otot rektus: superior, inferior, medial, lateral; dua otot obliquus: superior, inferior) dan levator palpebrae superioris yang mengendalikan kinematika rotasi bola mata 3D secara presisi.",
+          "position": "Berada di dalam rongga orbita. Keempat otot rektus berorigo dari anulus tendineus komunis (anulus Zinn) di apeks orbita dan berinsersi pada sklera anterior. Obliquus superior melewati katrol fibrokartilago troklea; obliquus inferior berorigo dari dasar orbita anteromedial.",
+          "mechanism": "Kinematika & Inervasi Saraf Kranial (LR6 SO4 R3):\n• Rektus Lateralis: Abduksi mata ke lateral (N. VI - Abdusen)\n• Obliquus Superior: Intorsi dan depresi saat adduksi (N. IV - Troklearis)\n• Rektus Medialis: Adduksi mata ke medial (N. III - Okulomotorius)\n• Rektus Superior: Elevasi mata ke atas (N. III)\n• Rektus Inferior: Depresi mata ke bawah (N. III)\n• Obliquus Inferior: Ekstorsi dan elevasi saat adduksi (N. III)",
+          "health": "Strabismus memicu ambliopia pada anak-anak. Kelumpuhan N. III menimbulkan posisi bola mata 'down and out', ptosis, dan pupil melebar. Kelumpuhan N. IV memicu diplopia vertikal yang dikompensasi dengan memiringkan kepala. Kelumpuhan N. VI memicu diplopia horizontal saat melihat ke samping. Penyakit Graves memicu inflamasi dan penebalan otot ekstraokular (eksoftalmos)."
+        }
+      },
+      "relatedStructures": ["sclera", "cornea", "optic_nerve", "iris"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which cranial nerve innervates the Lateral Rectus extraocular muscle responsible for abducting the eye laterally?",
+            "options": ["Abducens nerve (CN VI)", "Trochlear nerve (CN IV)", "Oculomotor nerve (CN III)", "Optic nerve (CN II)"],
+            "answerIndex": 0,
+            "explanation": "According to the classic mnemonic 'LR6 SO4 R3', the Lateral Rectus is innervated by CN VI (Abducens)."
+          },
+          {
+            "question": "Through which specialized fibrocartilaginous pulley at the superomedial orbital rim does the Superior Oblique muscle tendon pass?",
+            "options": ["Trochlea", "Annulus of Zinn", "Spiral of Tillaux", "Pterygoid canal"],
+            "answerIndex": 0,
+            "explanation": "The superior oblique tendon travels through the trochlea pulley to redirect its vector of pull posterosuperolaterally across the globe."
+          },
+          {
+            "question": "What classic clinical presentation indicates a complete third cranial nerve (Oculomotor nerve, CN III) palsy?",
+            "options": ["'Down and out' eye position, severe upper eyelid ptosis, and a dilated unreactive pupil", "Total bilateral blindness with normal eye movements", "Loss of taste on anterior tongue", "Horner syndrome with miosis and anhidrosis"],
+            "answerIndex": 0,
+            "explanation": "Because only CN IV (Superior Oblique) and CN VI (Lateral Rectus) remain functional, the affected eye rests in a deviated 'down and out' position with ptosis and mydriasis."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Saraf kranial manakah yang menginervasi otot Rektus Lateralis yang bertugas menggerakkan bola mata ke arah luar (abduksi)?",
+            "options": ["Saraf abdusen (N. VI)", "Saraf troklearis (N. IV)", "Saraf okulomotorius (N. III)", "Saraf optik (N. II)"],
+            "answerIndex": 0,
+            "explanation": "Berdasarkan mnemonik klasik 'LR6 SO4 R3', otot Rektus Lateralis diinervasi oleh Nervus Kranial VI (Abdusen)."
+          },
+          {
+            "question": "Melalui katrol fibrokartilago khusus apakah di sudut superomedial orbita tendon otot Obliquus Superior melintas?",
+            "options": ["Troklea", "Anulus Zinn", "Spiral Tillaux", "Kanalis pterigoid"],
+            "answerIndex": 0,
+            "explanation": "Tendon otot obliquus superior melintasi katrol troklea untuk membelokkan arah tarikan otot ke posterior dan lateral bola mata."
+          },
+          {
+            "question": "Gambaran klinis klasik apakah yang mengindikasikan kelumpuhan total saraf kranial ketiga (Nervus Okulomotorius, N. III)?",
+            "options": ["Posisi bola mata 'down and out' (mengarah ke bawah dan luar), ptosis kelopak mata berat, dan pupil melebar (midriasis)", "Kebutaan bilateral total dengan gerakan mata normal", "Hilangnya pengecapan pada lidah", "Sindrom Horner dengan pupil mengecil"],
+            "answerIndex": 0,
+            "explanation": "Karena hanya N. IV (Obliquus Superior) dan N. VI (Rektus Lateralis) yang berfungsi, bola mata tertarik ke posisi 'down and out' disertai kelopak mata menutup dan pupil melebar."
+          }
+        ]
+      }
+    }
+  }
+}

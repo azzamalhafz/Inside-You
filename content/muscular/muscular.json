@@ -1,0 +1,506 @@
+{
+  "id": "muscles_group",
+  "name": {
+    "EN": "Muscular System",
+    "ID": "Sistem Otot"
+  },
+  "systemId": "muscular",
+  "overview": {
+    "simple": {
+      "EN": "Muscles are the living biological motors of your body. They pull on bones to make you move, generate body heat, and maintain steady posture.",
+      "ID": "Otot adalah motor biologis tubuh Anda. Otot berkontraksi menarik tulang untuk menghasilkan gerakan, menghasilkan panas tubuh, dan menjaga postur tetap tegak."
+    },
+    "academic": {
+      "EN": "The muscular system comprises skeletal, cardiac, and smooth muscle tissues executing sliding filament contraction (actin-myosin cross-bridge cycling activated by intracellular Ca2+ and ATP hydrolysis) under somatic and autonomic neural regulation.",
+      "ID": "Sistem otot terdiri dari otot rangka, otot jantung, dan otot polos yang menjalankan kontraksi filamen geser (siklus jembatan silang aktin-miosin yang diaktifkan ion Ca2+ dan hidrolisis ATP) di bawah kendali persarafan somatik dan otonom."
+    }
+  },
+  "structures": {
+    "biceps": {
+      "id": "biceps",
+      "name": {
+        "EN": "Biceps Brachii",
+        "ID": "Otot Biseps (Biceps Brachii)"
+      },
+      "illustration": "💪🦾",
+      "systemId": "muscular",
+      "organId": "muscles_group",
+      "simple": {
+        "EN": {
+          "overview": "The biceps is the prominent muscle on the front of your upper arm that flexes your elbow when you lift something or turn a doorknob.",
+          "position": "Spans across the front of the upper arm between the shoulder and the elbow.",
+          "mechanism": "When you want to bend your arm, electrical impulses cause its muscle fibers to shorten, pulling the forearm bone upward and rotating your palm upward (supination).",
+          "health": "Proper warm-ups and progressive resistance training build biceps strength while protecting the bicipital tendon from strain."
+        },
+        "ID": {
+          "overview": "Biseps adalah otot di bagian depan lengan atas yang menekuk siku saat Anda mengangkat barang atau memutar gagang pintu.",
+          "position": "Membentang di bagian depan lengan atas antara sendi bahu dan sendi siku.",
+          "mechanism": "Saat Anda ingin menekuk lengan, sinyal saraf memicu serat otot memendek, menarik tulang lengan bawah ke atas dan memutar telapak tangan menengadah (supinasi).",
+          "health": "Pemanasan sebelum olahraga dan latihan beban bertahap memperkuat otot biseps serta melindungi tendon biseps dari cedera."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The biceps brachii is a two-headed fusiform muscle in the anterior compartment of the arm innervated by the musculocutaneous nerve (C5-C7).",
+          "position": "Originates via short head (coracoid process of scapula) and long head (supraglenoid tubercle through bicipital groove), inserting distally onto the radial tuberosity and bicipital aponeurosis.",
+          "mechanism": "Primary supinator of the radioulnar joints (especially in flexed elbow) and powerful flexor of the glenohumeral and humeroulnar joints.",
+          "health": "Distal biceps tendon rupture typically occurs during forceful eccentric contraction against heavy loads, requiring surgical re-anchoring to restore full supination torque."
+        },
+        "ID": {
+          "overview": "Biceps brachii adalah otot fusiformis berkepala dua di kompartemen anterior lengan atas yang dipersarafi oleh nervus muskulokutaneus (C5-C7).",
+          "position": "Berasal dari kaput brevis (prosesus korakoideus skapula) dan kaput longum (tuberkulum supraglenoidalis via sulkus bisipitalis), berinsersi pada tuberositas radius dan aponeurosis bisipitalis.",
+          "mechanism": "Supinator utama sendi radioulnar (terutama saat siku ditekuk) dan fleksor kuat sendi siku dan bahu.",
+          "health": "Ruptur tendon biseps distal sering terjadi akibat beban berat eksentrik mendadak, membutuhkan fiksasi bedah untuk memulihkan kekuatan supinasi."
+        }
+      },
+      "relatedStructures": ["triceps", "deltoid", "pectoralis_major"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which peripheral nerve innervates the biceps brachii muscle?",
+            "options": ["Musculocutaneous nerve", "Radial nerve", "Sciatic nerve", "Femoral nerve"],
+            "answerIndex": 0,
+            "explanation": "The musculocutaneous nerve (C5-C7) pierces coracobrachialis and innervates all muscles of the anterior arm compartment."
+          },
+          {
+            "question": "Beyond elbow flexion, what powerful forearm movement is primarily executed by the biceps brachii?",
+            "options": ["Forearm Supination (turning palm up)", "Forearm Pronation", "Finger extension", "Wrist adduction"],
+            "answerIndex": 0,
+            "explanation": "Because it inserts onto the radial tuberosity, biceps brachii is the most powerful supinator of the flexed forearm."
+          },
+          {
+            "question": "Where does the long head of the biceps brachii tendon originate?",
+            "options": ["Supraglenoid tubercle of the scapula", "Lateral epicondyle of humerus", "Xiphoid process", "Greater trochanter"],
+            "answerIndex": 0,
+            "explanation": "The long head tendon arises from the supraglenoid tubercle and glenoid labrum, traversing intra-articularly through the shoulder capsule."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Saraf tepi manakah yang mempersarafi otot biceps brachii?",
+            "options": ["Nervus Muskulokutaneus", "Nervus Radialis", "Nervus Iskiadikus", "Nervus Femoralis"],
+            "answerIndex": 0,
+            "explanation": "Nervus muskulokutaneus (C5-C7) mempersarafi seluruh otot fleksor pada kompartemen anterior lengan atas."
+          },
+          {
+            "question": "Selain fleksi (menekuk) siku, gerakan memutar lengan bawah manakah yang paling kuat digerakkan oleh biseps?",
+            "options": ["Supinasi (memutar telapak tangan menghadap ke atas)", "Pronasi", "Ekstensi jari", "Adduksi pergelangan"],
+            "answerIndex": 0,
+            "explanation": "Karena berinsersi pada tuberositas radius, biseps adalah otot supinator terkuat saat siku ditekuk."
+          },
+          {
+            "question": "Di manakah titik origo (pangkal) tendon kepala panjang (caput longum) otot biseps?",
+            "options": ["Tuberkulum supraglenoidalis pada tulang belikat (skapula)", "Epikondilus lateral humerus", "Prosesus xifoideus", "Trokanter mayor"],
+            "answerIndex": 0,
+            "explanation": "Tendon caput longum berasal dari tuberkulum supraglenoidalis skapula melintasi kapsul sendi bahu."
+          }
+        ]
+      }
+    },
+    "pectoralis_major": {
+      "id": "pectoralis_major",
+      "name": {
+        "EN": "Pectoralis Major",
+        "ID": "Otot Pektoralis Mayor"
+      },
+      "illustration": "🛡️💪",
+      "systemId": "muscular",
+      "organId": "muscles_group",
+      "simple": {
+        "EN": {
+          "overview": "The pectoralis major is the large fan-shaped muscle of the chest. It powers pushing movements, hugging, and pulling your arms across your chest.",
+          "position": "Covers the anterior chest wall from the collarbone and sternum to the upper arm.",
+          "mechanism": "When it contracts, it pulls the upper arm bone inward toward your chest (adduction) and rotates it inward (internal rotation).",
+          "health": "Heavy bench pressing without proper form can tear the pectoralis major tendon at its humeral insertion."
+        },
+        "ID": {
+          "overview": "Pektoralis mayor adalah otot dada besar berbentuk kipas. Otot ini memberi tenaga saat melakukan gerakan mendorong, memeluk, dan merapatkan kedua lengan ke dada.",
+          "position": "Menutupi dinding dada depan, membentang dari tulang selangka dan tulang dada hingga ke tulang lengan atas.",
+          "mechanism": "Saat berkontraksi, otot ini menarik tulang lengan atas ke arah tengah dada (adduksi) dan memutarnya ke dalam (rotasi internal).",
+          "health": "Latihan angkat beban (bench press) berlebihan tanpa pemanasan dapat merobek tendon pektoralis mayor pada perlekatannya di humerus."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The pectoralis major is a thick, fan-shaped muscle composed of two distinct heads: a clavicular head (medial clavicle) and a sternocostal head (sternum and upper 6 costal cartilages), innervated by both medial and lateral pectoral nerves (C5-T1).",
+          "position": "Forms the anterior wall of the axilla, inserting onto the lateral lip of the intertubercular (bicipital) sulcus of the humerus.",
+          "mechanism": "Executes powerful adduction, medial (internal) rotation, and horizontal flexion of the humerus at the glenohumeral joint. Clavicular head assists in shoulder flexion.",
+          "health": "Avulsion of the pectoralis major tendon off the humeral insertion manifests as sudden chest wall ecchymosis, loss of anterior axillary fold contour, and weakness in arm adduction."
+        },
+        "ID": {
+          "overview": "Pektoralis mayor adalah otot tebal berbentuk kipas yang terdiri atas dua kaput: kaput klavikularis (sepertiga medial klavikula) dan kaput sternokostalis (sternum & rawan iga 1-6), dipersarafi nervus pektoralis medialis dan lateralis (C5-T1).",
+          "position": "Membentuk dinding anterior fosa aksila (ketiak), berinsersi pada bibir lateral sulkus bisipitalis tulang humerus.",
+          "mechanism": "Menghasilkan gerakan adduksi kuat, rotasi medial (internal), dan fleksi horizontal lengan atas pada sendi bahu.",
+          "health": "Avulsi tendon pektoralis mayor dari humerus ditandai dengan memar luas dinding dada, hilangnya lipatan ketiak depan, dan kelemahan adduksi lengan."
+        }
+      },
+      "relatedStructures": ["deltoid", "biceps", "latissimus_dorsi"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which two distinct anatomical heads comprise the pectoralis major muscle?",
+            "options": ["Clavicular head and Sternocostal head", "Long head and Short head", "Lateral head and Medial head", "Anterior head and Posterior head"],
+            "answerIndex": 0,
+            "explanation": "Pectoralis major arises from the medial clavicle (clavicular head) and anterior sternum/costal cartilages (sternocostal head)."
+          },
+          {
+            "question": "Where does the tendon of the pectoralis major insert on the humerus?",
+            "options": ["Lateral lip of the bicipital (intertubercular) groove", "Radial tuberosity", "Deltoid tuberosity", "Lesser trochanter"],
+            "answerIndex": 0,
+            "explanation": "Pectoralis major inserts onto the lateral lip of the intertubercular sulcus of the humerus."
+          },
+          {
+            "question": "What primary arm movements are produced by contraction of the whole pectoralis major?",
+            "options": ["Humeral adduction, medial rotation, and horizontal flexion", "Shoulder abduction and external rotation", "Elbow extension and supination", "Wrist flexion"],
+            "answerIndex": 0,
+            "explanation": "Pectoralis major pulls the arm across the chest in adduction, horizontal flexion, and internal rotation."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Dua kaput (kepala) anatomis apakah yang menyusun otot pektoralis mayor dada?",
+            "options": ["Kaput Klavikularis dan Kaput Sternokostalis", "Kaput Longum dan Kaput Brevis", "Kaput Lateralis dan Kaput Medialis", "Kaput Anterior dan Kaput Posterior"],
+            "answerIndex": 0,
+            "explanation": "Pektoralis mayor berpangkal pada tulang selangka (kaput klavikularis) serta tulang dada dan tulang rawan iga (kaput sternokostalis)."
+          },
+          {
+            "question": "Di manakah tendon otot pektoralis mayor melekat (insersi) pada tulang lengan atas (humerus)?",
+            "options": ["Bibir lateral sulkus bisipitalis (intertuberkularis) humerus", "Tuberositas radius", "Tuberositas deltoid", "Trokanter minor"],
+            "answerIndex": 0,
+            "explanation": "Tendon pektoralis mayor berinsersi pada tepi lateral sulkus intertuberkularis humerus."
+          },
+          {
+            "question": "Gerakan utama apakah pada lengan atas yang dihasilkan oleh kontraksi otot pektoralis mayor?",
+            "options": ["Adduksi lengan, rotasi medial ke dalam, dan fleksi horizontal dada", "Abduksi lengan ke atas dan rotasi eksternal", "Ekstensi siku dan supinasi", "Fleksi pergelangan tangan"],
+            "answerIndex": 0,
+            "explanation": "Pektoralis mayor merapatkan lengan ke dada (adduksi) dan memutar lengan ke arah dalam."
+          }
+        ]
+      }
+    },
+    "deltoid": {
+      "id": "deltoid",
+      "name": {
+        "EN": "Deltoid Muscle",
+        "ID": "Otot Deltoid"
+      },
+      "illustration": "🏔️🦾",
+      "systemId": "muscular",
+      "organId": "muscles_group",
+      "simple": {
+        "EN": {
+          "overview": "The deltoid is the powerful triangular cap muscle covering your shoulder. It raises your arm out to the side, forward, and backward.",
+          "position": "Forms the rounded contour of the outer shoulder.",
+          "mechanism": "Divided into three parts (anterior, middle, posterior). The middle fibers lift your arm straight out to the side (abduction) from 15 to 90 degrees.",
+          "health": "Common site for routine intramuscular vaccine injections due to its thickness and rich vascularity."
+        },
+        "ID": {
+          "overview": "Deltoid adalah otot bahu berbentuk segitiga tebal yang membungkus sendi bahu. Otot ini mengangkat lengan ke samping, ke depan, dan ke belakang.",
+          "position": "Membentuk kontur bulat pada bahu bagian luar.",
+          "mechanism": "Terbagi atas tiga bagian (depan, tengah, belakang). Serat tengahnya mengangkat lengan lurus ke samping (abduksi) dari sudut 15 hingga 90 derajat.",
+          "health": "Merupakan lokasi umum untuk suntikan vaksin intramuskular karena ketebalannya dan pasokan darah yang kaya."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The deltoid is a multipennate shoulder muscle innervated by the axillary nerve (C5-C6) originating from the lateral third of the clavicle (anterior), acromion (middle), and spine of the scapula (posterior).",
+          "position": "Inserts distally onto the deltoid tuberosity on the lateral midshaft of the humerus.",
+          "mechanism": "The multipennate middle deltoid is the prime mover of glenohumeral abduction between 15 and 90 degrees (initiated 0-15 degrees by supraspinatus). Anterior fibers flex and medially rotate; posterior fibers extend and laterally rotate.",
+          "health": "Axillary nerve injury (from anterior shoulder dislocation or surgical neck fracture of the humerus) leads to deltoid paralysis, shoulder abduction weakness, and sensory loss over the lateral shoulder ('sergeant's patch')."
+        },
+        "ID": {
+          "overview": "Deltoid adalah otot multipenatus bahu yang dipersarafi nervus aksilaris (C5-C6), berpangkal pada sepertiga lateral klavikula (anterior), akromion (tengah), dan spina skapula (posterior).",
+          "position": "Berinsersi di distal pada tuberositas deltoid di pertengahan lateral batang tulang humerus.",
+          "mechanism": "Serat tengah multipenatus adalah penggerak utama abduksi sendi bahu dari 15 hingga 90 derajat (diinisiasi 0-15 derajat oleh supraspinatus).",
+          "health": "Cedera nervus aksilaris (akibat dislokasi bahu anterior atau fraktur kolum bedah humerus) melumpuhkan otot deltoid dan menghilangkan sensasi kulit pada bahu lateral."
+        }
+      },
+      "relatedStructures": ["pectoralis_major", "trapezius", "biceps"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which peripheral nerve supplies motor innervation to the deltoid muscle?",
+            "options": ["Axillary nerve", "Radial nerve", "Median nerve", "Suprascapular nerve"],
+            "answerIndex": 0,
+            "explanation": "The axillary nerve (C5-C6) branches from the posterior cord of the brachial plexus to innervate deltoid and teres minor."
+          },
+          {
+            "question": "What is the primary action of the middle (acromial) fibers of the deltoid muscle?",
+            "options": ["Abduction of the arm from 15 to 90 degrees", "Initiation of abduction (0-15 degrees)", "Forearm pronation", "Scapular depression"],
+            "answerIndex": 0,
+            "explanation": "The multipennate middle deltoid drives powerful shoulder abduction between 15° and 90°."
+          },
+          {
+            "question": "Where does the deltoid muscle insert on the humerus?",
+            "options": ["Deltoid tuberosity", "Medial epicondyle", "Lesser tubercle", "Radial head"],
+            "answerIndex": 0,
+            "explanation": "The deltoid tendon converges onto the V-shaped deltoid tuberosity on the lateral middle shaft of the humerus."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Saraf tepi manakah yang memberikan persarafan motorik pada otot deltoid bahu?",
+            "options": ["Nervus Aksilaris", "Nervus Radialis", "Nervus Medianus", "Nervus Supraskapularis"],
+            "answerIndex": 0,
+            "explanation": "Nervus aksilaris (C5-C6) melingkari kolum bedah humerus untuk mempersarafi deltoid."
+          },
+          {
+            "question": "Apakah fungsi mekanik utama dari serat tengah (akromial) otot deltoid?",
+            "options": ["Abduksi lengan dari sudut 15 hingga 90 derajat", "Inisiasi abduksi awal (0-15 derajat)", "Pronasi lengan bawah", "Depresi tulang belikat"],
+            "answerIndex": 0,
+            "explanation": "Serat tengah deltoid adalah penggerak utama abduksi lengan mengangkat ke samping antara 15° hingga 90°."
+          },
+          {
+            "question": "Di bagian manakah tendon otot deltoid berinsersi pada tulang humerus?",
+            "options": ["Tuberositas Deltoid", "Epikondilus Medial", "Tuberkulum Minus", "Kaput Radius"],
+            "answerIndex": 0,
+            "explanation": "Tendon deltoid melekat kokoh pada tuberositas deltoid di pertengahan luar tulang lengan atas (humerus)."
+          }
+        ]
+      }
+    },
+    "quadriceps": {
+      "id": "quadriceps",
+      "name": {
+        "EN": "Quadriceps Femoris",
+        "ID": "Otot Kuadriseps Femoris"
+      },
+      "illustration": "🦵⚡",
+      "systemId": "muscular",
+      "organId": "muscles_group",
+      "simple": {
+        "EN": {
+          "overview": "The quadriceps femoris is the massive four-part muscle group on the front of your thigh. It straightens your knee when walking, climbing stairs, jumping, and kicking.",
+          "position": "Covers the entire front and sides of your thigh bone (femur).",
+          "mechanism": "Its four heads unite into a single strong tendon that encases the kneecap (patella) and pulls the shinbone straight.",
+          "health": "Strengthening the quadriceps stabilizes the patellofemoral joint, preventing anterior knee pain and protecting the ACL from strain."
+        },
+        "ID": {
+          "overview": "Kuadriseps femoris adalah kelompok otot besar empat-kepala di bagian depan paha Anda. Otot ini meluruskan sendi lutut saat berjalan, menaiki tangga, melompat, dan menendang.",
+          "position": "Menutupi seluruh bagian depan dan samping tulang paha (femur).",
+          "mechanism": "Keempat kepalanya bersatu menjadi satu tendon kuat yang membungkus tempurung lutut (patela) dan menarik tulang kering agar lutut lurus.",
+          "health": "Memperkuat otot kuadriseps menstabilkan sendi lutut patelofemoral, mencegah nyeri lutut depan dan melindungi ligamen ACL dari cedera."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The quadriceps femoris comprises four distinct muscular components in the anterior compartment of the thigh: Rectus Femoris (bi-articular: flexes hip and extends knee), Vastus Lateralis, Vastus Medialis (includes VMO fibers stabilizing patellar tracking), and Vastus Intermedius, all innervated by the femoral nerve (L2-L4).",
+          "position": "Arises from the anterior inferior iliac spine (rectus femoris) and femoral shaft/linea aspera (vastus muscles), inserting via the quadriceps tendon onto the patella and via the patellar ligament onto the tibial tuberosity.",
+          "mechanism": "The primary extensor of the tibiofemoral knee joint, crucial for decelerating knee flexion during heel strike and providing upward propulsion during jumping.",
+          "health": "Patellofemoral Pain Syndrome (runner's knee) frequently stems from vastus medialis obliquus (VMO) weakness leading to lateral patellar maltracking."
+        },
+        "ID": {
+          "overview": "Kuadriseps femoris terdiri atas empat komponen otot pada kompartemen anterior paha: Rektus Femoris (fleksi panggul & ekstensi lutut), Vastus Lateralis, Vastus Medialis (termasuk serat VMO penstabil patela), dan Vastus Intermedius, dipersarafi nervus femoralis (L2-L4).",
+          "position": "Berasal dari spina iliaka anterior inferior (AIIS) dan linea aspera femur, berinsersi via tendon kuadriseps ke patela dan ligamen patela ke tuberositas tibia.",
+          "mechanism": "Ekstensor utama sendi lutut tibiofemoral, sangat krusial untuk deselerasi saat melangkah dan memberikan daya tolak melompat.",
+          "health": "Sindrom Nyeri Patelofemoral (runner's knee) sering disebabkan oleh kelemahan otot vastus medialis obliquus (VMO) yang menyebabkan pergeseran patela ke arah lateral."
+        }
+      },
+      "relatedStructures": ["biceps", "deltoid"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which of the four quadriceps muscles crosses both the hip joint and the knee joint (bi-articular)?",
+            "options": ["Rectus Femoris", "Vastus Lateralis", "Vastus Medialis", "Vastus Intermedius"],
+            "answerIndex": 0,
+            "explanation": "Rectus femoris originates from the anterior inferior iliac spine (AIIS) of the pelvis, allowing it to flex the hip and extend the knee."
+          },
+          {
+            "question": "Which peripheral nerve provides motor innervation to the entire quadriceps femoris group?",
+            "options": ["Femoral nerve", "Sciatic nerve", "Obturator nerve", "Peroneal nerve"],
+            "answerIndex": 0,
+            "explanation": "The femoral nerve (L2-L4) innervates all four bellies of the quadriceps in the anterior thigh compartment."
+          },
+          {
+            "question": "Where does the patellar ligament (the continuation of the quadriceps tendon) insert distally?",
+            "options": ["Tibial tuberosity", "Medial malleolus", "Fibula head", "Greater trochanter"],
+            "answerIndex": 0,
+            "explanation": "The patellar ligament anchors the quadriceps contraction directly onto the anterior tibial tuberosity."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Manakah dari empat otot kuadriseps yang melintasi dua sendi sekaligus: sendi panggul dan sendi lutut (bi-artikular)?",
+            "options": ["Rektus Femoris (Rectus Femoris)", "Vastus Lateralis", "Vastus Medialis", "Vastus Intermedius"],
+            "answerIndex": 0,
+            "explanation": "Rektus femoris berorigo pada spina iliaka anterior inferior (AIIS) panggul sehingga dapat memfleksikan panggul dan mengekstensikan lutut."
+          },
+          {
+            "question": "Saraf tepi manakah yang mempersarafi seluruh kelompok otot kuadriseps femoris paha depan?",
+            "options": ["Nervus Femoralis", "Nervus Iskiadikus", "Nervus Obturatorius", "Nervus Peroneus"],
+            "answerIndex": 0,
+            "explanation": "Nervus femoralis (L2-L4) mempersarafi seluruh otot ekstensor paha depan."
+          },
+          {
+            "question": "Di manakah ligamen patela (kelanjutan tendon kuadriseps) melekat pada tulang tungkai bawah?",
+            "options": ["Tuberositas Tibia", "Maleolus Medialis", "Kaput Fibula", "Trokanter Mayor"],
+            "answerIndex": 0,
+            "explanation": "Ligamen patela meneruskan gaya kontraksi kuadriseps ke tuberositas tibia untuk meluruskan lutut."
+          }
+        ]
+      }
+    },
+    "trapezius": {
+      "id": "trapezius",
+      "name": {
+        "EN": "Trapezius",
+        "ID": "Otot Trapezius"
+      },
+      "illustration": "🪁🛡️",
+      "systemId": "muscular",
+      "organId": "muscles_group",
+      "simple": {
+        "EN": {
+          "overview": "The trapezius is a large diamond-shaped muscle spanning your upper back and neck. It shrugs your shoulders, pulls your shoulder blades together, and steadies your neck.",
+          "position": "Extends from the base of your skull down along the spine to the mid-back and across to both shoulder blades.",
+          "mechanism": "Upper fibers elevate the shoulders (shrugging), middle fibers retract shoulder blades (pulling back), and lower fibers depress the shoulders.",
+          "health": "Poor computer posture causes chronic trapezius muscle spasms, upper neck tightness, and tension headaches."
+        },
+        "ID": {
+          "overview": "Trapezius adalah otot berbentuk belah ketupat besar yang membentang di leher belakang dan punggung atas. Otot ini mengangkat bahu (mengedik), merapatkan tulang belikat, dan menstabilkan leher.",
+          "position": "Membentang dari dasar tengkorak menuruni tulang belakang hingga punggung tengah dan melebar ke kedua tulang belikat.",
+          "mechanism": "Serat atas mengangkat bahu ke atas, serat tengah menarik belikat ke arah tulang belakang, dan serat bawah menurunkan bahu.",
+          "health": "Postur membungkuk di depan komputer memicu ketegangan otot trapezius kronis, leher kaku, dan sakit kepala tegang (tension headache)."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The trapezius is a flat, superficial triangular muscle in the posterior cervical and dorsal trunk, innervated by Cranial Nerve XI (Accessory Nerve) for motor function and C3-C4 cervical nerves for proprioception.",
+          "position": "Originates from the external occipital protuberance, nuchal ligament, and spinous processes of C7-T12, inserting onto the lateral third of the clavicle, acromion, and spine of the scapula.",
+          "mechanism": "Descending (upper) fibers elevate and upwardly rotate the scapula; transverse (middle) fibers retract the scapula; ascending (lower) fibers depress and upwardly rotate the scapula during full shoulder abduction above 90 degrees.",
+          "health": "Spinal accessory nerve injury (e.g., during posterior triangle cervical lymph node biopsy) results in shoulder drop, trapezius atrophy, and inability to abduct the arm above 90 degrees."
+        },
+        "ID": {
+          "overview": "Trapezius adalah otot segitiga superfisial pada batang tubuh posterior yang dipersarafi secara motorik oleh Saraf Kranial XI (Nervus Aksesorius) dan sensorik proprioseptif oleh C3-C4.",
+          "position": "Berasal dari protuberansia oksipitalis eksterna, ligamen nukhae, dan prosesus spinosus C7-T12, berinsersi pada sepertiga lateral klavikula, akromion, dan spina skapula.",
+          "mechanism": "Serat atas mengelevasikan belikat; serat tengah meretraksikan belikat; serat bawah mendepresi dan memutar skapula ke atas saat abduksi lengan di atas 90 derajat.",
+          "health": "Cedera nervus aksesorius kranial XI (misal saat biopsi kelenjar getah bening leher) menyebabkan bahu terkulai (shoulder drop) dan ketidakmampuan mengangkat lengan di atas 90 derajat."
+        }
+      },
+      "relatedStructures": ["latissimus_dorsi", "deltoid", "pectoralis_major"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which cranial nerve provides primary motor innervation to the trapezius muscle?",
+            "options": ["Cranial Nerve XI (Spinal Accessory Nerve)", "Cranial Nerve VII (Facial Nerve)", "Cranial Nerve X (Vagus Nerve)", "Cranial Nerve V (Trigeminal Nerve)"],
+            "answerIndex": 0,
+            "explanation": "The spinal accessory nerve (CN XI) courses through the posterior triangle of the neck to innervate trapezius."
+          },
+          {
+            "question": "Which part of the trapezius muscle is primarily responsible for shrugging (elevating) the shoulders?",
+            "options": ["Descending (Upper) fibers", "Transverse (Middle) fibers", "Ascending (Lower) fibers", "Deep costal fibers"],
+            "answerIndex": 0,
+            "explanation": "The upper fibers contract to elevate the pectoral girdle and upwardly rotate the scapula."
+          },
+          {
+            "question": "What clinical finding is characteristic of unilateral spinal accessory nerve palsy?",
+            "options": ["Shoulder droop and difficulty abducting the arm above horizontal (90 degrees)", "Total paralysis of forearm flexors", "Loss of facial sensation", "Pupillary dilation"],
+            "answerIndex": 0,
+            "explanation": "Loss of trapezius tone causes the shoulder to drop down and forward, impairing upward scapular rotation needed for overhead arm abduction."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Saraf kranial manakah yang menyediakan persarafan motorik utama untuk otot trapezius?",
+            "options": ["Saraf Kranial XI (Nervus Aksesorius Spinal)", "Saraf Kranial VII (Fasialis)", "Saraf Kranial X (Vagus)", "Saraf Kranial V (Trigeminus)"],
+            "answerIndex": 0,
+            "explanation": "Nervus aksesorius (CN XI) berjalan di leher belakang untuk mempersarafi otot trapezius dan sternokleidomastoideus."
+          },
+          {
+            "question": "Bagian serat otot trapezius manakah yang terutama bekerja saat gerakan mengedikkan (mengangkat) bahu ke atas?",
+            "options": ["Serat Desenden (Serat Atas)", "Serat Transversal (Serat Tengah)", "Serat Asenden (Serat Bawah)", "Serat Kostal Dalam"],
+            "answerIndex": 0,
+            "explanation": "Serat atas trapezius mengelevasikan gelang bahu ke atas."
+          },
+          {
+            "question": "Tanda klinis khas apakah yang timbul akibat kelumpuhan nervus aksesorius spinalis pada otot trapezius?",
+            "options": ["Bahu terkulai (shoulder droop) dan kesulitan mengangkat lengan ke atas melebihi 90 derajat", "Kelumpuhan total otot fleksor lengan bawah", "Hilangnya sensasi rasa wajah", "Pelebaran pupil mata"],
+            "answerIndex": 0,
+            "explanation": "Hilangnya tonus trapezius membuat bahu jatuh terkulai ke bawah dan membatasi gerak abduksi lengan di atas kepala."
+          }
+        ]
+      }
+    },
+    "latissimus_dorsi": {
+      "id": "latissimus_dorsi",
+      "name": {
+        "EN": "Latissimus Dorsi",
+        "ID": "Otot Latissimus Dorsi"
+      },
+      "illustration": "🏊‍♂️🧗",
+      "systemId": "muscular",
+      "organId": "muscles_group",
+      "simple": {
+        "EN": {
+          "overview": "The latissimus dorsi ('lats') is the widest muscle in the human body, forming your V-tapered back. It powers pull-ups, swimming strokes, and pulling objects toward your body.",
+          "position": "Spans the middle and lower back, sweeping up from the spine and hips into the armpit.",
+          "mechanism": "Pulls the upper arm downward and backward (extension and adduction) with powerful leverage.",
+          "health": "Essential for swimmers, climbers, and rowers; tight lats can restrict full overhead shoulder mobility and promote lower back arching."
+        },
+        "ID": {
+          "overview": "Latissimus dorsi adalah otot terlebar di tubuh manusia yang membentuk siluet punggung berbentuk V. Otot ini memberi tenaga besar saat gerakan pull-up, berenang gaya bebas, dan mendayung.",
+          "position": "Membentang di punggung tengah dan bawah, menyapu ke atas dari tulang belakang dan panggul masuk ke ketiak.",
+          "mechanism": "Menarik tulang lengan atas ke bawah dan ke belakang (ekstensi dan adduksi) dengan kekuatan ungkit tinggi.",
+          "health": "Sangat vital bagi perenang dan pemanjat; otot latissimus yang kaku dapat membatasi kelenturan bahu saat mengangkat tangan lurus ke atas."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The latissimus dorsi is a broad, triangular muscle covering the inferior half of the posterior trunk, innervated by the thoracodorsal nerve (C6-C8) from the posterior cord of the brachial plexus.",
+          "position": "Originates from the spinous processes of T7-T12, thoracolumbar fascia, iliac crest, and inferior 3-4 ribs, wrapping around the teres major to insert into the floor of the intertubercular groove of the humerus.",
+          "mechanism": "Powerful extensor, adductor, and medial rotator of the humerus at the glenohumeral joint ('swimmer's muscle'). Assists in deep expiration and coughing.",
+          "health": "Commonly mobilized as a pedicled or free myocutaneous flap in reconstructive plastic surgery for breast reconstruction or head/neck soft tissue coverage."
+        },
+        "ID": {
+          "overview": "Latissimus dorsi adalah otot lebar segitiga pada punggung bawah yang dipersarafi oleh nervus torakodorsalis (C6-C8) cabang fasikulus posterior pleksus brakialis.",
+          "position": "Berasal dari prosesus spinosus T7-T12, fasia torakolumbalis, krista iliaka, dan iga bawah, berputar melingkari teres mayor untuk berinsersi di dasar sulkus intertuberkularis humerus.",
+          "mechanism": "Ekstensor, adduktor, dan rotator medial kuat bagi tulang humerus pada sendi bahu ('otot perenang'). Membantu batuk kuat dan ekspirasi paksa.",
+          "health": "Sering digunakan sebagai flap rekonstruksi bedah plastik (myocutaneous flap) untuk rekonstruksi payudara pasca-mastektomi."
+        }
+      },
+      "relatedStructures": ["trapezius", "pectoralis_major", "deltoid"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Which nerve innervates the latissimus dorsi muscle?",
+            "options": ["Thoracodorsal nerve", "Long thoracic nerve", "Axillary nerve", "Musculocutaneous nerve"],
+            "answerIndex": 0,
+            "explanation": "The thoracodorsal nerve (C6-C8) branches from the posterior cord of the brachial plexus to supply latissimus dorsi."
+          },
+          {
+            "question": "Where does the tendon of the latissimus dorsi insert on the humerus?",
+            "options": ["Floor of the intertubercular (bicipital) groove", "Radial tuberosity", "Deltoid tuberosity", "Greater tubercle"],
+            "answerIndex": 0,
+            "explanation": "Latissimus dorsi inserts into the floor of the bicipital groove (between pectoralis major on the lateral lip and teres major on the medial lip)."
+          },
+          {
+            "question": "Which combination of movements is primarily generated by contraction of the latissimus dorsi on the arm?",
+            "options": ["Humeral extension, adduction, and internal rotation", "Humeral abduction and external rotation", "Elbow flexion and supination", "Scapular elevation"],
+            "answerIndex": 0,
+            "explanation": "Latissimus dorsi extends, adducts, and internally rotates the humerus, powering climbing and swimming."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Saraf tepi manakah yang mempersarafi otot latissimus dorsi?",
+            "options": ["Nervus Torakodorsalis", "Nervus Torasikus Longus", "Nervus Aksilaris", "Nervus Muskulokutaneus"],
+            "answerIndex": 0,
+            "explanation": "Nervus torakodorsalis (C6-C8) keluar dari pleksus brakialis untuk mempersarafi latissimus dorsi."
+          },
+          {
+            "question": "Di manakah perlekatan (insersi) tendon latissimus dorsi pada tulang humerus?",
+            "options": ["Dasar sulkus intertuberkularis (bisipitalis) humerus", "Tuberositas radius", "Tuberositas deltoid", "Tuberkulum mayus"],
+            "answerIndex": 0,
+            "explanation": "Latissimus dorsi berinsersi di dasar lekukan bisipitalis di antara pektoralis mayor dan teres mayor."
+          },
+          {
+            "question": "Kombinasi gerakan lengan apakah yang dihasilkan oleh kontraksi otot latissimus dorsi?",
+            "options": ["Ekstensi lengan ke belakang, adduksi ke dalam, dan rotasi internal", "Abduksi lengan ke samping dan rotasi eksternal", "Fleksi siku dan supinasi", "Elevasi tulang belikat"],
+            "answerIndex": 0,
+            "explanation": "Latissimus dorsi menarik lengan ke belakang (ekstensi), merapatkan ke tubuh (adduksi), dan memutar ke dalam saat mendayung atau berenang."
+          }
+        ]
+      }
+    }
+  }
+}

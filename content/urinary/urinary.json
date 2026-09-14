@@ -1,0 +1,425 @@
+{
+  "id": "kidneys_bladder",
+  "name": {
+    "EN": "Kidneys & Urinary System",
+    "ID": "Ginjal & Sistem Urinari"
+  },
+  "systemId": "urinary",
+  "overview": {
+    "simple": {
+      "EN": "The urinary system acts as your body's master fluid purifier and water recycler, filtering blood to remove waste products while balancing electrolytes and body water.",
+      "ID": "Sistem urinari bertindak sebagai instalasi pemurni cairan dan penyaring darah utama tubuh, membuang limbah metabolik serta menjaga keseimbangan air dan elektrolit."
+    },
+    "academic": {
+      "EN": "The urinary system (paired kidneys, ureters, urinary bladder, urethra) maintains blood volume, systemic blood pressure via the Renin-Angiotensin-Aldosterone System (RAAS), acid-base balance, and erythropoietin secretion through nephron filtration, tubular reabsorption, and secretion.",
+      "ID": "Sistem urinari (sepasang ginjal, ureter, kandung kemih, uretra) mempertahankan volume darah, tekanan darah via sistem RAAS, keseimbangan asam-basa, dan sekresi eritropoietin melalui filtrasi nefron, reabsorpsi, dan sekresi tubulus."
+    }
+  },
+  "structures": {
+    "kidney": {
+      "id": "kidney",
+      "name": {
+        "EN": "Kidney",
+        "ID": "Ginjal"
+      },
+      "illustration": "🫘💧",
+      "systemId": "urinary",
+      "organId": "kidneys_bladder",
+      "simple": {
+        "EN": {
+          "overview": "Your two bean-shaped kidneys clean about 200 quarts of blood each day, sifting out cellular waste products into urine while retaining precious water, salts, and proteins.",
+          "position": "Located against the posterior abdominal wall on either side of the spine, just below the rib cage.",
+          "mechanism": "Over one million microscopic filtering units called nephrons filter blood, reabsorb vital nutrients and water, and concentrate waste into urine.",
+          "health": "Drinking adequate water and controlling blood pressure and blood sugar protect nephrons from chronic kidney disease (CKD)."
+        },
+        "ID": {
+          "overview": "Dua ginjal berbentuk seperti kacang membersihkan sekitar 180-200 liter darah setiap hari, menyaring racun dan zat sisa menjadi urin sambil mempertahankan air, garam, dan protein tubuh.",
+          "position": "Terletak di dinding belakang rongga perut di kedua sisi tulang belakang, tepat di bawah tulang rusuk.",
+          "mechanism": "Lebih dari satu juta unit penyaring mikroskopis bernama nefron menyaring darah, menyerap kembali nutrisi penting, dan memekatkan limbah menjadi urin.",
+          "health": "Minum air yang cukup serta mengontrol tekanan darah dan gula darah melindungi nefron dari penyakit ginjal kronis."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The kidney is a retroperitoneal organ subdivided into an outer renal cortex and inner renal medulla (renal pyramids), housing ~1-1.2 million functional nephrons per kidney.",
+          "position": "Retroperitoneal space between T12 and L3 vertebral levels, right kidney sits slightly lower due to liver asymmetry.",
+          "mechanism": "Glomerular Filtration Rate (GFR ~125 mL/min): Glomerular capillaries filter plasma into Bowman's capsule; Proximal Convoluted Tubules (PCT), Loops of Henle (countercurrent multiplier), and Distal Tubules/Collecting Ducts (regulated by ADH/Aldosterone) fine-tune osmolarity and electrolyte balance.",
+          "health": "Diabetic nephropathy causes glomerular basement membrane thickening and podocyte effacement, manifesting as microalbuminuria and declining GFR."
+        },
+        "ID": {
+          "overview": "Ginjal adalah organ retroperitoneal yang terbagi atas korteks renalis luar dan medula renalis dalam (piramida ginjal), memuat ~1-1,2 juta nefron fungsional per ginjal.",
+          "position": "Ruang retroperitoneal setinggi vertebra T12 hingga L3, posisi ginjal kanan sedikit lebih rendah karena tertekan oleh lobus hati.",
+          "mechanism": "Laju Filtrasi Glomerulus (LFG ~125 mL/menit): Kapiler glomerulus menyaring plasma ke kapsula Bowman; Tubulus Kontortus Proksimal (TKP), Lengkung Henle, dan Duktus Pengumpul (diatur ADH/Aldosteron) mengatur osmolaritas dan keseimbangan elektrolit.",
+          "health": "Nefropati diabetik menyebabkan penebalan membran basal glomerulus dan kerusakan podosit, ditandai mikroalbuminuria dan penurunan LFG."
+        }
+      },
+      "relatedStructures": ["left_kidney", "right_kidney", "ureter", "urinary_bladder"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What is the microscopic functional filtration unit of the human kidney?",
+            "options": ["Nephron", "Neuron", "Hepatocyte", "Alveolus"],
+            "answerIndex": 0,
+            "explanation": "Each kidney contains over 1 million nephrons, each consisting of a glomerulus and specialized tubular segments."
+          },
+          {
+            "question": "Which hormone produced by the adrenal cortex increases renal sodium and water reabsorption in exchange for potassium?",
+            "options": ["Aldosterone", "Insulin", "Glucagon", "Thyroxine"],
+            "answerIndex": 0,
+            "explanation": "Aldosterone acts on principal cells of the distal convoluted tubule and collecting duct to upregulate Na+/K+-ATPase pumps."
+          },
+          {
+            "question": "What hormone secreted by renal peritubular interstitial cells stimulates red blood cell production in bone marrow?",
+            "options": ["Erythropoietin (EPO)", "Renin", "Calcitriol", "Cortisol"],
+            "answerIndex": 0,
+            "explanation": "Renal hypoxemia triggers erythropoietin secretion to accelerate erythropoiesis in bone marrow."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Apakah unit fungsional penyaring mikroskopis pada ginjal manusia?",
+            "options": ["Nefron", "Neuron", "Hepatosit", "Alveolus"],
+            "answerIndex": 0,
+            "explanation": "Setiap ginjal memiliki lebih dari 1 juta nefron yang terdiri dari glomerulus dan tubulus ginjal."
+          },
+          {
+            "question": "Hormon korteks adrenal manakah yang meningkatkan penyerapan kembali natrium dan air di tubulus ginjal?",
+            "options": ["Aldosteron", "Insulin", "Glukagon", "Tiroksin"],
+            "answerIndex": 0,
+            "explanation": "Aldosteron bekerja pada tubulus distal dan duktus pengumpul untuk menyerap kembali ion natrium dan air."
+          },
+          {
+            "question": "Hormon apa yang dihasilkan ginjal untuk merangsang pembentukan sel darah merah di sumsum tulang?",
+            "options": ["Eritropoietin (EPO)", "Renin", "Kalsitriol", "Kortisol"],
+            "answerIndex": 0,
+            "explanation": "Saat ginjal mendeteksi penurunan oksigen darah, ginjal mensekresikan eritropoietin untuk merangsang produksi eritrosit."
+          }
+        ]
+      }
+    },
+    "left_kidney": {
+      "id": "left_kidney",
+      "name": {
+        "EN": "Left Kidney",
+        "ID": "Ginjal Kiri"
+      },
+      "illustration": "🫘👈",
+      "systemId": "urinary",
+      "organId": "kidneys_bladder",
+      "simple": {
+        "EN": {
+          "overview": "The left kidney sits slightly higher than the right kidney. It filters blood from the renal artery, balancing body fluid volume, electrolyte levels, and blood pressure.",
+          "position": "Located retroperitoneally on the left side of the vertebral column between T11-L2, immediately posterior to the stomach, spleen, and pancreas.",
+          "mechanism": "Receives high-pressure oxygenated blood directly from the left renal artery branching from the abdominal aorta, sifting waste into the left ureter.",
+          "health": "Renal artery stenosis or kidney stones (nephrolithiasis) in the left renal pelvis cause severe left flank colic pain radiating to the groin."
+        },
+        "ID": {
+          "overview": "Ginjal kiri terletak sedikit lebih tinggi daripada ginjal kanan. Organ ini menyaring darah dari arteri renalis kiri, menstabilkan volume cairan tubuh, elektrolit, dan tekanan darah.",
+          "position": "Terletak di rongga retroperitoneal di sisi kiri tulang belakang setinggi T11-L2, tepat di belakang lambung, limpa, dan pankreas.",
+          "mechanism": "Menerima aliran darah bertekanan tinggi dari arteri renalis kiri cabang aorta abdominalis, lalu mengalirkan filtrat urin ke ureter kiri.",
+          "health": "Batu ginjal (nefrolitiasis) di pelvis ginjal kiri menyebabkan nyeri kolik pinggang kiri yang menjalar ke lipat paha."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The left kidney (ren sinister) is situated approximately 1.5 cm higher than the right kidney due to absence of liver mass on the left, receiving renal arterial blood and draining into the longer left renal vein which crosses anterior to the aorta beneath the superior mesenteric artery.",
+          "position": "Extends from vertebral levels T11 to L2, capped superiorly by the left adrenal (suprarenal) gland and in contact with the left colic flexure and jejunum.",
+          "mechanism": "Nephrons in the left renal cortex and medulla clear metabolic byproducts (urea, creatinine, uric acid) and regulate systemic pH via bicarbonate reabsorption and hydrogen ion secretion.",
+          "health": "Nutcracker syndrome: Compression of the left renal vein between the abdominal aorta and superior mesenteric artery results in left flank pain, hematuria, and left testicular varicocele in males."
+        },
+        "ID": {
+          "overview": "Ginjal kiri (ren sinister) terletak ~1,5 cm lebih tinggi dari ginjal kanan karena tidak tertekan oleh hati, dialiri arteri renalis kiri dan vena renalis kiri yang melintasi aorta abdominalis di bawah arteri mesenterika superior.",
+          "position": "Membentang setinggi vertebra T11 hingga L2, berbatasan superior dengan kelenjar adrenal kiri dan anterior dengan fleksura koli sinistra.",
+          "mechanism": "Nefron pada ginjal kiri membuang urea, kreatinin, dan asam urat, serta mengontrol pH darah melalui reabsorpsi bikarbonat dan ekskresi ion H+.",
+          "health": "Sindrom Nutcracker: Penjepitan vena renalis kiri antara aorta dan arteri mesenterika superior memicu nyeri pinggang kiri, hematuria, dan varikokel testis kiri pada pria."
+        }
+      },
+      "relatedStructures": ["right_kidney", "ureter", "urinary_bladder", "aorta"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "Why does the left kidney anatomically sit approximately 1 to 2 cm higher than the right kidney?",
+            "options": ["The right kidney is displaced downward by the massive right lobe of the liver", "The left kidney has shorter blood vessels", "The spleen pulls the left kidney upward", "The stomach pushes the right kidney down"],
+            "answerIndex": 0,
+            "explanation": "The large right hepatic lobe occupies space in the upper right quadrant, pushing the right kidney lower."
+          },
+          {
+            "question": "Which major vein crosses anterior to the aorta beneath the superior mesenteric artery (SMA) to drain the left kidney?",
+            "options": ["Left Renal Vein", "Inferior Vena Cava", "Left Common Iliac Vein", "Hepatic Portal Vein"],
+            "answerIndex": 0,
+            "explanation": "The left renal vein traverses across the abdominal aorta under the SMA to reach the IVC."
+          },
+          {
+            "question": "What anatomical space houses both kidneys behind the peritoneal cavity?",
+            "options": ["Retroperitoneal space", "Pleural cavity", "Pericardial cavity", "Mediastinum"],
+            "answerIndex": 0,
+            "explanation": "The kidneys are retroperitoneal organs resting against the posterior abdominal musculature."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Mengapa ginjal kiri secara anatomis terletak 1 hingga 2 cm lebih tinggi daripada ginjal kanan?",
+            "options": ["Ginjal kanan terdorong ke bawah oleh massa lobus kanan organ hati yang besar", "Ginjal kiri memiliki pembuluh darah yang lebih pendek", "Limpa menarik ginjal kiri ke atas", "Lambung mendorong ginjal kanan ke bawah"],
+            "answerIndex": 0,
+            "explanation": "Ukuran lobus kanan hati yang besar menempati kuadran kanan atas sehingga posisi ginjal kanan lebih rendah."
+          },
+          {
+            "question": "Pembuluh darah vena manakah yang melintasi bagian anterior aorta untuk mengalirkan darah dari ginjal kiri menuju Vena Kava Inferior?",
+            "options": ["Vena Renalis Kiri", "Vena Kava Superior", "Vena Iliaka Komunis", "Vena Porta Hepatika"],
+            "answerIndex": 0,
+            "explanation": "Vena renalis kiri memiliki jalur lebih panjang melintasi bagian depan aorta di bawah arteri mesenterika superior."
+          },
+          {
+            "question": "Ruang anatomis apakah di dinding belakang rongga perut tempat kedua ginjal berada di balik peritoneum?",
+            "options": ["Ruang Retroperitoneal", "Rongga Pleura", "Rongga Perikardium", "Mediastinum"],
+            "answerIndex": 0,
+            "explanation": "Kedua ginjal terletak di ruang retroperitoneal di belakang kantung membran peritoneum perut."
+          }
+        ]
+      }
+    },
+    "right_kidney": {
+      "id": "right_kidney",
+      "name": {
+        "EN": "Right Kidney",
+        "ID": "Ginjal Kanan"
+      },
+      "illustration": "🫘👉",
+      "systemId": "urinary",
+      "organId": "kidneys_bladder",
+      "simple": {
+        "EN": {
+          "overview": "The right kidney sits on the right side of your spine just beneath the liver. It filters blood constantly to maintain pure systemic blood chemistry and balance blood volume.",
+          "position": "Located in the retroperitoneal space on the right side between T12-L3, positioned slightly lower than the left kidney.",
+          "mechanism": "Filters blood received directly from the right renal artery, reabsorbing water and vital electrolytes while excreting waste down the right ureter.",
+          "health": "Susceptible to trauma during severe blunt right flank impacts and stone formation within the right renal calyces."
+        },
+        "ID": {
+          "overview": "Ginjal kanan berada di sisi kanan tulang belakang tepat di bawah organ hati. Ginjal kanan bekerja terus-menerus menyaring darah untuk mempertahankan volume cairan dan elektrolit.",
+          "position": "Terletak di ruang retroperitoneal kanan setinggi T12-L3, dengan posisi sedikit lebih rendah dibanding ginjal kiri.",
+          "mechanism": "Menyaring darah dari arteri renalis kanan, menyerap kembali air dan elektrolit vital, lalu menyalurkan urin ke ureter kanan.",
+          "health": "Rentan terhadap cedera benturan tumpul pinggang kanan serta pengendapan kalsium oksalat menjadi batu ginjal."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The right kidney (ren dexter) is situated retroperitoneally at T12-L3 levels, featuring a shorter renal vein directly entering the inferior vena cava and a longer right renal artery passing posterior to the IVC.",
+          "position": "Posterior to the right lobe of the liver, the descending duodenum, and the right colic flexure, surrounded by the renal capsule and perinephric fat (Gerota's fascia).",
+          "mechanism": "Glomeruli in the right renal cortex filter systemic arterial blood; juxtaglomerular apparatus (JGA) secretes renin in response to decreased renal perfusion pressure or low sodium chloride delivery to the macula densa.",
+          "health": "Renal cell carcinoma (RCC) originating from proximal convoluted tubular epithelium frequently invades the right renal vein and inferior vena cava."
+        },
+        "ID": {
+          "overview": "Ginjal kanan (ren dexter) berada di retroperitoneal setinggi T12-L3, memiliki vena renalis kanan yang lebih pendek langsung ke VCI dan arteri renalis kanan yang melintas di belakang VCI.",
+          "position": "Terletak di posterior lobus kanan hati, duodenum desenden, dan fleksura koli dekstra, terbungkus kapsul ginjal dan fasia Gerota.",
+          "mechanism": "Aparatus jukstaglomerulus (JGA) menyekresikan renin saat tekanan perfusi renal turun atau kadar NaCl di makula densa rendah untuk mengaktifkan sistem RAAS.",
+          "health": "Karsinoma sel ginjal (RCC) yang berasal dari epitel tubulus proksimal memiliki kecenderungan menginvasi vena renalis kanan hingga vena kava inferior."
+        }
+      },
+      "relatedStructures": ["left_kidney", "ureter", "urinary_bladder"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What specialized cellular structure in the kidney releases renin to activate the RAAS pathway during hypotension?",
+            "options": ["Juxtaglomerular Apparatus (JGA)", "Parietal layer of Bowman's capsule", "Loop of Henle hairpin bend", "Renal papilla tip"],
+            "answerIndex": 0,
+            "explanation": "Juxtaglomerular cells in the afferent arteriole wall synthesize and secrete renin to elevate blood pressure."
+          },
+          {
+            "question": "Which major blood vessel passes anterior to the right renal artery on its course from the aorta to the right kidney?",
+            "options": ["Inferior Vena Cava (IVC)", "Superior Mesenteric Artery", "Celiac Trunk", "Left Renal Vein"],
+            "answerIndex": 0,
+            "explanation": "The right renal artery courses behind the inferior vena cava to reach the right renal hilum."
+          },
+          {
+            "question": "What tough fibrous fascia encases the kidney, adrenal gland, and perinephric adipose tissue?",
+            "options": ["Gerota's Fascia (Renal Fascia)", "Fascia Lata", "Scarpa's Fascia", "Camper's Fascia"],
+            "answerIndex": 0,
+            "explanation": "Gerota's fascia anchors and protects the retroperitoneal kidney within perinephric fat."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Struktur seluler khusus apakah di ginjal yang melepaskan hormon renin untuk meningkatkan tekanan darah melalui jalur RAAS?",
+            "options": ["Aparatus Jukstaglomerulus (JGA)", "Kapsula Bowman", "Lengkung Henle", "Papila Renalis"],
+            "answerIndex": 0,
+            "explanation": "Sel jukstaglomerulus pada arteriol aferen mensekresi renin sebagai respons terhadap penurunan tekanan perfusi darah ginjal."
+          },
+          {
+            "question": "Pembuluh darah besar apakah yang melintas di depan arteri renalis kanan dalam perjalanannya dari aorta ke ginjal kanan?",
+            "options": ["Vena Kava Inferior (VCI)", "Arteri Mesenterika Superior", "Trunkus Seliakus", "Vena Renalis Kiri"],
+            "answerIndex": 0,
+            "explanation": "Arteri renalis kanan berjalan melintasi bagian belakang vena kava inferior untuk mencapai hilum ginjal kanan."
+          },
+          {
+            "question": "Fasia fibrosa kuat apakah yang membungkus ginjal, kelenjar adrenal, dan lemak perirenal?",
+            "options": ["Fasia Gerota (Fasia Renalis)", "Fasia Lata", "Fasia Scarpa", "Fasia Camper"],
+            "answerIndex": 0,
+            "explanation": "Fasia Gerota membungkus dan mengunci posisi ginjal di dinding posterior abdomen."
+          }
+        ]
+      }
+    },
+    "ureter": {
+      "id": "ureter",
+      "name": {
+        "EN": "Ureter",
+        "ID": "Ureter"
+      },
+      "illustration": "🧪🚰",
+      "systemId": "urinary",
+      "organId": "kidneys_bladder",
+      "simple": {
+        "EN": {
+          "overview": "The ureters are two muscular tubes that carry urine drop-by-drop from the kidneys down into the urinary bladder.",
+          "position": "Descend along the posterior abdominal wall from each kidney pelvis into the pelvic cavity.",
+          "mechanism": "Smooth muscle in the ureter walls rhythmically contracts (peristalsis) every 10 to 30 seconds to propel urine forward even when lying down.",
+          "health": "Kidney stones traveling down the narrow ureter cause excruciating ureteral spasms, flank pain, and hematuria (blood in urine)."
+        },
+        "ID": {
+          "overview": "Ureter adalah dua saluran tabung berotot yang mengalirkan urin tetes demi tetes dari pelvis ginjal menuju ke kandung kemih.",
+          "position": "Turun di sepanjang dinding belakang rongga perut dari masing-masing ginjal masuk ke dalam rongga panggul.",
+          "mechanism": "Dinding otot polos ureter berkontraksi secara ritmis (gelombang peristalsis) setiap 10-30 detik untuk mendorong urin ke bawah.",
+          "health": "Batu ginjal yang tersangkut di penyempitan ureter memicu spasme otot hebat (kolik ureter) disertai keluarnya darah dalam urin."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The ureters are paired retroperitoneal muscular conduits (25-30 cm long) lined with transitional epithelium (urothelium) and an inner longitudinal / outer circular smooth muscle tunic.",
+          "position": "Originate at the renal pelvis (ureteropelvic junction / UPJ), cross the pelvic brim over the bifurcation of the common iliac vessels, and enter the posteroinferior bladder wall obliquely at the ureterovesical junction (UVJ).",
+          "mechanism": "Pacemaker cells in the renal calyces initiate myogenic peristaltic contractions. The oblique intramural passage through the detrusor muscle creates a physiological one-way flap valve preventing vesicoureteral reflux (VUR).",
+          "health": "Three physiological sites of constriction predispose to calculus lodgement: UPJ, pelvic brim crossing over iliac vessels, and UVJ."
+        },
+        "ID": {
+          "overview": "Ureter adalah sepasang saluran berotot retroperitoneal (panjang 25-30 cm) yang dilapisi epitel transisional (urotelium) dengan lapisan otot polos longitudinal dalam dan sirkular luar.",
+          "position": "Bermula dari taut ureteropelvis (UPJ), melintasi tepi panggul di atas bifurkasio arteri iliaka komunis, dan menembus kandung kemih secara oblik di taut ureterovesikal (UVJ).",
+          "mechanism": "Sel pemacu di kaliks ginjal mencetuskan gelombang peristalsis. Penetrasi oblik melalui dinding detrusor bertindak sebagai katup satu arah pencegah refluks vesikoureter (VUR).",
+          "health": "Tiga penyempitan fisiologis tempat rawan tersangkutnya batu: UPJ, persilangan pembuluh iliaka, dan UVJ."
+        }
+      },
+      "relatedStructures": ["kidney", "left_kidney", "right_kidney", "urinary_bladder"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What physiological mechanism actively propels urine down the ureter from the renal pelvis into the bladder?",
+            "options": ["Rhythmic smooth muscle peristalsis", "Passive gravitational flow alone", "High negative suction pressure from bladder", "Voluntary skeletal muscle pumping"],
+            "answerIndex": 0,
+            "explanation": "Myogenic peristaltic waves propagate through the ureteral muscular wall to pump urine downward independent of gravity."
+          },
+          {
+            "question": "What structural adaptation at the ureterovesical junction (UVJ) prevents backwards reflux of urine during bladder contraction?",
+            "options": ["Oblique intramural tunnel through the detrusor that collapses under bladder pressure", "A rigid bicuspid cartilage valve", "A muscular skeletal sphincter", "Constant high secretion of mucus"],
+            "answerIndex": 0,
+            "explanation": "As the bladder fills and contracts, hydrostatic pressure compresses the oblique intramural ureter, sealing the lumen."
+          },
+          {
+            "question": "Which of the following is NOT one of the three classic anatomical constrictions of the ureter?",
+            "options": ["Hepatic flexure junction", "Ureteropelvic Junction (UPJ)", "Pelvic brim over common iliac vessels", "Ureterovesical Junction (UVJ)"],
+            "answerIndex": 0,
+            "explanation": "The three constriction sites are UPJ, crossing over iliac vessels at the pelvic brim, and UVJ."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Mekanisme fisiologis apakah yang aktif mendorong urin menuruni ureter menuju kandung kemih?",
+            "options": ["Gelombang peristalsis otot polos ureter yang ritmis", "Hanya gaya gravitasi pasif semata", "Tekanan hisap negatif kandung kemih", "Pompa otot rangka sadar"],
+            "answerIndex": 0,
+            "explanation": "Kontraksi peristalsis otot polos mendorong urin bahkan saat tubuh dalam posisi berbaring."
+          },
+          {
+            "question": "Adaptasi struktur apakah pada sambungan ureterovesikal (UVJ) yang mencegah aliran balik (refluks) urin saat berkemih?",
+            "options": ["Saluran oblik intramural yang tertekan dan menutup saat kandung kemih terisi", "Katup tulang rawan bikuspid kaku", "Sfinkter otot rangka sadar", "Sekresi lendir terus-menerus"],
+            "answerIndex": 0,
+            "explanation": "Ureter menembus dinding kandung kemih secara miring sehingga saat kandung kemih mengembang, saluran tersebut otomatis terjepit rapat."
+          },
+          {
+            "question": "Manakah di bawah ini yang BUKAN merupakan salah satu dari 3 titik penyempitan anatomis ureter?",
+            "options": ["Taut fleksura hepatika", "Taut Ureteropelvis (UPJ)", "Persilangan vaskular iliaka di pintu atas panggul", "Taut Ureterovesikal (UVJ)"],
+            "answerIndex": 0,
+            "explanation": "Tiga penyempitan alami ureter adalah UPJ, persilangan pembuluh iliaka, dan UVJ saat masuk kandung kemih."
+          }
+        ]
+      }
+    },
+    "urinary_bladder": {
+      "id": "urinary_bladder",
+      "name": {
+        "EN": "Urinary Bladder",
+        "ID": "Kandung Kemih"
+      },
+      "illustration": "🎈💧",
+      "systemId": "urinary",
+      "organId": "kidneys_bladder",
+      "simple": {
+        "EN": {
+          "overview": "The urinary bladder is a hollow, flexible muscular balloon that stores urine comfortably until you are ready to empty it.",
+          "position": "Rests on the pelvic floor, positioned behind the pubic bone (symphysis pubis).",
+          "mechanism": "Stretches to hold 300 to 500 mL of urine. When full, stretch receptors notify your brain, and the detrusor muscle contracts during voluntary urination.",
+          "health": "Urinary tract infections (UTIs / cystitis) cause burning during urination (dysuria), frequent urgency, and pelvic discomfort."
+        },
+        "ID": {
+          "overview": "Kandung kemih adalah kantung berotot elastis yang menampung urin secara nyaman hingga Anda siap untuk mengeluarkannya saat buang air kecil.",
+          "position": "Terletak di dasar rongga panggul, tepat di belakang tulang kemaluan (simfisis pubis).",
+          "mechanism": "Dapat meregang menampung 300-500 mL urin. Saat penuh, reseptor regangan mengirim sinyal ke otak dan otot detrusor berkontraksi saat berkemih.",
+          "health": "Infeksi saluran kemih (sistitis) menimbulkan rasa perih terbakar saat buang air kecil (disuria), anyang-anyangan, dan nyeri panggul."
+        }
+      },
+      "academic": {
+        "EN": {
+          "overview": "The urinary bladder (vesica urinaria) is a distensible subperitoneal pelvic reservoir composed of the detrusor muscle (meshwork of 3 smooth muscle layers), mucosal urothelium with umbrella cells, and the triangular trigone.",
+          "position": "Lies immediately posterior to the pubic symphysis; in females anterior to the uterus and vagina; in males superior to the prostate gland and anterior to the rectum.",
+          "mechanism": "Micturition reflex: Afferent signals via pelvic splanchnic nerves (S2-S4) trigger parasympathetic stimulation of the detrusor (muscarinic M3 receptors) and inhibition of the internal urethral sphincter, while voluntary somatic control via pudendal nerve (S2-S4) relaxes the external urethral sphincter.",
+          "health": "Urinary retention from Benign Prostatic Hyperplasia (BPH) or neurogenic bladder leads to hydronephrosis and chronic kidney injury if uncatheterized."
+        },
+        "ID": {
+          "overview": "Kandung kemih (vesica urinaria) adalah reservoir panggul subperitoneal yang tersusun dari otot detrusor (3 lapis otot polos), urotelium dengan sel payung resisten, serta trigonum vesika.",
+          "position": "Terletak di posterior simfisis pubis; pada wanita di depan uterus/vagina; pada pria di superior kelenjar prostat dan anterior rektum.",
+          "mechanism": "Refleks miksi: Sinyal aferen saraf splanknikus pelvis (S2-S4) memicu eksitasi parasimpatis reseptor M3 pada otot detrusor serta relaksasi sfinkter uretra eksterna via saraf pudendus.",
+          "health": "Retensi urin akibat BPH (pembesaran prostat) atau kandung kemih neurogenik dapat menyebabkan refluks hidronefrosis dan gagal ginjal bila tidak ditangani."
+        }
+      },
+      "relatedStructures": ["kidney", "ureter"],
+      "quiz": {
+        "EN": [
+          {
+            "question": "What is the primary smooth muscle of the urinary bladder wall responsible for emptying during micturition?",
+            "options": ["Detrusor muscle", "Pyloric sphincter", "Dartos muscle", "Rectus abdominis"],
+            "answerIndex": 0,
+            "explanation": "The detrusor muscle contracts under parasympathetic stimulation to expel urine from the bladder."
+          },
+          {
+            "question": "What smooth triangular anatomical region at the base of the bladder is delineated by the two ureteral orifices and the internal urethral orifice?",
+            "options": ["Trigone of the bladder", "Renal papilla", "Perineal body", "Corpus spongiosum"],
+            "answerIndex": 0,
+            "explanation": "The trigone is a sensitive, smooth triangular mucosal area anchored firmly to the bladder base."
+          },
+          {
+            "question": "Which branch of the autonomic nervous system stimulates detrusor contraction and initiates bladder emptying?",
+            "options": ["Parasympathetic nervous system (S2-S4 pelvic splanchnic nerves)", "Sympathetic nervous system (T11-L2)", "Somatic voluntary system only", "Enteric nervous system"],
+            "answerIndex": 0,
+            "explanation": "Parasympathetic outflow via acetylcholine on muscarinic M3 receptors stimulates detrusor contraction."
+          }
+        ],
+        "ID": [
+          {
+            "question": "Otot polos utama penyusun dinding kandung kemih yang berkontraksi saat proses buang air kecil (miksi) disebut?",
+            "options": ["Otot Detrusor", "Sfinkter Pilorus", "Otot Dartos", "Rektus Abdominis"],
+            "answerIndex": 0,
+            "explanation": "Otot detrusor berkontraksi saat dirangsang oleh saraf parasimpatis untuk mengosongkan urin."
+          },
+          {
+            "question": "Area segitiga halus di dasar kandung kemih yang dibatasi oleh dua lubang ureter dan satu lubang uretra interna disebut?",
+            "options": ["Trigonum Kandung Kemih (Trigone)", "Papila Renalis", "Korpus Perineal", "Korpus Spongiosum"],
+            "answerIndex": 0,
+            "explanation": "Trigonum adalah area mukosa berbentuk segitiga yang sangat sensitif terhadap regangan cairan urin."
+          },
+          {
+            "question": "Cabang sistem saraf otonom manakah yang merangsang kontraksi otot detrusor untuk memulai pengosongan urin?",
+            "options": ["Sistem Saraf Parasimpatis (S2-S4 saraf splanknikus panggul)", "Sistem Saraf Simpatis (T11-L2)", "Hanya sistem saraf somatik sadar", "Sistem saraf enterik lambung"],
+            "answerIndex": 0,
+            "explanation": "Saraf parasimpatis melepaskan asetilkolin yang berikatan pada reseptor muskarinik M3 untuk memicu kontraksi otot detrusor."
+          }
+        ]
+      }
+    }
+  }
+}
