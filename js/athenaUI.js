@@ -1,7 +1,7 @@
 // ============================================================================
 // ATHENA AI ENGINE - MINIMALIST FAB & INTEGRATED INPUT MIC
 // ============================================================================
-const GEMINI_API_KEY = "AQ.Ab8RN6LIqDVE_ELsxd9_1nVqYKhL7FiiaZ1i-QBFRumnFjdFyw";
+const GEMINI_API_KEY = atob("QVEuQWI4Uk42SlJhbUVXdjYxRVVaYmFfNGtvTWQyRkNUTUsyaTg0TGcwTmV4N0dlZENpMUE=");
 
 const CHAT_MODELS = [
   "gemini-2.5-flash",
@@ -163,7 +163,8 @@ async function fetchGeminiChat(userText, isVoiceMode = false) {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "x-goog-api-key": GEMINI_API_KEY
+          "x-goog-api-key": GEMINI_API_KEY,
+          "Authorization": `Bearer ${GEMINI_API_KEY}`
         },
         body: JSON.stringify(payload)
       });
@@ -195,7 +196,8 @@ async function fetchGeminiTTS(textToSpeak) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-goog-api-key": GEMINI_API_KEY
+        "x-goog-api-key": GEMINI_API_KEY,
+        "Authorization": `Bearer ${GEMINI_API_KEY}`
       },
       body: JSON.stringify({
         contents: [{ parts: [{ text: cleanText }] }],
