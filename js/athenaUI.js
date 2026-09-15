@@ -2,6 +2,9 @@
 // ATHENA AI ENGINE - MINIMALIST FAB & INTEGRATED INPUT MIC
 // ============================================================================
 const GEMINI_API_KEY = atob("QVEuQWI4Uk42SlJhbUVXdjYxRVVaYmFfNGtvTWQyRkNUTUsyaTg0TGcwTmV4N0dlZENpMUE=");
+if (typeof window !== "undefined") {
+  window.GEMINI_API_KEY = GEMINI_API_KEY;
+}
 
 const CHAT_MODELS = [
   "gemini-2.5-flash",
@@ -158,13 +161,13 @@ async function fetchGeminiChat(userText, isVoiceMode = false) {
 
   for (const model of CHAT_MODELS) {
     try {
-      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
+      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
       const response = await fetch(endpoint, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "x-goog-api-key": GEMINI_API_KEY,
-          "Authorization": `Bearer ${GEMINI_API_KEY}`
+          "Authorization": `Bearer ${GEMINI_API_KEY}`,
+          "x-goog-api-key": GEMINI_API_KEY
         },
         body: JSON.stringify(payload)
       });
@@ -191,13 +194,13 @@ async function fetchGeminiTTS(textToSpeak) {
     const cleanText = textToSpeak.replace(/[*#_`~\[\]]/g, "").trim();
     if (!cleanText) return null;
 
-    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${TTS_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${TTS_MODEL}:generateContent`;
     const response = await fetch(endpoint, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-goog-api-key": GEMINI_API_KEY,
-        "Authorization": `Bearer ${GEMINI_API_KEY}`
+        "Authorization": `Bearer ${GEMINI_API_KEY}`,
+        "x-goog-api-key": GEMINI_API_KEY
       },
       body: JSON.stringify({
         contents: [{ parts: [{ text: cleanText }] }],
