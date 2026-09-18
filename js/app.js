@@ -46,7 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Active Session State (Neutral default on launch - no forced organ selection)
-  let lang = "EN";
+  const savedLang = localStorage.getItem("lang") || localStorage.getItem("language") || localStorage.getItem("selectedLanguage");
+  let lang = (savedLang && (savedLang.toUpperCase().startsWith("ID") || savedLang.toUpperCase().startsWith("IN"))) ? "ID" : "EN";
   let isDark = true;
   let currentRoute = "home";
   let currentSystemId = null;
@@ -161,7 +162,15 @@ document.addEventListener("DOMContentLoaded", () => {
       learnTitle: "How Do You Want To Learn?",
       learnSubtitle: "Choose your explanation mode below to begin the deep structured lesson.",
       btnStartQuiz: "Take Contextual Quiz →",
-      quizEyebrow: "CONTEXTUAL MULTI-QUESTION QUIZ"
+      quizEyebrow: "CONTEXTUAL MULTI-QUESTION QUIZ",
+      newsEyebrow: "HEALTH & SCIENCE DISCOVERIES",
+      newsTitle: "Medical Research & Anatomy News",
+      newsSubtitle: "Stay updated with curated breakthroughs in 3D anatomical modeling, optics, and cellular medicine.",
+      newsChipAll: "All News",
+      newsChipAI: "AI in Healthcare",
+      newsChipAnatomy: "Anatomy",
+      newsChipMedicine: "Medicine",
+      newsChipResearch: "Research"
     },
     ID: {
       navHome: "Beranda",
@@ -192,7 +201,15 @@ document.addEventListener("DOMContentLoaded", () => {
       learnTitle: "Bagaimana Anda Ingin Belajar?",
       learnSubtitle: "Pilih mode penjelasan di bawah untuk memulai pelajaran terstruktur.",
       btnStartQuiz: "Ikuti Kuis Kontekstual →",
-      quizEyebrow: "KUIS MULTI-PERTANYAAN KONTEKSUAL"
+      quizEyebrow: "KUIS MULTI-PERTANYAAN KONTEKSUAL",
+      newsEyebrow: "PENEMUAN KESEHATAN & SAINS",
+      newsTitle: "Riset Medis & Berita Anatomi",
+      newsSubtitle: "Dapatkan pembaruan penemuan kurasi dalam pemodelan anatomi 3D, optik, dan kedokteran seluler.",
+      newsChipAll: "Semua Berita",
+      newsChipAI: "AI Kesehatan",
+      newsChipAnatomy: "Anatomi",
+      newsChipMedicine: "Kedokteran",
+      newsChipResearch: "Riset"
     }
   };
 
@@ -1361,6 +1378,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  let activeNewsCategory = "all";
+
+  function formatNewsDate(dateStr, targetLang) {
+    if (!dateStr || targetLang !== "ID") return dateStr;
+    const monthMap = {
+      January: "Januari", February: "Februari", March: "Maret", April: "April",
+      May: "Mei", June: "Juni", July: "Juli", August: "Agustus",
+      September: "September", October: "Oktober", November: "November", December: "Desember"
+    };
+    let formatted = dateStr;
+    for (const [enMonth, idMonth] of Object.entries(monthMap)) {
+      formatted = formatted.replace(enMonth, idMonth);
+    }
+    return formatted;
+  }
+
   /**
    * Renders News & Research Page
    */
@@ -1369,35 +1402,66 @@ document.addEventListener("DOMContentLoaded", () => {
     const categoryChips = document.getElementById("newsCategories");
     if (!grid) return;
 
-    let activeCat = "all";
+    const activeChip = categoryChips ? categoryChips.querySelector(".chip.active") : null;
+    if (activeChip && activeChip.dataset.category) {
+      activeNewsCategory = activeChip.dataset.category;
+    }
 
     function renderArticles() {
-      const articles = activeCat === "all" 
-        ? window.INSIDE_YOU_DATA.NEWS_ARTICLES 
-        : window.INSIDE_YOU_DATA.NEWS_ARTICLES.filter(a => a.category === activeCat);
+      const allArticles = (window.INSIDE_YOU_DATA && window.INSIDE_YOU_DATA.NEWS_ARTICLES) || [];
+      const articles = activeNewsCategory === "all" 
+        ? allArticles 
+        : allArticles.filter(a => a.category === activeNewsCategory);
 
-      grid.innerHTML = articles.map(art => `
-        <div class="news-card">
-          <div class="news-top-row">
-            <span class="news-cat-badge">${art.category}</span>
-            <span style="font-size:1.5rem;">${art.image}</span>
+      if (articles.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-news-state" style="grid-column: 1 / -1; text-align:center; padding: 2rem; color: var(--text-muted, #888);">
+            <p>${lang === "ID" ? "Tidak ada artikel untuk kategori ini." : "No articles found for this category."}</p>
           </div>
-          <h3>${art.title[lang]}</h3>
-          <p>${art.summary[lang]}</p>
-          <div class="news-footer-row">
-            <span>${art.source}</span>
-            <span>${art.date}</span>
+        `;
+        return;
+      }
+
+      const categoryLabels = {
+        EN: { "AI in Healthcare": "AI in Healthcare", "Anatomy": "Anatomy", "Medicine": "Medicine", "Research": "Research" },
+        ID: { "AI in Healthcare": "AI Kesehatan", "Anatomy": "Anatomi", "Medicine": "Kedokteran", "Research": "Riset" }
+      };
+
+      grid.innerHTML = articles.map(art => {
+        const title = (art.title && (art.title[lang] || art.title[lang.toUpperCase()] || art.title.EN || art.title.ID)) || "";
+        const summary = (art.summary && (art.summary[lang] || art.summary[lang.toUpperCase()] || art.summary.EN || art.summary.ID)) || "";
+        const catLabel = (categoryLabels[lang] && categoryLabels[lang][art.category]) || art.category;
+        const dateStr = formatNewsDate(art.date || "", lang);
+
+        return `
+          <div class="news-card">
+            <div class="news-top-row">
+              <span class="news-cat-badge">${catLabel}</span>
+              <span style="font-size:1.5rem;">${art.image || "📰"}</span>
+            </div>
+            <h3>${title}</h3>
+            <p>${summary}</p>
+            <div class="news-footer-row">
+              <span>${art.source || "Medical Journal"}</span>
+              <span>${dateStr}</span>
+            </div>
           </div>
-        </div>
-      `).join("");
+        `;
+      }).join("");
     }
 
     if (categoryChips) {
       categoryChips.querySelectorAll(".chip").forEach(chip => {
+        if (chip.dataset.category === activeNewsCategory) {
+          chip.classList.add("active");
+        } else {
+          chip.classList.remove("active");
+        }
+
         chip.onclick = () => {
           categoryChips.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
           chip.classList.add("active");
-          activeCat = chip.dataset.category;
+          activeNewsCategory = chip.dataset.category;
           renderArticles();
         };
       });
@@ -1407,9 +1471,46 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /**
+   * Set application language and re-render active view
+   */
+  function setLanguage(newLang) {
+    if (!newLang) return;
+    const targetLang = (newLang.toUpperCase().startsWith("ID") || newLang.toUpperCase().startsWith("IN")) ? "ID" : "EN";
+    const changed = lang !== targetLang;
+    lang = targetLang;
+    applyLanguage();
+    if (changed) {
+      toast(lang === "ID" ? "Bahasa Indonesia Aktif" : "English Active");
+    }
+  }
+
+  /**
+   * Toggle application language between EN and ID
+   */
+  function toggleLanguage() {
+    lang = lang === "EN" ? "ID" : "EN";
+    applyLanguage();
+    toast(lang === "ID" ? "Bahasa Indonesia Aktif" : "English Active");
+  }
+
+  /**
    * Apply translations across UI
    */
   function applyLanguage() {
+    // 1. Sync persistent storage & html lang attribute
+    try {
+      localStorage.setItem("lang", lang);
+      localStorage.setItem("language", lang);
+      localStorage.setItem("selectedLanguage", lang);
+    } catch (e) {}
+    document.documentElement.lang = lang.toLowerCase();
+
+    // 2. Synchronize navbar language switch button
+    const langBtn = document.getElementById("langBtn");
+    if (langBtn) {
+      langBtn.textContent = lang === "ID" ? "ID / EN" : "EN / ID";
+    }
+
     const dict = TRANSLATIONS[lang];
     for (const key in dict) {
       const el = document.getElementById(key);
@@ -1455,9 +1556,13 @@ document.addEventListener("DOMContentLoaded", () => {
     updateUserXPUI();
     if (currentRoute === "learn") renderLesson();
     if (currentRoute === "profile") renderProfilePage();
+    if (currentRoute === "news" || document.getElementById("news")?.classList.contains("active")) {
+      renderNewsPage();
+    }
     if (window.ATHENA_UI && typeof window.ATHENA_UI.updateContext === "function") {
       window.ATHENA_UI.updateContext();
     }
+    window.dispatchEvent(new CustomEvent("insideyou:languagechange", { detail: { lang } }));
   }
 
   /**
@@ -1493,12 +1598,13 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     // Language Switcher
-    document.getElementById("langBtn").onclick = () => {
-      lang = lang === "EN" ? "ID" : "EN";
-      document.getElementById("langBtn").textContent = lang === "ID" ? "ID / EN" : "EN / ID";
-      applyLanguage();
-      toast(lang === "ID" ? "Bahasa Indonesia Aktif" : "English Active");
-    };
+    const langBtnEl = document.getElementById("langBtn");
+    if (langBtnEl) {
+      langBtnEl.textContent = lang === "ID" ? "ID / EN" : "EN / ID";
+      langBtnEl.onclick = () => {
+        toggleLanguage();
+      };
+    }
 
     // Action bar buttons
     document.getElementById("btnResetView").onclick = () => {
@@ -1673,8 +1779,17 @@ document.addEventListener("DOMContentLoaded", () => {
       navigateTo: (route) => {
         go(route);
       },
-      getLanguage: () => lang
+      getLanguage: () => lang,
+      setLanguage: setLanguage,
+      toggleLanguage: toggleLanguage,
+      renderNewsPage: renderNewsPage
     };
+
+    // Global bindings for convenient interoperability & scripts
+    window.setLanguage = setLanguage;
+    window.toggleLanguage = toggleLanguage;
+    window.renderNews = renderNewsPage;
+    window.renderNewsPage = renderNewsPage;
 
     // Initialize Athena AI Assistant UI
     if (window.ATHENA_UI && typeof window.ATHENA_UI.init === "function") {
